@@ -39,12 +39,12 @@
 <?php foreach ($appartments as $appartment) { ?>
 
         <tr>
-            <td><?php if (isset($appartment->idApartment)) echo htmlspecialchars($appartment->idApartment, ENT_QUOTES, 'UTF-8'); ?></td>
-            <td><?php if (isset($appartment->Address)) echo htmlspecialchars($appartment->Address, ENT_QUOTES, 'UTF-8'); ?> </td>
-            <td><?php if (isset($appartment->Price)) echo htmlspecialchars($appartment->Price, ENT_QUOTES, 'UTF-8'); ?> </td>
+            <td><?php if (isset($appartment->id)) echo htmlspecialchars($appartment->id, ENT_QUOTES, 'UTF-8'); ?></td>
+            <td><?php if (isset($appartment->address)) echo htmlspecialchars($appartment->address, ENT_QUOTES, 'UTF-8'); ?> </td>
+            <td><?php if (isset($appartment->price)) echo htmlspecialchars($appartment->price, ENT_QUOTES, 'UTF-8'); ?> </td>
             <td>
-                <?php if (isset($appartment->Image)) { ?>
-                   <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($appartment->Image).'"/>' ?>
+                <?php if (isset($appartment->image)) { ?>
+                   <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($appartment->image).'"/>' ?>
                 <?php } ?>
             </td>
 <?php } ?>

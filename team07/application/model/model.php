@@ -19,7 +19,7 @@ class Model
      */
     public function getListing($key)
     {
-        $sql = "SELECT idApartment, Address, Price, Image FROM listings WHERE Address LIKE '%".$key."%'";
+        $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings WHERE Address LIKE '%".$key."%' INNER JOIN images ON listings.image_id = images.id";
         $query = $this->db->prepare($sql);
 	
 
@@ -31,4 +31,5 @@ class Model
         // $options = array(PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC ...
         return $query->fetchAll();
     }
+
 }
