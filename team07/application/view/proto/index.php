@@ -1,9 +1,9 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" cro    ssorigin="anonymous">
 
-<div class="box fill-height" id="secondary_background">
-        <h3> Search For a listing </h3>
-        <form class="centered" action="<?php echo URL; ?>proto/searchlisting" method="POST">
+<div class="box fill-height center text_color_white" id="secondary_background">
+        <h3> Find your new home ... </h3>
+        <form class="center" action="<?php echo URL; ?>proto/searchlisting" method="POST">
           <input type="text" name="key" required >
           <input type="submit" name="submit_search" value="Submit"/>
         </form>

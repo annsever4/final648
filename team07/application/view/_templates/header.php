@@ -22,12 +22,12 @@
 <div class="container-fluid" id="main_background" ><!-- start of global container -->
     <!-- logo -->
  
-    <div id="parent"> 
+    <div class="text_color_white" id="parent"> 
 	    
 	    <div id="logo"><img id = "logo" src="https://mgtvsportzedge.files.wordpress.com/2014/11/sfsu-gators.png"></div>
 
 	   
-	    <div id="gatorlodge"><h1 id="secondary_text_color">
+	    <div id="gatorlodge"><h1 class="text_color_white">
 		Team 007 &mdash; Vertical Prototype	
     	    </h1></div>
 	   
