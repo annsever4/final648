@@ -26,7 +26,7 @@
                 <td>Id</td>
                 <td>Address</td>
                 <td>Price</td>
-                <td>Pictures</td>
+                <td height="200" width="200">Pictures</td>
 
                 </tr>
          </thead>
