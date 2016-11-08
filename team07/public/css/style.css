@@ -31,6 +31,10 @@ body{
     color: #222 !important;
     background: transparent !important;
 }
+.center{
+    text-align: center;
+}
+
 .container {
     border: 1px solid #ddd;
     padding: 20px;
@@ -78,6 +82,10 @@ body{
     background-color: #222;
     color: #fff;
 }
+.fill_height{
+    height:100%;
+}
+
 .footer {
     padding-top: 20px;
     margin-top: 33px;
@@ -88,10 +96,24 @@ body{
     width: 100%;
     bottom:0;
 }
+
 .footer a {
     color: #454545;
 }
+.float_left{
+    float:left;
+}
+.float_right{
+    float:right;
+    margin-top:-30px;
+}
 
+.inline{
+    display: inline;
+}
+.vertical_align{
+    vertical-align: middle;
+}
 
 #main_text_color:{
     color: #ffcc33;
@@ -109,10 +131,35 @@ body{
     background-color: #330033;
 
 }
-.fill_height{
-    height:100%;
+
+#container{
+    display:inline;
+    vertical-align:top;
+    width:100%;
+    padding-bottom:30px;
 }
 
-header{
-    
+#logo {
+    height: 30%; 
+    width: 30%; 
+}
+
+#gatorlodge{
+    position: absolute;
+    top: 30%;
+    left:33%;
+}
+
+#login{
+    position: absolute;
+    top: 45%;
+    right:1%;
+    background:#330033;
+    padding:5px;
+}
+
+#parent{
+    position:relative;
+    display:flex;
+    justify-content: space-between;
 }

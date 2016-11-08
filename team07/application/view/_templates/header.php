@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title class="center-block">Team 007 - Vertical Prototype</title>
+    <title class="center">Team 007 - Vertical Prototype</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,12 +21,19 @@
 
 <div class="container-fluid" id="main_background" ><!-- start of global container -->
     <!-- logo -->
-    
-    <h1 id="secondary_text_color">
-        Team 007 &mdash; Vertical Prototype	
-    </h1>
+ 
+    <div id="parent"> 
+	    
+	    <div id="logo"><img id = "logo" src="https://mgtvsportzedge.files.wordpress.com/2014/11/sfsu-gators.png"></div>
 
-    <a class="navbar-link navbar-right" href="">Login/Register</a>
+	   
+	    <div id="gatorlodge"><h1 id="secondary_text_color">
+		Team 007 &mdash; Vertical Prototype	
+    	    </h1></div>
+	   
+	    <div id="login"><h4><a href="">Login/Register</a></h4></div>
+    </div>
+
 </div>
 
 
