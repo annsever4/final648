@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Team 007 - Vertical Prototype</title>
+    <title class="center-block">Team 007 - Vertical Prototype</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,19 +17,25 @@
     <link href="<?php echo URL; ?>css/style.css" rel="stylesheet">
 
 </head>
-<body>
 
-<div class="container"><!-- start of global container -->
 
+<div class="container-fluid" id="main_background" ><!-- start of global container -->
     <!-- logo -->
-    <h1 class="jumbotron">
-        Team 007 &mdash; Vertical Prototype
+    
+    <h1 id="secondary_text_color">
+        Team 007 &mdash; Vertical Prototype	
     </h1>
 
-    <!-- navigation -->
-    <div class="navigation">
-        <a href="<?php echo URL; ?>">home</a>
-	    <a href ="<?php echo URL; ?>proto">Vertical Prototype</a>
-	
+    <a class="navbar-link navbar-right" href="">Login/Register</a>
+</div>
 
-    </div>
+
+<!--- test div -->
+
+<!-- navigation -->
+<div class="navigation fill-height" id="secondary_background">
+<a href="<?php echo URL; ?>">home</a>
+    <a href ="<?php echo URL; ?>proto">Vertical Prototype</a>
+</div>
+
+

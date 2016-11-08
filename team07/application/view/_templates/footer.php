@@ -16,9 +16,8 @@
     <script src="<?php echo URL; ?>js/application.js"></script>
 
 
-    <div class="footer">
+    <div class="container-fluid footer" id="main_background">
         &copy; This site is developed by the Team 007 @ SFSU 
     </div>
 
-</body>
 </html>

@@ -1,6 +1,9 @@
-body {
+body{
     font-family: Arial;
     font-size: 14px;
+    height: 100%;
+    min-height: 100%;
+    background-color: #330033;
 }
 .logo {
     font-size: 100px;
@@ -55,8 +58,8 @@ body {
 .container input {
     background-color: #f5f5f5;
     border: 0;
-    padding: 5px 10px;
 }
+
 .container input[type="submit"] {
     background-color: #ccc;
     cursor: pointer;
@@ -76,11 +79,40 @@ body {
     color: #fff;
 }
 .footer {
-    padding: 20px;
-    margin: 33px;
+    padding-top: 20px;
+    margin-top: 33px;
+    padding-bottom: 20px; 
     font-size: 12px;
     opacity: 0.75;
+    position: fixed;
+    width: 100%;
+    bottom:0;
 }
 .footer a {
     color: #454545;
+}
+
+
+#main_text_color:{
+    color: #ffcc33;
+}
+
+#secondary_text_color{
+    color: #330033;
+}
+
+#main_background{
+    background-color:  #ffcc33;
+}
+
+#secondary_background{
+    background-color: #330033;
+
+}
+.fill_height{
+    height:100%;
+}
+
+header{
+    
 }

@@ -1,11 +1,14 @@
-<div class=box>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" cro    ssorigin="anonymous">
+
+<div class="box fill-height" id="secondary_background">
         <h3> Search For a listing </h3>
-        <form action="<?php echo URL; ?>proto/searchlisting" method="POST">
+        <form class="centered" action="<?php echo URL; ?>proto/searchlisting" method="POST">
           <input type="text" name="key" required >
           <input type="submit" name="submit_search" value="Submit"/>
         </form>
 
-	<p>
+	<p class="fill-height">
 		<br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB, 
 		<br />search by any character from its addresses:<br />
 		<br />566 46th Ave	
@@ -17,6 +20,7 @@
 
 
 <?php if(isset($appartments)) { ?>
+
 
 <div class="box">
 <h3>Result</h3>
