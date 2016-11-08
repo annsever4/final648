@@ -42,7 +42,7 @@
             <td><?php if (isset($appartment->id)) echo htmlspecialchars($appartment->id, ENT_QUOTES, 'UTF-8'); ?></td>
             <td><?php if (isset($appartment->address)) echo htmlspecialchars($appartment->address, ENT_QUOTES, 'UTF-8'); ?> </td>
             <td><?php if (isset($appartment->price)) echo htmlspecialchars($appartment->price, ENT_QUOTES, 'UTF-8'); ?> </td>
-            <td>
+            <td height="200" width="200">
                 <?php if (isset($appartment->image)) { ?>
                    <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($appartment->image).'"/>' ?>
                 <?php } ?>
