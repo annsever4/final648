@@ -5,14 +5,14 @@
           <input type="submit" name="submit_search" value="Submit"/>
         </form>
 
-    <select name="slt_sort_by">
+    <select name="slt_sort_by" method="POST">
         <option value="price">Price</option>
         <option value="id">Listing ID</option>
     </select>
 
 	<p>
         <br>
-        <br>
+        <br>11
         <br>
 		<br /><b><u>NOTE</u>!</b> We only have 3 apartments in DB,
 		<br />search by any character from its addresses search:<br />
