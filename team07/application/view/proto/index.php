@@ -6,11 +6,14 @@
         </form>
 
     <select name="slt_sort_by">
-        <option value="price">By Highest Price</option>
-        <option value="id">By Lowest Price</option>
+        <option value="price">Price</option>
+        <option value="id">Listing ID</option>
     </select>
 
 	<p>
+        <br>
+        <br>
+        <br>
 		<br /><b><u>NOTE</u>!</b> We only have 3 apartments in DB,
 		<br />search by any character from its addresses search:<br />
 		<br />566 46th Ave	
