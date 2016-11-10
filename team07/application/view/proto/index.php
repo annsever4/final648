@@ -50,7 +50,8 @@
             <td><?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </td>
             <td height="200" width="200">
                 <?php if (isset($apartment->image)) { ?>
-                   <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).'"/>' ?>
+                   <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).
+                        '" height="250" width="42"/>' ?>
                 <?php } ?>
             </td>
 <?php } ?>
