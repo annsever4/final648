@@ -5,6 +5,11 @@
           <input type="submit" name="submit_search" value="Submit"/>
         </form>
 
+    <select name="slt_sort_by">
+        <option value="price">By Highest Price</option>
+        <option value="id">By Lowest Price</option>
+    </select>
+
 	<p>
 		<br /><b><u>NOTE</u>!</b> We only have 3 apartments in DB,
 		<br />search by any character from its addresses search:<br />
@@ -21,10 +26,6 @@
 
 <div class="box">
 <h3>Result</h3>
-    <select name="slt_sort_by">
-        <option value="price">By Highest Price</option>
-        <option value="id">By Lowest Price</option>
-    </select>
 
         <table>
         <thead style="background-color: #ddd; font-weight: bold;">

@@ -19,8 +19,8 @@ class Model
      */
     public function getListing($key, $order)
     {
-        $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings INNER JOIN images ON listings.image_id = images.id WHERE listings.address LIKE '%".$key."%' ".
-        "ORDER BY listings.".$order;
+        $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings INNER JOIN images ON listings.image_id = images.id WHERE listings.address LIKE '%".$key."%'".
+        " ORDER BY listings.".$order;
         $query = $this->db->prepare($sql);
 	
 

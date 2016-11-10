@@ -18,7 +18,7 @@ class Proto extends Controller
     public function searchListing()
     {
           if (isset($_POST["key"])) { //do Search
-                $apartments  = $this->model->getListing($_POST["key"], $_POST['slt_sort_by']);
+                $apartments  = $this->model->getListing($_POST["key"], $_POST["slt_sort_by"]);
 
         
         }
