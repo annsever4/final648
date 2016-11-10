@@ -51,7 +51,7 @@
             <td height="200" width="200">
                 <?php if (isset($apartment->image)) { ?>
                    <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).
-                        '" height="250" width="42"/>' ?>
+                        '" height="150" width="150"/>' ?>
                 <?php } ?>
             </td>
 <?php } ?>
