@@ -3,11 +3,12 @@
         <form action="<?php echo URL; ?>proto/searchlisting" method="POST">
           <input type="text" name="key" required >
           <input type="submit" name="submit_search" value="Submit"/>
-            <select name="slt_sort_by" method="POST">
-                <option value="price">Price</option>
-                <option value="id">Listing ID</option>
-            </select>
         </form>
+
+    <select name="slt_sort_by">
+        <option value="price">Price</option>
+        <option value="id">Listing ID</option>
+    </select>
 
 
 
@@ -37,7 +38,7 @@
                 <td>Id</td>
                 <td>Address</td>
                 <td>Price</td>
-                <td height="200" width="200">Pictures</td>
+                <td>Pictures</td>
 
                 </tr>
          </thead>
