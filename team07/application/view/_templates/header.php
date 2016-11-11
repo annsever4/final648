@@ -53,7 +53,7 @@
 </div>
 
 //-->
-<div class="fill-height center" style="background-color:#ffffff">
+<div class="fill-height center" style="background-color:#ffffff;">
 	<ul class="nav nav-tabs nav-justified" style="font-size:20px;">
         <li><a href="#">Rent</a></li>
         <li><a href="#">Add a Listing</a></li>
