@@ -3,16 +3,17 @@
         <form action="<?php echo URL; ?>proto/searchlisting" method="POST">
           <input type="text" name="key" required >
           <input type="submit" name="submit_search" value="Submit"/>
+            <select name="slt_sort_by" method="POST">
+                <option value="price">Price</option>
+                <option value="id">Listing ID</option>
+            </select>
         </form>
 
-    <select name="slt_sort_by" method="POST">
-        <option value="price">Price</option>
-        <option value="id">Listing ID</option>
-    </select>
+
 
 	<p>
         <br>
-        <br>11
+        <br>
         <br>
 		<br /><b><u>NOTE</u>!</b> We only have 3 apartments in DB,
 		<br />search by any character from its addresses search:<br />
