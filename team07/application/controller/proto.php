@@ -7,7 +7,7 @@ class Proto extends Controller
 	 public function index($xx=null)
     {
 
-        $appartments = $xx;
+        $apartments = $xx;
 
         require APP . 'view/_templates/header.php';
         require APP . 'view/proto/index.php';
