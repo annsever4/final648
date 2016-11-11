@@ -19,7 +19,7 @@ class Model
      */
     public function getListing($key)
     {
-        $sql = "SELECT id, address, price, image_id FROM listings WHERE address LIKE '%".$key."%'";
+        $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings INNER JOIN images ON listings.id=images.id  WHERE address LIKE '%".$key."%'";
         $query = $this->db->prepare($sql);
 	
 

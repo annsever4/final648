@@ -53,8 +53,8 @@
             <td><?php if (isset($appartment->address)) echo htmlspecialchars($appartment->address, ENT_QUOTES, 'UTF-8'); ?> </td>
             <td><?php if (isset($appartment->price)) echo htmlspecialchars($appartment->price, ENT_QUOTES, 'UTF-8'); ?> </td>
             <td>
-                <?php if (isset($appartment->image_id)) { ?>
-                   <?php echo '<img src="data:image_id/jpeg;base64, '.base64_encode($appartment->image_id).'"/>' ?>
+                <?php if (isset($appartment->image)) { ?>
+                   <?php echo '<img src="data:image/jpeg;base64,' .base64_encode($appartment->image).'"/>' ?>
                 <?php } ?>
             </td>
 <?php } ?>
