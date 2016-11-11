@@ -1,14 +1,20 @@
 
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" cro    ssorigin="anonymous">
 
-<div class="box fill-height center text_color_white" id="secondary_background">
-        <h3> Find your new home ... </h3>
-        <form class="center" action="<?php echo URL; ?>proto/searchlisting" method="POST">
-          <input type="text" name="key" required >
-          <input type="submit" name="submit_search" value="Submit"/>
+
+
+<div class="fill-height center" id="secondary_background">
+        <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3>
+		
+        <form class="form-inline" id="black_text" action="<?php echo URL; ?>proto/searchlisting" method="POST">
+          <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
+          <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
         </form>
 
-	<p class="fill-height">
+
+
+	<p class="fill-height" >
 		<br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB, 
 		<br />search by any character from its addresses:<br />
 		<br />566 46th Ave	

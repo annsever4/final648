@@ -6,11 +6,12 @@ body{
     background-color: #330033;
 }
 .logo {
-    font-size: 100px;
-    font-weight: bolder;
-    letter-spacing: -6px;
-    color: #222;
-    margin: 20px 30px;
+    afont-size: 100px;
+    afont-weight: bolder;
+    aletter-spacing: -6px;
+    acolor: #222;
+    amargin: 20px 30px;
+    display:inline-block;
 }
 .logo .number {
     color: #222;
@@ -83,6 +84,8 @@ body{
     color: #fff;
 }
 .fill_height{
+    position:relative;
+    min-height: 100%;
     height:100%;
 }
 
@@ -111,12 +114,15 @@ body{
 .inline{
     display: inline;
 }
-.vertical_align{
+.vertical_align h1 h4 a{
+
     vertical-align: middle;
+    
 }
 
 .text_color_white{
     color: #ffffff;
+    
 }
 
 #main_text_color:{
@@ -143,26 +149,51 @@ body{
     padding-bottom:30px;
 }
 
-#logo {
-    height: 30%; 
-    width: 30%; 
+#flex{
+    display:flex;
+}
+#container_head {
+    width:100%;
+    text-align:center;
 }
 
-#gatorlodge{
-    position: relative;
-    top: 55%;
-    left:-10%;
+#left {
+    float:left;
+    width:100px;
 }
 
-#login{
-    position: relative;
-    top: 50%;
-    right:2%;
+#center {
+    display: inline-block;
+    margin:0 auto;
+}
+
+#right {
+    float:right;
+    text-align:center;
     padding-top:2%;
 }
 
-#parent{
-    position:relative;
-    display:flex;
-    justify-content: space-between;
+#black_text{
+    color:#330033;
 }
+
+#logo {
+    height: 30%;
+    width: 30%;
+}
+
+#gatorlodge{
+    padding-left:15%;
+    padding-top:5%;
+
+}
+
+#login{
+    padding-top:10%;
+}
+
+ls{
+    background-color:#000000;
+    text-color:#000000;
+}
+

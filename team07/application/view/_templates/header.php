@@ -19,19 +19,25 @@
 </head>
 
 
-<div class="container-fluid" id="main_background" ><!-- start of global container -->
+<div class="c" id="main_background" ><!-- start of global container -->
     <!-- logo -->
  
-    <div class="text_color_white" id="parent"> 
-	    
-	    <div id="logo"><img id = "logo" src="https://mgtvsportzedge.files.wordpress.com/2014/11/sfsu-gators.png"></div>
-
+    <div class="row flex"> 
+	 <div class="col-md-12">
+	   <div class="row" id="flex"> 
+	    <div class="col-md-4" id="logo"><img id="logo" src="https://mgtvsportzedge.files.wordpress.com/2014/11/sfsu-gators.png"></div>
 	   
-	    <div id="gatorlodge"><h1 class="text_color_white">
-		Team 007 &mdash; Vertical Prototype	
-    	    </h1></div>
+	    <div class="col-md-4 center">
+    		<h1 class="text_color_white" id="gatorlodge" style="font-size:50px">
+		Gator Lodge	
+    	        </h1>
+  	    </div>
 	   
-	    <div id="login"><h4><a href="">Login/Register</a></h4></div>
+	     <div class="col-md-4 text-right" style="margin-top:3%">
+                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login / Register</a>
+            </div>
+           </div>
+         </div>
     </div>
 
 </div>
@@ -40,9 +46,18 @@
 <!--- test div -->
 
 <!-- navigation -->
+<!--
 <div class="navigation fill-height" id="secondary_background">
 <a href="<?php echo URL; ?>">home</a>
     <a href ="<?php echo URL; ?>proto">Vertical Prototype</a>
 </div>
 
-
+//-->
+<div class="fill-height center" style="background-color:#ffffff">
+	<ul class="nav nav-tabs nav-justified" style="font-size:20px;">
+        <li><a href="#">Rent</a></li>
+        <li><a href="#">Add a Listing</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Inbox</a></li>
+	</ul>
+</div>
