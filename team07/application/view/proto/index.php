@@ -52,11 +52,11 @@
             <td><?php if (isset($appartment->id)) echo htmlspecialchars($appartment->id, ENT_QUOTES, 'UTF-8'); ?></td>
             <td><?php if (isset($appartment->address)) echo htmlspecialchars($appartment->address, ENT_QUOTES, 'UTF-8'); ?> </td>
             <td><?php if (isset($appartment->price)) echo htmlspecialchars($appartment->price, ENT_QUOTES, 'UTF-8'); ?> </td>
-            <td>
+             <div style="height:20%;width:20%"><td>
                 <?php if (isset($appartment->image)) { ?>
-                   <?php echo '<img src="data:image/jpeg;base64,' .base64_encode($appartment->image).'"/>' ?>
+                   <?php echo '<img src="data:image/jpeg;base64,' .base64_encode($appartment->image).'" width="100" height="100"/>' ?>
                 <?php } ?>
-            </td>
+            </td></div>
 <?php } ?>
                 </tbody>
                 </table>

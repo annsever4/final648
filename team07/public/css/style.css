@@ -5,6 +5,11 @@ body{
     min-height: 100%;
     background-color: #330033;
 }
+img{
+    max-height:200px;
+    max-width:200px;
+}
+
 .logo {
     afont-size: 100px;
     afont-weight: bolder;
