@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Team 007 - Vertical Prototype</title>
+    <title class="center">Team 007 - Vertical Prototype</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,19 +17,47 @@
     <link href="<?php echo URL; ?>css/style.css" rel="stylesheet">
 
 </head>
-<body>
 
-<div class="container"><!-- start of global container -->
 
+<div class="c" id="main_background" ><!-- start of global container -->
     <!-- logo -->
-    <h1 class="jumbotron">
-        Team 007 &mdash; Vertical Prototype
-    </h1>
-
-    <!-- navigation -->
-    <div class="navigation">
-        <a href="<?php echo URL; ?>">home</a>
-	    <a href ="<?php echo URL; ?>proto">Vertical Prototype</a>
-	
-
+ 
+    <div class="row flex"> 
+	 <div class="col-md-12">
+	   <div class="row" id="flex"> 
+	    <div class="col-md-4" id="logo"><img id="logo" src="https://mgtvsportzedge.files.wordpress.com/2014/11/sfsu-gators.png"></div>
+	   
+	    <div class="col-md-4 center">
+    		<h1 class="text_color_white" id="gatorlodge" style="font-size:50px">
+		Gator Lodge	
+    	        </h1>
+  	    </div>
+	   
+	     <div class="col-md-4 text-right" style="margin-top:3%">
+                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login / Register</a>
+            </div>
+           </div>
+         </div>
     </div>
+
+</div>
+
+
+<!--- test div -->
+
+<!-- navigation -->
+<!--
+<div class="navigation fill-height" id="secondary_background">
+<a href="<?php echo URL; ?>">home</a>
+    <a href ="<?php echo URL; ?>proto">Vertical Prototype</a>
+</div>
+
+//-->
+<div class="fill-height center" style="background-color:#ffffff;">
+	<ul class="nav nav-tabs nav-justified" style="font-size:20px;">
+        <li><a href="#">Rent</a></li>
+        <li><a href="#">Add a Listing</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Inbox</a></li>
+	</ul>
+</div>
