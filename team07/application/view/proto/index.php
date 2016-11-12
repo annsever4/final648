@@ -1,3 +1,5 @@
+
+<!--
 <div class=box>
         <h3> Search For a listing </h3>
         <form action="<?php echo URL; ?>proto/searchlisting" method="POST">
@@ -7,6 +9,8 @@
                 <option value="price">Price</option>
                 <option value="id">Listing ID</option>
             </select>
+
+//-->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" cro    ssorigin="anonymous">
 
