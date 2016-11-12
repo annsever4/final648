@@ -7,18 +7,22 @@
                 <option value="price">Price</option>
                 <option value="id">Listing ID</option>
             </select>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" cro    ssorigin="anonymous">
+
+
+
+<div class="fill-height center" id="secondary_background">
+        <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3>
+		
+        <form class="form-inline" id="black_text" action="<?php echo URL; ?>proto/searchlisting" method="POST">
+          <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
+          <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
         </form>
 
 
-
-
-
-	<p>
-        <br>
-        <br>
-        <br>
-		<br /><b><u>NOTE</u>!</b> We only have 3 apartments in DB,
-		<br />search by any character from its addresses search:<br />
+		<br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB, 
+		<br />search by any character from its addresses:<br />
 		<br />566 46th Ave	
 		<br />362 43rd Ave	
 	</p>
@@ -29,6 +33,7 @@
 
 
 <?php if(isset($apartments)) { ?>
+
 
 <div class="box">
 <h3>Result</h3>
@@ -60,7 +65,8 @@
                    <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).
                         '" height="150" width="150"/>' ?>
                 <?php } ?>
-            </td>
+            </td></div>
+	</tr>
 <?php } ?>
                 </tbody>
                 </table>
