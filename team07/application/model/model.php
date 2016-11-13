@@ -17,12 +17,16 @@ class Model
     /**
      * Get all songs from database
      */
-    public function getListing($key, $order)
+    public function getListing($key)
     {
+	
+	/***
         $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings INNER JOIN images ON listings.image_id = images.id WHERE listings.address LIKE '%".$key."%'".
         " ORDER BY listings.".$order;
         $query = $this->db->prepare($sql);
-	
+	*/
+	$sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings INNER JOIN images ON listings.id=images.id  WHERE address LIKE '%".$key."%'";
+        $query = $this->db->prepare($sql);
 
         $query->execute();
 
