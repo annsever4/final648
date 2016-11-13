@@ -8,11 +8,11 @@
 
 
 <form>
-  <div class="form-group">
+  <div class="form-group" style="color:#FFFFFF">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
   </div>
-  <div class="form-group">
+  <div class="form-group" style="color:#FFFFFF">
     <label for="exampleInputPassword1">Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
