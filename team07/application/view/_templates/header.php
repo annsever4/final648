@@ -34,7 +34,7 @@
   	    </div>
 	   
 	     <div class="col-md-4 text-right" style="margin-top:3%">
-                <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login / Register</a>
+                <a href="<?php echo URL; ?>login_page" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login / Register</a>
             </div>
            </div>
          </div>
