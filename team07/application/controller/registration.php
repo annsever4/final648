@@ -9,7 +9,7 @@ class registration extends Controller
     {
         // load views
         require APP . 'view/_templates/header.php';
-        require APP . 'view/login_page/index.php';
+        require APP . 'view/registration/index.php';
         require APP . 'view/_templates/footer.php';
     }
 
