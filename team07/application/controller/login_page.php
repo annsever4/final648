@@ -25,11 +25,15 @@ class Login_page extends Controller
         if($password_varification_result == true){
             //Start the session
             session_start();
-        }else{
-            //redirect user to the home page
-            echo "Wrong password";
-
+            $_SESSION['user'] = $user_email;
+            if (isset($_SESSION['user'])) {
+                header('location: ' .URL.'proto/index');
+            }else{
+                //don't do anything
+            }
         }
+
+
 
     }
 

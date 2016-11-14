@@ -30,8 +30,8 @@
 		<br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB, 
 		<br />search by any character from its addresses:<br />
 		<br />566 46th Ave	
-		<br />362 43rd Ave	
-	</p>
+		<br />362 43rd Ave
+        <br />I am logged in
 
 </div>
 
