@@ -26,7 +26,7 @@ class Register
 
     public static function registrationInputValidation($user_email, $user_password, $user_password_repeat)
     {
-        if(self::validateUserEmail($user_email) AND self::validatePassword($user_password, $user_password_repeat)){
+        if(self::validateUserEmail($user_email) AND self::validateUserPassword($user_password, $user_password_repeat)){
             return true;
         }
         return false;
