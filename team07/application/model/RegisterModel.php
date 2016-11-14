@@ -41,7 +41,7 @@ class Register
         if(!filter_var($user_email, FILTER_VALIDATE_EMAIL)) return false;
 
         #checks if the user_email already exists in the database
-        if(self::emailAlreadyExists($user_email)) return false;
+
 
         return true;
     }
