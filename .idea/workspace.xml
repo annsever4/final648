@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/controller/login_page.php" afterPath="$PROJECT_DIR$/team07/application/controller/login_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/model/model.php" afterPath="$PROJECT_DIR$/team07/application/model/model.php" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_page.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login_page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+            <state relative-caret-position="320">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -63,16 +63,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="model.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/model/model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="395">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <marker date="1479166240000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
-                <marker date="1479166240000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
-                <marker date="1479166240000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
-                <marker date="1479166240000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
+                <marker date="1479166770000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
+                <marker date="1479166770000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
+                <marker date="1479166770000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
+                <marker date="1479166770000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
               </folding>
             </state>
           </provider>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/team07/application/view/registration/index.php" />
         <option value="$PROJECT_DIR$/team07/application/view/login_page/index.php" />
         <option value="$PROJECT_DIR$/team07/application/core/controller.php" />
-        <option value="$PROJECT_DIR$/team07/application/model/model.php" />
         <option value="$PROJECT_DIR$/team07/application/controller/login_page.php" />
+        <option value="$PROJECT_DIR$/team07/application/model/model.php" />
       </list>
     </option>
   </component>
@@ -517,12 +517,12 @@
       <workItem from="1479071475041" duration="35000" />
       <workItem from="1479071536827" duration="81000" />
       <workItem from="1479071640335" duration="5070000" />
-      <workItem from="1479159708585" duration="5149000" />
+      <workItem from="1479159708585" duration="5237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12568000" />
+    <option name="totallyTimeSpent" value="12656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1168" height="677" extended-state="0" />
@@ -608,10 +608,10 @@
         <state relative-caret-position="285">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <marker date="1479166240000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
-            <marker date="1479166240000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
-            <marker date="1479166240000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
-            <marker date="1479166240000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
+            <marker date="1479166770000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
+            <marker date="1479166770000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
           </folding>
         </state>
       </provider>
@@ -637,10 +637,10 @@
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1479166240000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
-            <marker date="1479166240000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
-            <marker date="1479166240000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
-            <marker date="1479166240000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
+            <marker date="1479166770000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
+            <marker date="1479166770000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
           </folding>
         </state>
       </provider>
@@ -658,10 +658,10 @@
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1479166240000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
-            <marker date="1479166240000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
-            <marker date="1479166240000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
-            <marker date="1479166240000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
+            <marker date="1479166770000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
+            <marker date="1479166770000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
           </folding>
         </state>
       </provider>
@@ -679,10 +679,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479166240000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
-            <marker date="1479166240000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
-            <marker date="1479166240000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
-            <marker date="1479166240000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
+            <marker date="1479166770000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
+            <marker date="1479166770000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
           </folding>
         </state>
       </provider>
@@ -700,10 +700,10 @@
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1479166240000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
-            <marker date="1479166240000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
-            <marker date="1479166240000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
-            <marker date="1479166240000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
+            <marker date="1479166770000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
+            <marker date="1479166770000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
           </folding>
         </state>
       </provider>
@@ -772,14 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/login_page/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -812,19 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/model/model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <marker date="1479166240000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
-            <marker date="1479166240000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
-            <marker date="1479166240000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
-            <marker date="1479166240000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/controller/proto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -843,9 +822,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+        <state relative-caret-position="320">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/view/login_page/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/model/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1479166770000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
+            <marker date="1479166770000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
+            <marker date="1479166770000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
+            <marker date="1479166770000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
+          </folding>
         </state>
       </provider>
     </entry>
