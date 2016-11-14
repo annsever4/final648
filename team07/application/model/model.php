@@ -46,7 +46,7 @@ class Model
             $query = $this->db->prepare($sql);
             $query ->bindValue(1,$user_email);
             $query ->bindValue(2,$password_hash);
-            $query ->exectute();
+            $query ->execute();
         }
     }
 

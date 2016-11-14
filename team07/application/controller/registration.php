@@ -15,7 +15,7 @@ class Registration extends Controller
 
     public function registerNewUser()
     {
-        $user_email = strip_tags(Request::post('user_email',true));
+        $user_email = strip_tags(Request::post('user_email'));
         $user_password = strip_tags(Request::post('user_password'));
         $user_password_repeat = strip_tags(Request::post('user_password_repeat'));
         $validation_result = Register::registrationInputValidation( $user_email, $user_password, $user_password_repeat);
