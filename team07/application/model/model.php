@@ -53,7 +53,16 @@ class Model
         return true;
     }
     return false;
-}
+    }
+
+    public function getPasswordHash($user_email){
+
+        $sql = "SELECT member_user.password_hash FROM member_user WHERE member_user.email =?";
+        $query = $this->db->prepare($sql);
+        $query -> bindValue(1,$user_email);
+        return $query->fetchAll();
+
+    }
 
 
 
