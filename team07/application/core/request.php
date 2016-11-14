@@ -17,6 +17,7 @@ class Request
         if(isset($_POST[$key])){
             return ($clean) ? trim(strip_tags($_POST[$key])) : $_POST[$key];
         }
+        return null;
     }
 
     public static function postCheckbox($key)
@@ -29,6 +30,7 @@ class Request
         if (isset($_GET[$key])) {
             return $_GET[$key];
         }
+        return null;
     }
 
     public static function cookie($key)
@@ -36,5 +38,8 @@ class Request
         if (isset($_COOKIE[$key])) {
             return $_COOKIE[$key];
         }
+        return null;
     }
 }
+
+?>
