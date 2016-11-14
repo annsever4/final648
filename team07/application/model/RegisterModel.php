@@ -8,14 +8,21 @@
  */
 class Register
 {
-
+/*
     public static function registerNewUser()
     {
         $user_email = strip_tags(Request::post('user_email'));
         $user_password = strip_tags(Request::post('user_password'));
         $user_password_repeat = strip_tags(Request::post('user_password_repeat'));
 
+        $validation_result = self::registrationInputValidation( $user_email, $user_password, $user_password_repeat);
+        if (!$validation_result) {
+            return false;
+        }
+
+        return true;
     }
+*/
 
     public static function registrationInputValidation($user_email, $user_password, $user_password_repeat)
     {

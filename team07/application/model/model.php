@@ -37,16 +37,29 @@ class Model
         return $query->fetchAll();
     }
 
-    public function emailAlreadyExists($user_email){
-        $sql = "SELECT member_user.email FROM member_user WHERE member_user.email = ?";
-        $query = $this->db->prepare($sql);
-        $query -> bindValue(1,$user_email);
-        $query ->execute();
-        if($query->rowCount() > 0){ #if row count = 0 the email doesn't exist in the database
-            return true;
+    public function registerUser($user_email, $password_hash)
+    {
+        if($this->emailAlreadyExists($user_email)) {
+            return null;
+        } else {
+            $sql = "INSERT INTO member_user (email,password_hash) VALUES (?,?)";
+            $query = $this->db->prepare($sql);
+            $query ->bindValue(1,$user_email);
+            $query ->bindValue(2,$password_hash);
+            $query ->exectute();
         }
-        return false;
     }
+
+    public function emailAlreadyExists($user_email){
+    $sql = "SELECT member_user.email FROM member_user WHERE member_user.email = ?";
+    $query = $this->db->prepare($sql);
+    $query -> bindValue(1,$user_email);
+    $query ->execute();
+    if($query->rowCount() > 0){ #if row count = 0 the email doesn't exist in the database
+        return true;
+    }
+    return false;
+}
 
 
 

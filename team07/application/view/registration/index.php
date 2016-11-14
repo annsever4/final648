@@ -6,7 +6,7 @@
 // -->
 
 
-<form>
+<form  action="<?php echo URL; ?>registration/registerNewUser" method="post">
     <div class="form-group" style="color:#FFFFFF">
         <label for="exampleInputEmail1">Email address</label>
         <input type="email" name="user_email" class="form-control" id="exampleInputEmail1" placeholder="Email">
