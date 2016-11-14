@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/controller/login_page.php" afterPath="$PROJECT_DIR$/team07/application/controller/login_page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/core/controller.php" afterPath="$PROJECT_DIR$/team07/application/core/controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/model/model.php" afterPath="$PROJECT_DIR$/team07/application/model/model.php" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="login_page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="275">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -520,12 +517,12 @@
       <workItem from="1479071475041" duration="35000" />
       <workItem from="1479071536827" duration="81000" />
       <workItem from="1479071640335" duration="5070000" />
-      <workItem from="1479159708585" duration="5043000" />
+      <workItem from="1479159708585" duration="5149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12462000" />
+    <option name="totallyTimeSpent" value="12568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1168" height="677" extended-state="0" />
@@ -846,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state relative-caret-position="275">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding />
         </state>
       </provider>
