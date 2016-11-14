@@ -21,7 +21,7 @@ class Login_page extends Controller
 
         $hash_password = $this->model->getPasswordHash($user_email);
 
-        $password_varification_result = $this->model->password_verify($user_password,$hash_password->password_hash);
+        $password_varification_result = password_verify($user_password,$hash_password->password_hash);
         if(isset($password_varification_result)){
             //Start the session
             session_start();

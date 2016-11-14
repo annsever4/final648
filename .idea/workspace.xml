@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/model/model.php" afterPath="$PROJECT_DIR$/team07/application/model/model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/controller/login_page.php" afterPath="$PROJECT_DIR$/team07/application/controller/login_page.php" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,28 +26,18 @@
       <file leaf-file-name="registration.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/controller/registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="200">
               <caret line="15" column="20" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_page.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login_page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/team07/application/controller/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="365">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -56,18 +46,18 @@
       <file leaf-file-name="controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/core/controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="365">
               <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/model/model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="24" column="34" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <marker date="1479166770000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
                 <marker date="1479166770000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
@@ -88,16 +78,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="proto.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/controller/proto.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,7 +91,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
+            <state relative-caret-position="360">
               <caret line="32" column="26" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="26" />
               <folding />
             </state>
@@ -133,8 +113,8 @@
         <option value="$PROJECT_DIR$/team07/application/view/registration/index.php" />
         <option value="$PROJECT_DIR$/team07/application/view/login_page/index.php" />
         <option value="$PROJECT_DIR$/team07/application/core/controller.php" />
-        <option value="$PROJECT_DIR$/team07/application/controller/login_page.php" />
         <option value="$PROJECT_DIR$/team07/application/model/model.php" />
+        <option value="$PROJECT_DIR$/team07/application/controller/login_page.php" />
       </list>
     </option>
   </component>
@@ -517,12 +497,12 @@
       <workItem from="1479071475041" duration="35000" />
       <workItem from="1479071536827" duration="81000" />
       <workItem from="1479071640335" duration="5070000" />
-      <workItem from="1479159708585" duration="5237000" />
+      <workItem from="1479159708585" duration="5748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12656000" />
+    <option name="totallyTimeSpent" value="13167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1168" height="677" extended-state="0" />
@@ -756,14 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/controller/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/registration/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -772,7 +744,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/footer.php">
+    <entry file="file://$PROJECT_DIR$/team07/application/core/application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-955">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/controller/proto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -780,9 +760,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/core/application.php">
+    <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-955">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -796,34 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/core/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/controller/proto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
+        <state relative-caret-position="360">
           <caret line="32" column="26" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -836,16 +792,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/core/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/controller/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="20" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/model/model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="24" column="34" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="34" />
           <folding>
             <marker date="1479166770000" expanded="true" signature="408:611" ph="SELECT listi... listings" />
             <marker date="1479166770000" expanded="true" signature="921:979" ph="INSERT INTO member_user... " />
             <marker date="1479166770000" expanded="true" signature="1240:1309" ph="SELECT membe... member_user" />
             <marker date="1479166770000" expanded="true" signature="1624:1701" ph="SELECT membe... member_user" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
