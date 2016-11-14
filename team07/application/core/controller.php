@@ -45,6 +45,7 @@ class Controller
     public function loadModel()
     {
         require APP . 'model/model.php';
+        require APP . 'core/request.php';
         // create new "model" (and pass the database connection)
         $this->model = new Model($this->db);
     }
