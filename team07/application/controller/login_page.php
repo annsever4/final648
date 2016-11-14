@@ -27,7 +27,8 @@ class Login_page extends Controller
             session_start();
         }else{
             //redirect user to the home page
-            <html>"The email and username are not correct"</html>
+            echo "Wrong password";
+
         }
 
     }
