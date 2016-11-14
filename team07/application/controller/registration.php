@@ -1,5 +1,5 @@
 <?php
-class registration extends Controller
+class Registration extends Controller
 {
     /**
      * PAGE: registration
