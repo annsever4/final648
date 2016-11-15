@@ -14,7 +14,8 @@
 
     <!-- our JavaScript -->
     <script src="<?php echo URL; ?>js/application.js"></script>
-
+    <script src="<?php echo URL; ?>js/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="<?php echo URL; ?>js/jquery-3.1.1.js"></script>
 
     <div class="container-fluid footer" id="main_background">
         &copy; This site is developed by the Team 007 @ SFSU 
