@@ -2,7 +2,7 @@
 
 <div class=box>
         <h3> Search For a listing </h3>
-        <form action="<?php echo URL; ?>home/searchlisting" method="POST">
+        <form action="<?php echo URL; ?>proto/searchlisting" method="POST">
           <input type="text" name="key" required >
           <input type="submit" name="submit_search" value="Submit"/>
             <select name="slt_sort_by">
@@ -21,7 +21,7 @@
 <div class="fill-height center" id="secondary_background">
         <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3>
 		
-        <form class="form-inline" id="black_text" action="<?php echo URL; ?>home/searchlisting" method="POST">
+        <form class="form-inline" id="black_text" action="<?php echo URL; ?>proto/searchlisting" method="POST">
           <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
           <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
         </form>
