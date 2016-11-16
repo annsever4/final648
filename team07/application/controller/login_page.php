@@ -16,8 +16,8 @@ class Login_page extends Controller
 
     public function loginRegisteredUser()
     {
-        $user_email = strip_tags(Request::post('user_email'));
-        $user_password = strip_tags(Request::post('user_password'));
+        $user_email = strip_tags(Request::post('email_input'));
+        $user_password = strip_tags(Request::post('password_input'));
 
 
         $hash_password = $this->model->getPasswordHash($user_email);
