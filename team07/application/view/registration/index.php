@@ -34,5 +34,6 @@
         <input type="password" name="user_password_repeat" class="form-control" id="exampleInputPassword2" placeholder="Password">
     </div>
 
+    <button type="cancel" class="btn btn-default">Cancel</button>
     <button type="submit" class="btn btn-default">Login</button>
 </form>
