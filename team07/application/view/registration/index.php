@@ -12,11 +12,11 @@
 <form class= "form-inline">
 <div class="form-group" style="color:#ffffff; max-width: 30%;">
 <label for="first_name">First Name</label>
-<input type="text" class="form-control" id="first_name" placeholder="Jane">
+<input type="text" name="user_first_name" class="form-control" id="first_name" placeholder="Jane">
 </div>
 <div class="form-group" style="color:#ffffff; max-width:30%;">
 <label for="last_name">Last Name</label>
-<input type="text" class="form-control" id="last_name" placeholder="Doe">
+<input type="text" name="user_last_name" class="form-control" id="last_name" placeholder="Doe">
 </div>
 </form>
   <!-- </form> -->
