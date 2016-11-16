@@ -30,15 +30,17 @@ class Model
         return $query->fetchAll();
     }
 
-    public function registerUser($user_email, $password_hash)
+    public function registerUser($user_email, $password_hash , $first_name, $last_name)
     {
         if ($this->emailAlreadyExists($user_email)) {
             return null;
         } else {
-            $sql = "INSERT INTO member_user (email,password_hash) VALUES (?,?)";
+            $sql = "INSERT INTO member_user (email,password_hash, first_name, last_name) VALUES (?,?,?,?)";
             $query = $this->db->prepare($sql);
             $query->bindValue(1, $user_email);
             $query->bindValue(2, $password_hash);
+            $query->bindValue(3, $first_name);
+            $query->bindValue(4, $last_name);
             $query->execute();
         }
     }
