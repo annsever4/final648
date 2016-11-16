@@ -19,29 +19,33 @@ class Model
      */
     public function getListing($key, $order=null)
     {
-
-
         $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings INNER JOIN images ON listings.image_id = images.id WHERE listings.address LIKE '%" . $key . "%'";
         //." ORDER BY listings." . $order;
         $query = $this->db->prepare($sql);
         $query->execute();
 
-
         return $query->fetchAll();
     }
 
-    public function registerUser($user_email, $password_hash)
+
+    public function registerUser($user_email, $password_hash , $first_name, $last_name ,$phone_number)
     {
         if ($this->emailAlreadyExists($user_email)) {
             return null;
         } else {
-            $sql = "INSERT INTO member_user (email,password_hash) VALUES (?,?)";
+            $sql = "INSERT INTO member_user (email, password_hash, first_name, last_name, phone_number) VALUES (?, ?, ?, ?, ?)";
             $query = $this->db->prepare($sql);
+            //binds values to ? place holders
             $query->bindValue(1, $user_email);
             $query->bindValue(2, $password_hash);
+            $query->bindValue(3, $first_name);
+            $query->bindValue(4, $last_name);
+            $query->bindValue(5, $phone_number);
+            //executes query
             $query->execute();
         }
     }
+
 
     public function emailAlreadyExists($user_email)
     {
@@ -55,9 +59,9 @@ class Model
         return false;
     }
 
+
     public function getPasswordHash($user_email)
     {
-
         $sql = "SELECT member_user.password_hash FROM member_user WHERE member_user.email = ?";
         $query = $this->db->prepare($sql);
         $query->bindValue(1, $user_email);
