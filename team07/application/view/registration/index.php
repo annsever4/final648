@@ -8,7 +8,7 @@
 
 
  <!--  <form class="form-inline"> --> 
-<form action="<?php echo URL; ?>registration/registerNewUser" method="post" class= "form-inline">
+<form action="<?php echo URL; ?>registration/registerNewUser" method="post">
 <div class="form-group" style="color:#ffffff; max-width: 30%;">
 <label for="first_name">First Name</label>
 <input type="text" name="user_first_name" class="form-control" id="first_name" placeholder="Jane">
