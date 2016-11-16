@@ -22,7 +22,7 @@ class Login_page extends Controller
 
         $hash_password = $this->model->getPasswordHash($user_email);
         $password_verification_result = password_verify($user_password, $hash_password->password_hash);
-        if ($password_verification_result == true) {
+        if ($password_verification_result) {
             //Start the session
             session_start();
             $_SESSION['user'] = $user_email;
@@ -32,7 +32,8 @@ class Login_page extends Controller
             header('location: ' . URL . 'proto/index');
         } else {
             //reloads page so user can try to log in again <invalid email>
-            header('location: ' . URL . 'login_page/index');
+            //header('location: ' . URL . 'login_page/index');
+            echo $user_password;
         }
     }
 }
