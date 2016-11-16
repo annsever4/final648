@@ -18,6 +18,10 @@
 <label for="last_name">Last Name</label>
 <input type="text" class="form-control" id="last_name" placeholder="Doe">
 </div>
+<div class="form-group" style="color:#ffffff; max-width:30%;">
+<label for="phone_number">Phone Number #</label>
+<input type="text" class="form-control" id="phone_number" placeholder="(##) ###-####">
+</div>
 </form>
   <!-- </form> -->
 
