@@ -4,10 +4,8 @@
 class Proto extends Controller
 {
 
-	 public function index($xx=null)
+	 public function index()
     {
-
-        $apartments = $xx;
 
         require APP . 'view/_templates/header.php';
         require APP . 'view/proto/index.php';
@@ -20,8 +18,14 @@ class Proto extends Controller
 
         if (isset($_POST["key"])) { //do Search
             $apartments = $this->model->getListing(Request::post("key"), Request::post('slt_sort_by'));
-            $this->index($apartments);
+            //$this->index($apartments);
         }
+
+        require APP . 'view/_templates/header.php';
+        require APP . 'view/proto/results.php';
+        require APP . 'view/_templates/results.php';
+
+
     }
 }
 

@@ -41,7 +41,7 @@
 
 <?php if(isset($apartments)) { ?>
 
-
+<p> SOMETHING HAS GONE TERRIBLY WRONG</p>
 <div class="box">
 <h3>Result</h3>
 
