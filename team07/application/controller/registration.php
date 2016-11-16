@@ -30,7 +30,7 @@ class Registration extends Controller
             header('location: '. URL . 'registration/index');
         } else {
             $user_password_hash = password_hash($user_password, PASSWORD_DEFAULT);
-            $this -> model -> registerUser($user_email, $user_password_hash, $user_first_name, $user_last_name);
+            $this -> model -> registerUser($user_email, $user_password_hash, $user_first_name, $user_last_name, $user_phone_number);
             header('location: '. URL . 'proto/index');
         }
 

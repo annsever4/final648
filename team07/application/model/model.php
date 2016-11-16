@@ -33,7 +33,7 @@ class Model
         if ($this->emailAlreadyExists($user_email)) {
             return null;
         } else {
-            $sql = "INSERT INTO member_user (email,password_hash, first_name, last_name, phone_number) VALUES (?,?,?,?,?)";
+            $sql = "INSERT INTO member_user (email, password_hash, first_name, last_name, phone_number) VALUES (?, ?, ?, ?, ?)";
             $query = $this->db->prepare($sql);
             //binds values to ? place holders
             $query->bindValue(1, $user_email);
