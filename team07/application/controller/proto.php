@@ -23,7 +23,7 @@ class Proto extends Controller
 
         require APP . 'view/_templates/header.php';
         require APP . 'view/proto/results.php';
-        require APP . 'view/_templates/results.php';
+        require APP . 'view/_templates/footer.php';
 
 
     }
