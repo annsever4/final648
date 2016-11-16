@@ -19,7 +19,7 @@ class Login_page extends Controller
         $user_email = strip_tags(Request::post('user_email'));
         $user_password = strip_tags(Request::post('user_password'));
 
-        if ($this->model->emailAlreadyExists($user_email)) {
+        if ($this->model->emailAlreadyExists($user_email) == true ) {
         $hash_password = $this->model->getPasswordHash($user_email);
         $password_verification_result = password_verify($user_password, $hash_password->password_hash);
             if($password_verification_result == true) {
