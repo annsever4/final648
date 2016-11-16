@@ -9,6 +9,7 @@
  */
 
 //Request CLASS abstracts access to global super variables
+//MIT LICENSE TAKEN FROM PANQIUE/Huge
 class Request
 {
 
