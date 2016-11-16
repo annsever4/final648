@@ -72,4 +72,32 @@ class Model
         $query->bindValue(1, $user_email);
         return $query->fetch();
     }
+
+    public function getMemberUsersName($user_email)
+    {
+        //prepare query to retrieve first and last name from database
+        $sql = "SELECT member_user.first_name, member_user.last_name FROM member_user WHERE member_user.email = ?";
+        $query = $this->db->prepare($sql);
+        $query->bindValue(1,$user_email);
+
+        //execute query
+        $query->execute();
+
+        //fetch result
+        $result = $query->fetch();
+
+        $name = $result->first_name. " " .$result->last_name;
+
+        return $name;
+    }
+
+    public function getMemberUserPhoneNumber($user_email)
+    {
+        $sql = "SELECT member_user.phone_number FROM member_user WHERE member_user.email = ?";
+        $query =$this->db->prepare($sql);
+        $query->bindValue(1,$user_email);
+        $result = $query->fetch();
+
+        return $result->phone_number;
+    }
 }

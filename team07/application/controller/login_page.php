@@ -21,20 +21,23 @@ class Login_page extends Controller
 
         $hash_password = $this->model->getPasswordHash($user_email);
 
-        $password_varification_result = password_verify($user_password,$hash_password->password_hash);
-        if(isset($password_varification_result)){
+        $password_verification_result = password_verify($user_password,$hash_password->password_hash);
+
+        if($password_verification_result) {
             //Start the session
             session_start();
             $_SESSION['user'] = $user_email;
-            if (isset($_SESSION['user'])) {
+            $_SESSION['name'] = $this->model->getUsersName($user_email);
+            $_SESSION['phone_number'] = $this->model->getUserPhoneNumber($user_email);
+            $_SESSION['logged_in'] = 1;
+        }
+
+
+            if (isset($_SESSION['logged_in'])) {
                 header('location: ' .URL.'proto/index');
             }else{
                 //don't do anything
             }
         }
-
-
-
-    }
 
 }
