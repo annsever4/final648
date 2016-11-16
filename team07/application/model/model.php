@@ -17,7 +17,7 @@ class Model
     /**
      * Get all songs from database
      */
-    public function getListing($key, $order)
+    public function getListing($key, $order=null)
     {
 
 
