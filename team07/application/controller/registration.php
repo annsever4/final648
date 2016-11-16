@@ -22,9 +22,9 @@ class Registration extends Controller
         $user_last_name = strip_tags(Request::post('user_last_name'));
         $user_phone_number = strip_tags(Request::post('user_phone_number'));
 
-        $validation_result = Register::registrationInputValidation( $user_email, $user_password,
-                                                                    $user_password_repeat,$user_first_name,
-                                                                    $user_last_name, $user_phone_number);
+        $validation_result = Register::registrationInputValidation($user_email, $user_password,
+                                                                    $user_password_repeat, $user_first_name,
+                                                                    $user_last_name);
 
         if (!$validation_result) {
             header('location: '. URL . 'registration/index');

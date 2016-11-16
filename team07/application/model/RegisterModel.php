@@ -53,7 +53,7 @@ class Register
 
         if($user_password !== $user_password_repeat) return false;
 
-        if(strlen($user_password)< 6 OR strlen($user_password >20)) return false;
+        if(strlen($user_password)< 6 OR strlen($user_password) >20) return false;
 
         return true;
     }
