@@ -22,7 +22,7 @@ class Login_page extends Controller
         if ($this->model->emailAlreadyExists($user_email)) {
         $hash_password = $this->model->getPasswordHash($user_email);
         $password_verification_result = password_verify($user_password, $hash_password->password_hash);
-            if($password_verification_result) {
+            if($password_verification_result == true) {
                 //Start the session
                 session_start();
                 $_SESSION['user'] = $user_email;
