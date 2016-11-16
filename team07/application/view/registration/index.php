@@ -6,10 +6,9 @@
 // -->
 
 
-<form  action="<?php echo URL; ?>registration/registerNewUser" method="post">
 
  <!--  <form class="form-inline"> --> 
-<form class= "form-inline">
+<form action="<?php echo URL; ?>registration/registerNewUser" method="post" class= "form-inline">
 <div class="form-group" style="color:#ffffff; max-width: 30%;">
 <label for="first_name">First Name</label>
 <input type="text" name="user_first_name" class="form-control" id="first_name" placeholder="Jane">
@@ -20,10 +19,8 @@
 </div>
 <div class="form-group" style="color:#ffffff; max-width:30%;">
 <label for="phone_number">Phone Number #</label>
-<input type="text" class="form-control" id="phone_number" placeholder="(##) ###-####">
+<input type="text" name="user_phone_number" class="form-control" id="phone_number" placeholder="(##) ###-####">
 </div>
-</form>
-  <!-- </form> -->
 
     <div class="form-group" style="color:#FFFFFF; max-width: 35%;">
         <label for="exampleInputEmail1">Email address</label>
