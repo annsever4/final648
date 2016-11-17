@@ -19,8 +19,10 @@ class Login_page extends Controller
         $user_email = strip_tags(Request::post('email_input'));
         $user_password = strip_tags(Request::post('password_input'));
 
+        echo $user_email;
 
         $hash_password = $this->model->getPasswordHash($user_email);
+
         //$hash = $hash_password->password_hash;
         $password_verification_result = password_verify($user_password, $hash_password);
         if ($password_verification_result) {
@@ -35,7 +37,7 @@ class Login_page extends Controller
             //reloads page so user can try to log in again <invalid email>
             //header('location: ' . URL . 'login_page/index');
             echo $user_password;
-            echo $hash;
+            //echo $hash;
         }
     }
 }
