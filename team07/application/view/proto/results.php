@@ -2,8 +2,8 @@
 
 
 
-<div class="fill-height center" id="secondary_background">
-    <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3>
+<div class="fill-height" id="secondary_background">
+    <!-- <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3> -->
 
     <form class="form-inline" id="black_text" action="<?php echo URL; ?>proto/searchlisting" method="POST">
         <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
@@ -30,36 +30,50 @@
 <?php if(isset($apartments)) { ?>
 
 
-    <div class="box">
-    <h3>Result</h3>
 
     <div class="row">
 
-    <div class="col-md-6 col-md-offset-6">
+	<!-- ========== NAV BAR BLOCK =========== -->
+	    <div class="col-md-3">
+	    <div class="left-navigation" style="display:inline-block">
+			    <ul style="list-style-type: none;">
+				<h5><strong>WHEREABOUTS</strong></h5>
+				<li><input type="checkbox">Home</li>
+				<li><input type="checkbox">Office</li>
+				<li><input type="checkbox">School</li>
+				<li><input type="checkbox">Gym</li>
+				<li><input type="checkbox">Art Class</li>
+				<li><input type="checkbox">Hike Club</li>
+			    </ul>
+	    </div>
+	    </div>
+	<!-- =============== END NAV BAR BLOCK =============== -->
 
 
-	<!-- ===================== START OF TABLE ================== -->
-	    <table>
-	    <thead style="background-color: #ddd; font-weight: bold;">
-	    <!-- ============= TABLE ROW ============= -->
- 	    <tr>
-		<td>Id</td>
-		<td>Address</td>
-		<td>Price</td>
-		<td>Pictures</td>
-    	    </tr>
-	    <!-- ============= END TABLEROW ======== -->
+	
+	    <div class="col-md-4 col-md-offset-4">
+	    <div class="box inline">
+	    <h3>Result</h3>
 
-            </thead>
-            <tbody>
-    </div>
+		<!-- ===================== START OF TABLE ================== -->
+		    <table>
+		    <thead style="background-color: #ddd; font-weight: bold;">
+		    <!-- ============= TABLE ROW ============= -->
+		    <tr>
+			<td>Id</td>
+			<td>Address</td>
+			<td>Price</td>
+			<td>Pictures</td>
+		    </tr>
+		    <!-- ============= END TABLEROW ======== -->
 
-    </div>
-    
-
+		    </thead>
+		    <tbody>
+	     
+	    
     <?php foreach ($apartments as $apartment) { ?>
         <tr>
-            <td><?php if (isset($apartment->id)) echo htmlspecialchars($apartment->id, ENT_QUOTES, 'UTF-8'); ?></td>
+            <div><td><?php if (isset($apartment->id)) echo htmlspecialchars($apartment->id, ENT_QUOTES, 'UTF-8'); ?></td></div>
             <td><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?> </td>
             <td><?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </td>
             <td height="200" width="200">
@@ -71,10 +85,9 @@
     
         </tr>
     <?php } ?>
-    </tbody>
-
-    
-    </table>
-    </div>
-    <!--================= END OF TABLE ================== > 
+		    </tbody>
+		    </table>
+    	    </div>
+ 	    </div>
+    <!--================= END OF TABLE ================== --> 
 <?php } ?>
