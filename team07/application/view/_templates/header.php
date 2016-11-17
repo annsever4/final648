@@ -29,7 +29,7 @@
 	   
 	    <div class="col-md-4 center">
     		<h1 class="text_color_white" id="gatorlodge" style="font-size:50px">
-		<a href="#">Gator Lodge</a>	
+		<a href="<?php echo URL; ?>proto">Gator Lodge</a>	
     	        </h1>
   	    </div>
 	   

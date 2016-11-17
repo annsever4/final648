@@ -26,7 +26,7 @@
 
 
     <div class="row">
-    <div class="col-md-4 col-md-offset-4" style="color:#ffffff; max-width:30%;">
+    <div class="col-md-4 col-md-offset-4" style="color:#ffffff; max-width:50%;">
     <label for="phone_number">Phone Number #</label>
     <input type="text" name="user_phone_number" class="form-control" id="phone_number" placeholder="(##) ###-####">
     </div>
