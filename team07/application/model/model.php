@@ -84,7 +84,7 @@ class Model
         $query->execute();
 
         //fetch result
-        $result = $query->fetch();
+        $result = $query->fetch(PDO::FETCH_OBJ);
 
         $name = $result->first_name. " " .$result->last_name;
 
