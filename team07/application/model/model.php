@@ -70,7 +70,7 @@ class Model
         $sql = "SELECT member_user.password_hash FROM member_user WHERE member_user.email = ?";
         $query = $this->db->prepare($sql);
         $query->bindValue(1, $user_email);
-        return $query->fetch();
+        return $query->fetch(PDO::FETCH_OBJ);
     }
 
     public function getMemberUsersName($user_email)
