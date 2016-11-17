@@ -29,13 +29,13 @@
 	   
 	    <div class="col-md-4 center">
     		<h1 class="text_color_white" id="gatorlodge" style="font-size:50px">
-		Gator Lodge	
+		<a href="#">Gator Lodge</a>	
     	        </h1>
   	    </div>
 	   
-	     <div class="col-md-4 text-right" style="margin-top:3%">
-                <a href="<?php echo URL; ?>login_page" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login</a>
-                <a href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Register</a>
+	     <div class="col-md-4 text-right" id="pills" style="margin-top:3%">
+                <a  href="<?php echo URL; ?>login_page" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Login</a>
+                <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Register</a>
             </div>
            </div>
          </div>
@@ -55,10 +55,10 @@
 
 //-->
 <div class="fill-height center" style="background-color:#ffffff;">
-	<ul class="nav nav-tabs nav-justified" style="font-size:20px;">
-        <li><a href="#">Rent</a></li>
-        <li><a href="#">Add a Listing</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Inbox</a></li>
+	<ul class="nav nav-default nav-justified" style="font-size:20px;">
+        <li id="pills"><a href="#">Rent</a></li>
+        <li id="pills"><a href="#">Add a Listing</a></li>
+        <li id="pills"><a href="#">Profile</a></li>
+        <li id="pills"><a href="#">Inbox</a></li>
 	</ul>
 </div>
