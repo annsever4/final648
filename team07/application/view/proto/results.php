@@ -31,19 +31,38 @@
 
 
 
-    <div class="row">
+    <div class="row" style="min-height:100%" id="fill_height">
 
 	<!-- ========== NAV BAR BLOCK =========== -->
-	    <div class="col-md-3">
-	    <div class="left-navigation" style="display:inline-block">
+	    <div class="col-md-3" style="min-height:100%">
+	    <div class="left-navigation" style=" height:100%;color:#330033;background-color:#FFFFFF">
 			    <ul style="list-style-type: none;">
-				<h5><strong>WHEREABOUTS</strong></h5>
-				<li><input type="checkbox">Home</li>
-				<li><input type="checkbox">Office</li>
-				<li><input type="checkbox">School</li>
-				<li><input type="checkbox">Gym</li>
-				<li><input type="checkbox">Art Class</li>
-				<li><input type="checkbox">Hike Club</li>
+		 	<li style="font:bold;font-size:25px"> Listings Type </li>	
+			<li><input type="checkbox">Apartments</li>
+			<li><input type="checkbox">Houses</li>
+			<li><input type="checkbox">Room</li>
+				<li style="font:bold;font-size:25px"> Price Range </li>
+				<div class="row">
+	    <div class="col-md-4 form-group" style="color:#ffffff; max-width:40%;">
+	    <label for="first_name">Min</label>
+	    <input type="text" name="min_price" class="form-control" id="min_price" placeholder="min">
+	    </div>
+
+	    <div class="col-md-4 form-group" style="color:#ffffff; max-width:40%;">
+	    <label for="last_name">max</label>
+	    <input type="text" name="max_price" class="form-control" id="max_price" placeholder="max">
+	    </div>
+	</div>
+				
+			<li style="font:bold;font-size:25px"> Amenities </li>
+			<li><input type="checkbox">Laundry On-Site</li>		
+			<li><input type="checkbox">Utilities</li>
+			<li><input type="checkbox">Private Room</li>
+			<li style="font:bold;font-size:25px"> Pets </li>
+			<li><input type="checkbox">Cat</li>
+			<li><input type="checkbox">Dogs</li>
+
+				
 			    </ul>
 	    </div>
 	    </div>
@@ -51,39 +70,59 @@
 
 
 	
-	    <div class="col-md-4 col-md-offset-4">
+	    <div class="col-md-9">
 	    <div class="box inline">
 	    <h3>Result</h3>
 
 		<!-- ===================== START OF TABLE ================== -->
-		    <table>
 		    <thead style="background-color: #ddd; font-weight: bold;">
 		    <!-- ============= TABLE ROW ============= -->
-		    <tr>
-			<td>Id</td>
-			<td>Address</td>
-			<td>Price</td>
-			<td>Pictures</td>
-		    </tr>
-		    <!-- ============= END TABLEROW ======== -->
 
-		    </thead>
-		    <tbody>
-	     
+		<div class="row">
+		 
+			<!-- <div class="col-md-4">Id</div> -->
+			<div class="col-md-3"></div>
+			<div class="col-md-3" style="color:#FFFFFF">Address</div>
+			<div class="col-md-3"  style="color:#FFFFFF">Price</div>
+		    
+		    <!-- ============= END TABLEROW ======== -->
+	        </div>
 	    
     <?php foreach ($apartments as $apartment) { ?>
-        <tr>
-            <div><td><?php if (isset($apartment->id)) echo htmlspecialchars($apartment->id, ENT_QUOTES, 'UTF-8'); ?></td></div>
-            <td><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?> </td>
-            <td><?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </td>
-            <td height="200" width="200">
+        <div class="row" style="margin:5px; background:#FFFFFF">
+	    <div class="col-xs-6 col-sm-3" style="padding:2px">
                 <?php if (isset($apartment->image)) { ?>
                     <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).
-                        '"max-height="200" width="200"/>' ?>
+                        '"max-height="300px" max-width="300px"/>' ?>
                 <?php } ?>
-            </td>
-    
-        </tr>
+            </div>
+
+<!--
+	    <ul class="row nav nav-pills">
+ 	   <li class="col-md-3"><a href="#">Home</a>
+	  <li class="col-md-3"><a href="#">Menu 1</a></li>
+	  <li><a href="#">Menu 2</a></li>
+	  <li><a href="#">Menu 3</a></li>
+	</ul>
+
+//-->
+ 		     
+            <!-- <div style="color:blue;"><?php if (isset($apartment->id)) echo htmlspecialchars($apartment->id, ENT_QUOTES, 'UTF-8'); ?></div> -->
+
+  	           
+	    <div class="col-xs-6 col-sm-3" id="listing-info"><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?> </div>
+            <div class="col-xs-6 col-sm-3"  id="listing-info"><?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </div>
+	    <div class="col-xs-6 col-sm-3" id="listing-info">SQURE FEET</div>	    
+
+	    	<div class="row">
+		
+            	<div class="col-xs-6 col-sm-3" id="listing-info"> BEDS </div>
+ 	    	<div class="col-xs-6 col-sm-3" id="listing-info"> BATHROOM </div>
+            	<div class="col-xs-6 col-sm-3"id="listing-info"> EMAIL</div>
+            	<div class="col-xs-6 col-sm-3"id="listing-info"> PHONE </div>
+		</div>   	
+        </div>
+
     <?php } ?>
 		    </tbody>
 		    </table>
