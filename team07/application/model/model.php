@@ -17,18 +17,54 @@ class Model
     /**
      * Get all songs from database
      */
-    public function getListing($key, $order=null)
+    public function getListing($key, $order=null, $is_house, $is_apartment, $is_room, $laundry_on_site, $dogs_ok,
+                                $cats_ok, $utilities_included)
     {
-        //tests if sort has been selected
-        if($order) {
-            $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings INNER JOIN images ON listings.image_id = images.id WHERE listings.address LIKE '%" . $key . "%'"." ORDER BY listings.".$order;
-        } else {
-            $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings INNER JOIN images ON listings.image_id = images.id WHERE listings.address LIKE '%" . $key . "%'";
+        //creates initial sql statement to return listings with addresses LIKE the key value
+        $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings".
+            " INNER JOIN images ON listings.image_id = images.id WHERE listings.address LIKE '%"
+            . $key . "%'";
+
+        //checks what filters to add the sql statement
+        if ($is_house){
+            $sql.= " AND listings.is_house = 1";
+        }
+        //
+        if($is_apartment) {
+            $sql .= " AND listings.is_apartment = 1";
         }
 
+        if($is_room)  {
+            $sql .= " AND listings.is_room = 1";
+        }
+
+        if($laundry_on_site) {
+            $sql .= " AND listings.laundry_on_site = 1";
+        }
+
+        if($dogs_ok) {
+            $sql .= " AND listings.dogs_ok = 1" ;
+        }
+
+        if($cats_ok) {
+            $sql .= " AND listings.cats_ok = 1";
+        }
+
+        if($utilities_included){
+            $sql .= " AND listings.utilities = 1";
+        }
+
+        if($order) {
+            $sql .= " AND listings.order = ".$order;
+        }
+
+        //prepares statement eliminating risk of SQL injection
         $query = $this->db->prepare($sql);
+
+        //executes query
         $query->execute();
 
+        //returns an array of objects with col values as properites
         return $query->fetchAll();
     }
 
