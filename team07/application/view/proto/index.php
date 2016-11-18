@@ -27,12 +27,23 @@
           <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
         </form>
 
-
-		<br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB, 
+		<!--
+		<br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB,
 		<br />search by any character from its addresses:<br />
-		<br />566 46th Ave	
+		<br />566 46th Ave
 		<br />362 43rd Ave
-        <br />I am logged in
+		-->
+
+
+        <!-- TESTING LOG IN -->
+        <?php if(isset($_SESSION['user'])) echo $_SESSION['user']; ?>
+        <br>
+        <?php if(isset($_SESSION['name'])) echo $_SESSION['name']; ?>
+        <br>
+        <?php if(isset($_SESSION['phone_number'])) echo $_SESSION['phone_number']; ?>
+        <br>
+
+
 
 </div>
 
@@ -78,6 +89,6 @@
                 </tbody>
                 </table>
         </div>
-</div>
+
            
 <?php } ?>

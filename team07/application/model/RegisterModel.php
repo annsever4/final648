@@ -24,17 +24,18 @@ class Register
     }
 */
 
-    public static function registrationInputValidation($user_email, $user_password, $user_password_repeat)
+    public static function registrationInputValidation($user_email, $user_password, $user_password_repeat, $first_name, $last_name)
     {
-        if(self::validateUserEmail($user_email) AND self::validateUserPassword($user_password, $user_password_repeat)){
+        if(self::validateUserEmail($user_email) AND self::validateUserPassword($user_password, $user_password_repeat)
+        AND self::validateName($first_name,$last_name)){
             return true;
         }
+
         return false;
     }
 
     public static function validateUserEmail($user_email)
     {
-
 
         if (empty($user_email)) return false;
 
@@ -52,7 +53,17 @@ class Register
 
         if($user_password !== $user_password_repeat) return false;
 
-        if(strlen($user_password)< 6 OR strlen($user_password >20)) return false;
+        if(strlen($user_password)< 6 OR strlen($user_password) >20) return false;
+
+        return true;
+    }
+
+    public static function validateName($first_name, $last_name)
+    {
+        //checks if user submitted a last and first name
+        if(empty($first_name) OR empty($last_name)) return false;
+        // checks if the first or last name is to long to be a real name
+        if(strlen($first_name) > 25 OR strlen($last_name) > 30) return false;
 
         return true;
     }

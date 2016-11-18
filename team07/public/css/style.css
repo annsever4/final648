@@ -33,6 +33,7 @@ img{
     background: #222 !important;
     color: #fff !important;
 }
+
 .navigation a:hover {
     color: #222 !important;
     background: transparent !important;
@@ -202,3 +203,26 @@ ls{
     text-color:#000000;
 }
 
+a:link, a:visited {
+    background-color: #FFCC33;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color:#FFCC33;
+}
+
+#pills a:link, a:visited {
+    background-color: #FFCC33;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#pills a:hover, a:active {
+    background-color:#330033;
+}
