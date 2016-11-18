@@ -72,7 +72,7 @@
 	
 	    <div class="col-md-9">
 	    <div class="box inline">
-	    <h3>Result</h3>
+	    
 
 		<!-- ===================== START OF TABLE ================== -->
 		    <thead style="background-color: #ddd; font-weight: bold;">
@@ -82,8 +82,6 @@
 		 
 			<!-- <div class="col-md-4">Id</div> -->
 			<div class="col-md-3"></div>
-			<div class="col-md-3" style="color:#FFFFFF">Address</div>
-			<div class="col-md-3"  style="color:#FFFFFF">Price</div>
 		    
 		    <!-- ============= END TABLEROW ======== -->
 	        </div>
