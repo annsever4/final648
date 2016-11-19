@@ -104,11 +104,12 @@
 	</ul>
 
 //-->
- 		     
+ 	    <div >
+		TITLE
+	    </div>   
             <!-- <div style="color:blue;"><?php if (isset($apartment->id)) echo htmlspecialchars($apartment->id, ENT_QUOTES, 'UTF-8'); ?></div> -->
-
   	           
-	    <div class="col-xs-6 col-sm-3" id="listing-info"><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?> </div>
+	    <div class="col-xs-6 col-sm-3" id="listing-info" style=""><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?> </div>
             <div class="col-xs-6 col-sm-3"  id="listing-info"><?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </div>
 	    <div class="col-xs-6 col-sm-3" id="listing-info">SQURE FEET</div>	    
 
