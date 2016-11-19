@@ -12,6 +12,7 @@
             <option value="price">Price</option>
             <option value="id">Listing ID</option>
         </select>
+        //if the form is set  call request class to aqcuire _POST values
     </form>
 
   <!-- 
@@ -50,7 +51,8 @@
 
 	    <div class="col-md-4 form-group" style="color:#ffffff; max-width:40%;">
 	    <label for="last_name">max</label>
-	    <input type="text" name="max_price" class="form-control" id="max_price" placeholder="max">
+	    <input type="text" name="max_price" class="form-control" id="max_price" placeholder=        //if the form is set  call request class to aqcuire _POST values
+"max">
 	    </div>
 	</div>
 				
