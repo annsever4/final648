@@ -9,9 +9,9 @@
         var url = "<?php echo URL; ?>";
     </script>
 
-    <!-- Latest compiled and minified JavaScript, over CDN -->
+    <!-- Latest compiled and minified JavaScript, over CDN
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+-->
     <!-- our JavaScript -->
     <script src="<?php echo URL; ?>js/application.js"></script>
     <script src="<?php echo URL; ?>js/jquery-3.1.1.js"></script>
@@ -20,6 +20,7 @@
         $("#registrationForm").validate();
     </script>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <div class="container-fluid footer" id="main_background">
         &copy; This site is developed by the Team 007 @ SFSU 
