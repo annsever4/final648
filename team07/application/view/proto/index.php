@@ -36,16 +36,23 @@
 
 
         <!-- TESTING LOG IN -->
-        <?php if(isset($_SESSION['user'])) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
-        <br>
-        <?php if(isset($_SESSION['name'])) echo htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8'); ?>
-        <br>
-        <?php if(isset($_SESSION['phone_number'])) echo htmlspecialchars($_SESSION['phone_number'], ENT_QUOTES, 'UTF-8'); ?>
-        <br>
+        <br /><?php if(isset($_SESSION['user'])) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
+
+        <br /><?php if(isset($_SESSION['name'])) echo htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8'); ?>
+
+        <br /> <?php if(isset($_SESSION['phone_number'])) echo htmlspecialchars($_SESSION['phone_number'], ENT_QUOTES, 'UTF-8'); ?>
+
 
 
 
 </div>
+
+
+<br /><?php if(isset($_SESSION['user'])) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
+
+<br /><?php if(isset($_SESSION['name'])) echo htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8'); ?>
+
+<br /> <?php if(isset($_SESSION['phone_number'])) echo htmlspecialchars($_SESSION['phone_number'], ENT_QUOTES, 'UTF-8'); ?>
 
 <!-- Output  Test -->
 
