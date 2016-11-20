@@ -31,10 +31,10 @@
 
 
 
-    <div class="row">
+    <div class="row" style="height:inherit">
 
 	<!-- ========== NAV BAR BLOCK =========== -->
-	    <div class="col-md-3" style="min-height:100%;float:left;">
+	    <div class="col-md-3" style="height:100%;;">
 	    	<div class="left-navigation" style=" height:100%;color:#330033;background-color:#FFFFFF">
 			    <ul style="list-style-type: none;">
 				<li style="font:bold;font-size:25px"> Listings Type </li>	
