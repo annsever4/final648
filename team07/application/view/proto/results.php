@@ -5,6 +5,7 @@
 <div class="fill-height" id="secondary_background">
     <!-- <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3> -->
 
+   <div id="fancy-border">
     <form class="form-inline" id="black_text" action="<?php echo URL; ?>proto/searchlisting" method="POST">
         <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
         <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
@@ -13,7 +14,7 @@
             <option value="id">Listing ID</option>
         </select>
     </form>
-
+    </div>
   <!-- 
     <br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB,
     <br />search by any character from its addresses:<br />
@@ -34,7 +35,7 @@
     <div class="row" style="height:inherit">
 
 	<!-- ========== NAV BAR BLOCK =========== -->
-	    <div class="col-md-3" style="height:100%;;">
+	    <div class="col-md-3" id="fancy-border" style="height:100%;padding-top:0;">
 	    	<div class="left-navigation" style=" height:100%;color:#330033;background-color:#FFFFFF">
 			    <ul style="list-style-type: none;">
 				<li style="font:bold;font-size:25px"> Listings Type </li>	
