@@ -53,11 +53,7 @@
 
 <p>
     <?php if(session_start()) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
-<?php if(isset($_SESSION['user'])) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
 
-<?php if(isset($_SESSION['name'])) echo htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8'); ?>
-
-<?php if(isset($_SESSION['phone_number'])) echo  $_SESSION['name']?>
 </p>
 <!-- Output  Test -->
 

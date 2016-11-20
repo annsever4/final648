@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/controller/login_page.php" afterPath="$PROJECT_DIR$/team07/application/controller/login_page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/proto/index.php" afterPath="$PROJECT_DIR$/team07/application/view/proto/index.php" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,28 +27,28 @@
       <file leaf-file-name="registration.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/controller/registration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="20" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="180">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_page.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login_page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,8 +71,8 @@
         <option value="$PROJECT_DIR$/team07/application/view/registration/index.php" />
         <option value="$PROJECT_DIR$/team07/application/view/_templates/footer.php" />
         <option value="$PROJECT_DIR$/team07/application/model/model.php" />
-        <option value="$PROJECT_DIR$/team07/application/view/proto/index.php" />
         <option value="$PROJECT_DIR$/team07/application/controller/login_page.php" />
+        <option value="$PROJECT_DIR$/team07/application/view/proto/index.php" />
       </list>
     </option>
   </component>
@@ -83,7 +84,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
+    <option name="x" value="61" />
     <option name="y" value="23" />
     <option name="width" value="1286" />
     <option name="height" value="677" />
@@ -376,15 +377,15 @@
       <workItem from="1479253125223" duration="2163000" />
       <workItem from="1479505177569" duration="2959000" />
       <workItem from="1479671037941" duration="328000" />
-      <workItem from="1479672701230" duration="4232000" />
+      <workItem from="1479672701230" duration="4494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22849000" />
+    <option name="totallyTimeSpent" value="23111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="23" width="1286" height="677" extended-state="1" />
+    <frame x="61" y="23" width="1286" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -803,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/controller/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/home/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -850,18 +843,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
+    <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/controller/login_page.php">
+    <entry file="file://$PROJECT_DIR$/team07/application/controller/registration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>

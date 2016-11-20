@@ -36,7 +36,7 @@ class Login_page extends Controller
             $_SESSION['phone_number'] = $this->model->getMemberUserPhoneNumber($user_email);
             $_SESSION['logged_in'] = true;
 
-//            $_SESSION['user'] = $_POST['user_email'];
+
 
 
 
