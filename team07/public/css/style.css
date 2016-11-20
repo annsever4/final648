@@ -231,9 +231,15 @@ a:hover, a:active {
 }
 
 #pill-shape{
- border-radius: 20%/50%;
+ border-radius: 500px;
+ background:#FFCC33;
+ color:#330033;
+ margin-top:1%;
+ font-weight:bold;
+ display:inline-block;
+ padding:3px;
+ right:30px;
 }
-#listing-info{
-background:#FFCC33;margin-top:5px;padding:2%
-display:inline-block;
-}
+
+
+

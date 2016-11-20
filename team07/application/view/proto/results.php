@@ -67,7 +67,7 @@
 	<!-- END OF LEFT NAV -->
 	<!-- =============== END NAV BAR BLOCK =============== -->
 	
-	    <div class="col-md-8 inline" style="float:left">
+	    <div class="col-md-8 inline" style="float:left; background:#FFFFFF">
 	    
 
 		<!-- ===================== START OF TABLE ================== -->
@@ -76,24 +76,24 @@
 	   
 	<!-- START LISTINGS DISPLAY --> 
     	<?php foreach ($apartments as $apartment) { ?>
-        <div class="row" style="margin:5px; background:red">
+        <div class="row" style="margin:5px;">
 	    <div class="col-xs-6 col-sm-3" style="padding:2px">
                 <?php if (isset($apartment->image)) { ?>
                     <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).
                         '"max-height="300px" max-width="300px"/>' ?>
                 <?php } ?>
             </div>
-	        <div>TITLE</div>   
+	        <div class="col-xs-9" id="pill-shape"><h5>TITLE</h5></div>   
             <!-- <div style="color:blue;"><?php if (isset($apartment->id)) echo htmlspecialchars($apartment->id, ENT_QUOTES, 'UTF-8'); ?></div> --> 
-		<div class="col-xs-6 col-sm-3" id="listing-info" style=""><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?> </div>
-	        <div class="col-xs-6 col-sm-3"  id="listing-info"><?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </div>
-		<div class="col-xs-6 col-sm-3" id="listing-info">SQURE FEET</div>	    
+		<div class="col-xs-6 col-sm-3" id="pill-shape"><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?> </div>
+	        <div class="col-xs-6 col-sm-3"  id="pill-shape">$<?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </div>
+		<div class="col-xs-6 col-sm-3" id="pill-shape">SQURE FEET</div>	    
 
 	    	<div class="row">
-			<div class="col-xs-6 col-sm-3" id="listing-info"> BEDS </div>
-			<div class="col-xs-6 col-sm-3" id="listing-info"> BATHROOM </div>
-			<div class="col-xs-6 col-sm-3"id="listing-info"> EMAIL</div>
-			<div class="col-xs-6 col-sm-3"id="listing-info"> PHONE </div>
+			<div class="col-xs-6 col-sm-3" id="pill-shape"> BEDS </div>
+			<div class="col-xs-6 col-sm-3" id="pill-shape"> BATHROOM </div>
+			<div class="col-xs-6 col-sm-3"id="pill-shape"> EMAIL</div>
+			<div class="col-xs-6 col-sm-3"id="pill-shape"> PHONE </div>
 		</div>   	
         </div>
 	<!-- END OF LISTINGS DISPLAY -->
