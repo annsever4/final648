@@ -32,7 +32,7 @@ class Login_page extends Controller
             //Start the session
             session_start();
             $_SESSION['user'] = $user_email;
-            $_SESSION['name'] = $this->model->getUsersName($user_email);
+            $_SESSION['name'] = $this->model->getMemberUsersName($user_email);
             $_SESSION['phone_number'] = $this->model->getUserPhoneNumber($user_email);
             $_SESSION['logged_in'] = true;
             header('location: ' . URL . 'proto/index');
