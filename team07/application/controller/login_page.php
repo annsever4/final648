@@ -26,7 +26,7 @@ class Login_page extends Controller
 
 
         //$hash = $hash_password->password_hash;
-        $password_verification_result = password_verify($user_password, $hash_password->password_hash);
+            $password_verification_result = password_verify($user_password, $hash_password->password_hash);
 
         if ($password_verification_result) {
             //Start the session
