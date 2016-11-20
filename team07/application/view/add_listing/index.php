@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row container-fluid" id="profile-color">
 
 <div class="tab-pane" id="settings">
 
@@ -8,32 +8,40 @@
       <div class="form-group">
 
 	  <div class="col-xs-6">
-	      <label for="first_name"><h4>First name</h4></label>
-	      <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name" title="enter your first name if any.">
+	      <label for="address"><h4>Address</h4></label>
+	      <input type="text" class="form-control" name="address" id="address" placeholder="Address" title="enter address if any.">
 	  </div>
       </div>
       <div class="form-group">
 
 	  <div class="col-xs-6">
-	    <label for="last_name"><h4>Last name</h4></label>
-	      <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name" title="enter your last name if any.">
+	    <label for="price"><h4>Price</h4></label>
+	      <input type="text" class="form-control" name="price" id="price" placeholder="Price" title="enter the price if any.">
 	  </div>
       </div>
 
       <div class="form-group">
 
 	  <div class="col-xs-6">
-	      <label for="phone"><h4>Phone</h4></label>
-	      <input type="text" class="form-control" name="phone" id="phone" placeholder="enter phone" title="enter your phone number if any.">
+	      <label for="size"><h4>Size(Square Foot)</h4></label>
+	      <input type="text" class="form-control" name="size" id="size" placeholder="Size of Room" title="enter room size number if any.">
 	  </div>
       </div>
 
       <div class="form-group">
 	  <div class="col-xs-6">
-	     <label for="mobile"><h4>Mobile</h4></label>
-	      <input type="text" class="form-control" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
+	     <label for="beds"><h4>Number of Beds</h4></label>
+	      <input type="text" class="form-control" name="beds" id="beds" placeholder="Number of Beds" title="enter number of beds if any.">
 	  </div>
       </div>
+
+      <div class="form-group">
+          <div class="col-xs-6">
+             <label for="bathrooms"><h4>Number of Bathrooms</h4></label>
+              <input type="text" class="form-control" name="bathrooms" id="bathrooms" placeholder="Number of bathrooms" title="enter number of bathrooms if any.">
+          </div>
+      </div>
+	
       <div class="form-group">
 
 	  <div class="col-xs-6">
@@ -44,24 +52,20 @@
       <div class="form-group">
 
       <div class="col-xs-6">
-	      <label for="email"><h4>Location</h4></label>
-	      <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
+	      <label for="number"><h4>Phone Number</h4></label>
+	      <input type="number" class="form-control" name="number" id="number" placeholder="number" title="Enter your numernumber">
 	  </div>
       </div>
-      <div class="form-group">
 
-	  <div class="col-xs-6">
-	      <label for="password"><h4>Password</h4></label>
-	      <input type="password" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
-	  </div>
-      </div>
       <div class="form-group">
-
-	  <div class="col-xs-6">
-	    <label for="password2"><h4>Verify</h4></label>
-	      <input type="password" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
-	  </div>
+      
+      <div class="col-xs-12">
+          <label for="description"><h4>Additional Comments</h4></label> 
+          <textarea type="description" class="form-control" name="description" id="description" placeholder="Additional comments" rows="5"></textarea>
       </div>
+      </div>
+
+
       <div class="form-group">
 	   <div class="col-xs-12">
 		<br>
