@@ -136,7 +136,7 @@ class Model
         $query->bindValue(1,$user_email);
 
         $query->execute();
-        
+
         $result = $query->fetch();
 
         return $result->phone_number;

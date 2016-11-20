@@ -35,12 +35,12 @@ class Login_page extends Controller
             $_SESSION['name'] = $this->model->getMemberUsersName($user_email);
             $_SESSION['phone_number'] = $this->model->getMemberUserPhoneNumber($user_email);
             $_SESSION['logged_in'] = true;
-
+            /*
             echo $_SESSION['user'];
             echo $_SESSION['name'];
             echo $_SESSION['phone_number'];
-
-            //header('location: ' . URL . 'proto/index');
+            */
+            header('location: ' . URL . 'proto/index');
         } else {
             //reloads page so user can try to log in again <invalid email>
             //header('location: ' . URL . 'login_page/index');
