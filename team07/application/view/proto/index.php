@@ -36,11 +36,11 @@
 
 
         <!-- TESTING LOG IN -->
-        <?php if(isset($_SESSION['user'])) echo $_SESSION['user']; ?>
+        <?php if(isset($_SESSION['user'])) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
         <br>
-        <?php if(isset($_SESSION['name'])) echo $_SESSION['name']; ?>
+        <?php if(isset($_SESSION['name'])) echo htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8'); ?>
         <br>
-        <?php if(isset($_SESSION['phone_number'])) echo $_SESSION['phone_number']; ?>
+        <?php if(isset($_SESSION['phone_number'])) echo htmlspecialchars($_SESSION['phone_number'], ENT_QUOTES, 'UTF-8'); ?>
         <br>
 
 
