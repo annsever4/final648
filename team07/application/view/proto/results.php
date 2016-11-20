@@ -5,6 +5,8 @@
 <div class="fill-height" id="secondary_background">
     <!-- <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3> -->
 
+
+	<!-- TODO CHECKBOX INPUTS MUST BE APART OF THE FORM BELOW THIS LINE SO THAT THEY ARE STORED IN THE SUPER GLOBAL _POST -->
     <form class="form-inline" id="black_text" action="<?php echo URL; ?>proto/searchlisting" method="POST">
         <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
         <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
@@ -31,7 +33,7 @@
 <?php if(isset($apartments)) { ?>
 
 
-
+<!-- TODO THE INPUT CHECKBOXES BELOW MUST BE MOVED TO THE FORM ABOVE SO THAT THE ACTION SEARCH LISTING CAN RETRIEVE THEIR VALUES -->
     <div class="row" style="min-height:100%" id="fill_height">
 
 	<!-- ========== NAV BAR BLOCK =========== -->
@@ -87,6 +89,8 @@
 		    
 		    <!-- ============= END TABLEROW ======== -->
 	        </div>
+
+			<!-- TODO THE TITLE OF THE LISTING NEEDS BE DISPLAYED ABOVE EACH RESULT -->
 	    
     <?php foreach ($apartments as $apartment) { ?>
         <div class="row" style="margin:5px; background:#FFFFFF">
