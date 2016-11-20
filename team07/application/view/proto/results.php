@@ -38,9 +38,9 @@
 	    <div class="left-navigation" style=" height:100%;color:#330033;background-color:#FFFFFF">
 			    <ul style="list-style-type: none;">
 		 	<li style="font:bold;font-size:25px"> Listings Type </li>	
-			<li><input type="checkbox">Apartments</li>
-			<li><input type="checkbox">Houses</li>
-			<li><input type="checkbox">Room</li>
+			<li><input type="checkbox" name="is_apartment">Apartments</li>
+			<li><input type="checkbox" name="is_house">Houses</li>
+			<li><input type="checkbox" name="is_room">Room</li>
 				<li style="font:bold;font-size:25px"> Price Range </li>
 				<div class="row">
 	    <div class="col-md-4 form-group" style="color:#ffffff; max-width:40%;">
@@ -55,12 +55,12 @@
 	</div>
 				
 			<li style="font:bold;font-size:25px"> Amenities </li>
-			<li><input type="checkbox">Laundry On-Site</li>		
-			<li><input type="checkbox">Utilities</li>
-			<li><input type="checkbox">Private Room</li>
+			<li><input type="checkbox" name="laundry_on_site">Laundry On-Site</li>
+			<li><input type="checkbox" name="utilities_included">Utilities</li>
+			<li><input type="checkbox" name="private_room">Private Room</li>
 			<li style="font:bold;font-size:25px"> Pets </li>
-			<li><input type="checkbox">Cat</li>
-			<li><input type="checkbox">Dogs</li>
+			<li><input type="checkbox" name="cats_ok">Cat</li>
+			<li><input type="checkbox" name="dogs_ok">Dogs</li>
 
 				
 			    </ul>

@@ -55,7 +55,7 @@ class Model
         }
 
         if($order) {
-            $sql .= " AND listings.order = ".$order;
+            $sql .= " ORDER BY listings.".$order;
         }
 
         //prepares statement eliminating risk of SQL injection
