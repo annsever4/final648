@@ -17,7 +17,8 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" cro    ssorigin="anonymous">
 
-
+session_start();
+echo $user = $_SESSION['user']
 
 <div class="fill-height center" id="secondary_background">
         <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3>
@@ -37,8 +38,7 @@
 
         <!-- TESTING LOG IN -->
 
-        session_start();
-        echo $user = $_SESSION['user']
+       
         <br /><?php if(isset($_SESSION['user'])) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
 
         <br /><?php if(isset($_SESSION['name'])) echo htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8'); ?>
