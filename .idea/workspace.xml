@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="" />
+    <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/proto/index.php" afterPath="$PROJECT_DIR$/team07/application/view/proto/index.php" />
+    </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -44,8 +46,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,7 +83,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
+    <option name="x" value="100" />
     <option name="y" value="23" />
     <option name="width" value="1286" />
     <option name="height" value="677" />
@@ -374,15 +376,15 @@
       <workItem from="1479253125223" duration="2163000" />
       <workItem from="1479505177569" duration="2959000" />
       <workItem from="1479671037941" duration="328000" />
-      <workItem from="1479672701230" duration="4584000" />
+      <workItem from="1479672701230" duration="4914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23201000" />
+    <option name="totallyTimeSpent" value="23531000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="23" width="1286" height="677" extended-state="0" />
+    <frame x="100" y="23" width="1286" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -858,8 +860,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -36,6 +36,7 @@
 
 
         <!-- TESTING LOG IN -->
+        <br/>  <?php if(session_start()) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
 
 
         <br /><?php if(isset($_SESSION['user'])) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
@@ -51,10 +52,7 @@
 
 
 
-<p>
-    <?php if(session_start()) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
 
-</p>
 <!-- Output  Test -->
 
 
