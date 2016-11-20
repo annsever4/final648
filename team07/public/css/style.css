@@ -234,12 +234,20 @@ a:hover, a:active {
  border-radius: 500px;
  background:#FFCC33;
  color:#330033;
- margin-top:1%;
+ margin-top:5px;
  font-weight:bold;
  display:inline-block;
  padding:3px;
  right:30px;
+ border-style:solid;
+ border-width:1px;
+ border-color:#330033;
 }
 
-
+#fancy-border{
+ padding:20px; 
+ border-style:solid;
+ border-width:10px; 
+ border-color:#330033;
+}
 
