@@ -26,7 +26,7 @@ class Login_page extends Controller
 
 
         //$hash = $hash_password->password_hash;
-            $password_verification_result = password_verify($user_password, $hash_password->password_hash);
+        $password_verification_result = password_verify($user_password, $hash_password->password_hash);
 
         if ($password_verification_result) {
             //Start the session
@@ -35,18 +35,22 @@ class Login_page extends Controller
             $_SESSION['name'] = $this->model->getMemberUsersName($user_email);
             $_SESSION['phone_number'] = $this->model->getMemberUserPhoneNumber($user_email);
             $_SESSION['logged_in'] = true;
+
+            $_SESSION['user'] = $_POST['user_email'];
+
+
             /*
             echo $_SESSION['user'];
             echo $_SESSION['name'];
             echo $_SESSION['phone_number'];
             */
-            ob_start();
-            echo("Hello " . $user_email);
-            $output = ob_get_contents();
+
+
+
             header('location: ' . URL . 'proto/index');
         } else {
             //reloads page so user can try to log in again <invalid email>
-            //header('location: ' . URL . 'login_page/index');
+            header('location: ' . URL . 'login_page/index');
             echo $user_password;
             //echo $hash;
         }
