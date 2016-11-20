@@ -22,9 +22,12 @@ class Login_page extends Controller
         echo $user_email;
 
         $hash_password = $this->model->getPasswordHash($user_email);
+        echo $hash_password->password_hash;
+
 
         //$hash = $hash_password->password_hash;
         $password_verification_result = password_verify($user_password, $hash_password);
+
         if ($password_verification_result) {
             //Start the session
             session_start();
