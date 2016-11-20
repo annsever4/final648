@@ -35,7 +35,7 @@
     <div class="row" style="height:inherit">
 
 	<!-- ========== NAV BAR BLOCK =========== -->
-	    <div class="col-md-3" id="fancy-border" style="height:100%;padding-top:0;">
+	    <div class="col-md-3" id="fancy-border" style="height:100%;padding-top:0; margin-left:15px;">
 	    	<div class="left-navigation" style=" height:100%;color:#330033;background-color:#FFFFFF">
 			    <ul style="list-style-type: none;">
 				<li style="font:bold;font-size:25px"> Listings Type </li>	
