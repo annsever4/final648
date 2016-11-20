@@ -107,7 +107,7 @@ class Model
         $query = $this->db->prepare($sql);
         $query->bindValue(1, $user_email);
         $query->execute();
-        
+
         return $query->fetch();
     }
 

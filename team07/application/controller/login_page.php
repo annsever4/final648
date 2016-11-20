@@ -19,14 +19,14 @@ class Login_page extends Controller
         $user_email = strip_tags(Request::post('email_input'));
         $user_password = strip_tags(Request::post('password_input'));
 
-        echo $user_email;
+       //echo $user_email;
 
         $hash_password = $this->model->getPasswordHash($user_email);
-        echo $hash_password->password_hash;
+        //echo $hash_password->password_hash;
 
 
         //$hash = $hash_password->password_hash;
-        $password_verification_result = password_verify($user_password, $hash_password);
+        $password_verification_result = password_verify($user_password, $hash_password->password_hash);
 
         if ($password_verification_result) {
             //Start the session
