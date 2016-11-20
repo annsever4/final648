@@ -40,6 +40,9 @@ class Login_page extends Controller
             echo $_SESSION['name'];
             echo $_SESSION['phone_number'];
             */
+            ob_start();
+            echo("Hello " . $user_email);
+            $output = ob_get_contents();
             header('location: ' . URL . 'proto/index');
         } else {
             //reloads page so user can try to log in again <invalid email>
