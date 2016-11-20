@@ -38,7 +38,7 @@
         <!-- TESTING LOG IN -->
 
         session_start();
-        <p> echo $user = $_SESSION['user'] </p>
+        echo $user = $_SESSION['user']
         <br /><?php if(isset($_SESSION['user'])) echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
 
         <br /><?php if(isset($_SESSION['name'])) echo htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8'); ?>
