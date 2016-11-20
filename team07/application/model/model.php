@@ -134,6 +134,9 @@ class Model
         $sql = "SELECT member_user.phone_number FROM member_user WHERE member_user.email = ?";
         $query =$this->db->prepare($sql);
         $query->bindValue(1,$user_email);
+
+        $query->execute();
+        
         $result = $query->fetch();
 
         return $result->phone_number;

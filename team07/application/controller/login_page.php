@@ -39,7 +39,7 @@ class Login_page extends Controller
             echo $_SESSION['user'];
             echo $_SESSION['name'];
             echo $_SESSION['phone_number'];
-            
+
             //header('location: ' . URL . 'proto/index');
         } else {
             //reloads page so user can try to log in again <invalid email>
