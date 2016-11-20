@@ -1,3 +1,7 @@
+
+
+
+
 </div><!-- close global container -->
 
     <!-- jQuery, loaded in the recommended protocol-less way -->
@@ -23,7 +27,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <div class="container-fluid footer" id="main_background">
-        &copy; This site is developed by the Team 007 @ SFSU 
+            <div class="row">
+	    	&copy; This site is developed by the Team 007 @ SFSU
+            </div>
     </div>
 
 </html>
