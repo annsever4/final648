@@ -15,7 +15,6 @@
             <option value="id">Listing ID</option>
         </select>
         //if the form is set  call request class to aqcuire _POST values
-    </form>
 
   <!-- 
     <br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB,
@@ -70,6 +69,8 @@
 			    </ul>
 	    </div>
 	    </div>
+	
+    </form>
 	<!-- =============== END NAV BAR BLOCK =============== -->
 
 
