@@ -13,7 +13,6 @@
             <option value="price">Price</option>
             <option value="id">Listing ID</option>
         </select>
-    </form>
     </div>
   <!-- 
     <br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB,
@@ -65,6 +64,8 @@
 		        </ul>
 	        </div>
 	    </div>
+	
+        </form>
 	<!-- END OF LEFT NAV -->
 	<!-- =============== END NAV BAR BLOCK =============== -->
 	
