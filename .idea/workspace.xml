@@ -46,12 +46,11 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="215">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1479772010000" expanded="true" signature="1711:1730" ph="..." />
+                <marker date="1479772177000" expanded="true" signature="1707:1726" ph="..." />
               </folding>
             </state>
           </provider>
@@ -135,8 +134,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="42" />
+    <option name="x" value="65" />
+    <option name="y" value="78" />
     <option name="width" value="1273" />
     <option name="height" value="677" />
   </component>
@@ -392,15 +391,15 @@
       <workItem from="1479505177569" duration="2959000" />
       <workItem from="1479671037941" duration="328000" />
       <workItem from="1479672701230" duration="7308000" />
-      <workItem from="1479762856419" duration="5730000" />
+      <workItem from="1479762856419" duration="5896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31655000" />
+    <option name="totallyTimeSpent" value="31821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="42" width="1273" height="677" extended-state="0" />
+    <frame x="65" y="78" width="1273" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22623724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -878,12 +877,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="215">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1479772010000" expanded="true" signature="1711:1730" ph="..." />
+            <marker date="1479772177000" expanded="true" signature="1707:1726" ph="..." />
           </folding>
         </state>
       </provider>

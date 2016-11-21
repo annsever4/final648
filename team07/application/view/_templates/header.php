@@ -41,7 +41,7 @@
 
              else {
 
-                   echo "<a href="<?php echo URL; ?>Login" class= \"btn btn-primary btn-lg active\" style=\"background:#330033;\" role=\"button\" aria-pressed=\"true\">Login </a>";
+                   <a href=\"<?php echo URL; ?>Login\" class= \"btn btn-primary btn-lg active\" style=\"background:#330033;\" role=\"button\" aria-pressed=\"true\">Login </a>;
 
              }
              ?>
