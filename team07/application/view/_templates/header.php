@@ -35,7 +35,7 @@
 	   
 	     <div class="col-md-4 text-right" id="pills" style="margin-top:3%">
                 <a  href="<?php echo URL; ?>login_page" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Login</a>
-               
+
                 <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Register</a>
             </div>
            </div>
