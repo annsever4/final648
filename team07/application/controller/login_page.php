@@ -56,4 +56,13 @@ class Login_page extends Controller
             //echo $hash;
         }
     }
+
+    public function logoutRegisteredUser(){
+
+        session_destroy();
+        $_SESSION['logged_in'] = false;
+
+
+    }
+
 }
