@@ -38,8 +38,8 @@
 
                 else {
 
-                    echo htmlspecialchars($_SESSION['phone_number'], ENT_QUOTES, 'UTF-8');
-                    
+                   echo <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Register</a>
+
              }
              ?>
                 <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Register</a>
