@@ -36,8 +36,9 @@
 
 
         <!-- TESTING LOG IN -->
+        session_start();
 
-        <?php if ($_SESSION['logged_in']) session_start(); echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
+        <?php if (isset($_SESSION['logged_in']))  echo htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8'); ?>
 
 
 
