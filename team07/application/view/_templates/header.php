@@ -41,7 +41,7 @@
 
              else {
 
-                   echo "Log in";
+                   echo <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Register</a>;
 
              }
              ?>
