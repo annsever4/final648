@@ -41,7 +41,7 @@
 
              else {
 
-                   echo "<a href=\\" <?php echo URL; ?>registration\"</a>";
+                   echo "<a href=\" <?php echo URL; ?>registration\"</a>";
 
              }
              ?>
