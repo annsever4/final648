@@ -1,4 +1,5 @@
 <?php
+
 class logout_page extends Controller
 {
 /**
@@ -19,6 +20,8 @@ class logout_page extends Controller
     public function logoutRegisteredUser()
     {
         if(isset($_SESSION['logged_in'])) {
+            ini_set('display_errors',1);
+            error_reporting(E_ALL);
             session_start();
             session_unset($_SESSION['logged_in']);
             session_destroy();
