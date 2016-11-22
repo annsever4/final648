@@ -21,7 +21,7 @@ class logout_page extends Controller
 
         session_destroy();
 
-        $_SESSION['logged_in'] = false;
+        $_SESSION['logged_in'] = '';
 
 
     }

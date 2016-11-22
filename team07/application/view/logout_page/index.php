@@ -1,10 +1,4 @@
 
-/**
- * Created by PhpStorm.
- * User: lijie
- * Date: 11/21/16
- * Time: 4:54 PM
- */
 
 
 <form action="<?php echo URL; ?> logout_page/logoutRegisteredUser" method="post">
