@@ -49,7 +49,7 @@
              else {
 
 
-                 echo "<a href=" .URL. "logout_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Logout</a>";
+                 echo "<a href=" .URL. "login_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Login</a>";
 
 
              }

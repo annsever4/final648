@@ -22,7 +22,7 @@ class logout_page extends Controller
             session_destroy();
 
             echo "<br> you are logged out. ";
-            
+
         }
 
     }
