@@ -142,5 +142,17 @@ class Model
         return $result->phone_number;
     }
 
+    public function getMessagesALL() {
+
+        $sql = "SELECT * FROM messages WHERE messages.sender_id = :current_user_id OR messages.recipient_id = :current_user_id";
+
+        $query = $this->db->prepare($sql);
+
+        $query -> bindValue(':current_user_id', $_SESSION['user_id']);
+
+        $query->execute();
+
+        return  $query->fetchAll();
+    }
 
 }
