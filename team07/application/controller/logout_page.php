@@ -21,7 +21,7 @@ class logout_page extends Controller
         if(isset($_SESSION['logged_in'])) {
             session_destroy();
             session_unset($_SESSION['logged_in']);
-
+            header('location: ' . URL . 'proto/index');
 
 
         }
