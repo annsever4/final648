@@ -68,45 +68,48 @@
         </form>
 	<!-- END OF LEFT NAV -->
 	<!-- =============== END NAV BAR BLOCK =============== -->
+<div class="container" style="background:#FFFFFF;margin:0;">
+
+<hgroup class="mb20">
+<h2 class="lead"><strong class="text-danger">#number</strong> results were found for the search for <strong class="text-danger">SearchTexts</strong></h2>
+</hgroup>
+
+<?php foreach ($apartments as $apartment) { ?>
+	<section class="col-xs-12 col-sm-6 col-md-12">
+		<article class="search-result row">
+			<div class="col-xs-12 col-sm-12 col-md-4">
+			<a href="#" title="Lorem ipsum" class="thumbnail">
+			<?php if (isset($apartment->image)) { ?>
+                        <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).
+                        '"max-height="300px" max-width="300px"/>' ?>
+                        <?php } ?>
+			</a>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-2">
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-7 excerpet">
+			<h3 style="margin-top:0px"><a href="#" title="address" style="width:96%"><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?></a></h3>
+
+			<span class="plus"><a href="#" title="bed" style="width:23%">Beds</i></a></span>
+			<span class="plus"><a href="#" title="bath" style="width:23%">Baths</a></span>
+			<span class="plus"><a href="#" title="size" style="width:23%"> Sq. Ft.</a></span>
+			<span class="plus"><a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope">  Message</i></a></span>			
+			<p> Additional Details</p>
+				
+			</div>
+		<span class="clearfix borda"></span>
+		</article>
+	</section>
+<?php } ?>
+</div>
 	
-	    <div class="col-md-8 inline" style="float:left; background:#FFFFFF">
 	    
 
 		<!-- ===================== START OF TABLE ================== -->
-		    <thead style="background-color: #ddd; font-weight: bold;">
 		    <!-- ============= TABLE ROW ============= -->
-	   
 	<!-- START LISTINGS DISPLAY --> 
-    	<?php foreach ($apartments as $apartment) { ?>
-        <div class="row" id="fancy-border">
-	    <div class="col-sm-3">
-                <?php if (isset($apartment->image)) { ?>
-                    <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).
-                        '"max-height="300px" max-width="300px"/>' ?>
-                <?php } ?>
- 	    </div>
-
-	    <div class="col-sm-8">
-			<div class="col-xs-9" id="pill-shape"><h5>TITLE</h5></div>   
-		    <!-- <div style="color:blue;"><?php if (isset($apartment->id)) echo htmlspecialchars($apartment->id, ENT_QUOTES, 'UTF-8'); ?></div> --> 
-			<div class="col-xs-9" id="pill-shape"><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?> </div>
-			<div class="col-xs-6 col-sm-2"  id="pill-shape">$<?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </div>
-			<div class="col-xs-6 col-sm-2" id="pill-shape">SQURE FEET</div>	    
-			<div class="col-sm-1"></div>
-
-			<div class="col-sm-2" id="pill-shape"> BEDS </div>
-			<div class="col-sm-1"></div>
-			<div class="col-sm-2"id="pill-shape"> BATHROOM </div>
-			<div class="col-sm-9"></div>
-			<div class="col-xs-5"id="pill-shape"> EMAIL</div>
-			<div class="col-sm-1"></div>
-			<div class="col-xs-5"id="pill-shape"> PHONE </div>
-	     </div>	
-        </div>
 	<!-- END OF LISTINGS DISPLAY -->
-    <?php } ?>
-		    </tbody>
-		    </table>
-    	    </div>
     <!--================= END OF TABLE ================== --> 
 <?php } ?>
