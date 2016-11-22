@@ -37,9 +37,9 @@
              <?php
              session_start();
 
-             <!-- if (isset($_SESSION['logged_in'])) { -->
+
              if($_SESSION['logged_in']){
-             
+
                  echo "hello ", htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8');
                  echo "<a href=" .URL. "logout_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Logout</a>";
              }
