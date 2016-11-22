@@ -1,6 +1,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" cro    ssorigin="anonymous">
 
+<style>
+    #nav-font{
+     font-size:15px;
+    }
 
+</style>
 
 <div class="fill-height" id="secondary_background">
     <!-- <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3> -->
@@ -14,15 +19,9 @@
             <option value="id">Listing ID</option>
         </select>
     </div>
-  <!-- 
-    <br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB,
-    <br />search by any character from its addresses:<br />
-    <br />566 46th Ave
-    <br />362 43rd Ave
-    <br />I am logged in
-  //-->
-
 </div>
+
+
 
 <!-- Output  Test -->
 
@@ -34,33 +33,37 @@
     <div class="row" style="display:flex">
 
 	<!-- ========== NAV BAR BLOCK =========== -->
-	    <div class="col-md-3" id="fancy-border" style="padding-top:0; margin-left:15px;display:flex;">
+	    <div class="col-md-3" id="fancy-border" style="padding-top:0; margin-left:15px;">
 	    	<div class="left-navigation" style="color:#330033;background-color:#FFFFFF">
 			    <ul style="list-style-type: none;">
-				<li style="font:bold;font-size:25px"> Listings Type </li>	
-				<li><input type="checkbox">Apartments</li>
-				<li><input type="checkbox">Houses</li>
-				<li><input type="checkbox">Room</li>
-				<li style="font:bold;font-size:25px"> Price Range </li>
-		<div class="row">
+				<hr>
+				<li style="font:bold;font-size:30px;margin-top:20px; margin-bottom:10px"> Listings Type </li>	
+				<li id="nav-font"><input type="checkbox">Apartments</li>
+				<li id="nav-font"><input type="checkbox">Houses</li>
+				<li id="nav-font"><input type="checkbox">Room</li>
+
+				<hr>	
+				<li style="font:bold;font-size:30px; margin-bottom:10px"> Price Range </li>
+		<li class="row">
 			<div class="col-md-4 form-group" style="color:#ffffff; max-width:40%;">
-			<label for="first_name">Min</label>
 			<input type="text" name="min_price" class="form-control" id="min_price" placeholder="min">
 			</div>
-
+			<div class="col-md-2" style="font-size:30px">to</div>
 			<div class="col-md-4 form-group" style="color:#ffffff; max-width:40%;">
-			<label for="last_name">max</label>
 			<input type="text" name="max_price" class="form-control" id="max_price" placeholder="max">
 			</div>
-		</div>
-				
-			<li style="font:bold;font-size:25px"> Amenities </li>
-			<li><input type="checkbox">Laundry On-Site</li>		
-			<li><input type="checkbox">Utilities</li>
-			<li><input type="checkbox">Private Room</li>
-			<li style="font:bold;font-size:25px"> Pets </li>
-			<li><input type="checkbox">Cat</li>
-			<li><input type="checkbox">Dogs</li>		
+		</li>
+			<hr>	
+			<li style="font:bold;font-size:30px; margin-bottom:10px"> Amenities </li>
+			<li id="nav-font"><input type="checkbox">Laundry On-Site</li>		
+			<li id="nav-font"><input type="checkbox">Utilities</li>
+			<li id="nav-font"><input type="checkbox">Private Room</li>
+			
+			<hr>
+			<li style="font:bold;font-size:30px; margin-bottom:10px"> Pets </li>
+			<li id="nav-font"><input type="checkbox">Cat</li>
+			<li id="nav-font"><input type="checkbox">Dogs</li>	
+			<hr>	
 		        </ul>
 	        </div>
 	    </div>
@@ -96,7 +99,6 @@
 			<span class="plus"><a href="#" title="bath" style="width:23%">Baths</a></span>
 			<span class="plus"><a href="#" title="size" style="width:23%"> Sq. Ft.</a></span>
 			<span class="plus"><a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope">  Message</i></a></span>			
-			<p> Additional Details</p>
 				
 			</div>
 		<span class="clearfix borda"></span>

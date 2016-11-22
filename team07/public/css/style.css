@@ -254,7 +254,9 @@ a:hover, a:active {
 
 #search-results{
  text-color:#FFFFFF;
- background:#FFFFFF;;
+ background:#FFFFFF;
 }
 
-
+#nav-font{
+ font-size:20px;
+}
