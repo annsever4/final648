@@ -22,7 +22,7 @@ class logout_page extends Controller
             session_destroy();
             session_unset();
 
-            header('location: ' . URL . 'proto/index');
+
 
         }
 

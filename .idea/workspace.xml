@@ -26,8 +26,8 @@
       <file leaf-file-name="logout_page.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/controller/logout_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,16 +48,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/team07/application/core/application.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,8 +123,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="28" />
+    <option name="x" value="64" />
+    <option name="y" value="79" />
     <option name="width" value="1273" />
     <option name="height" value="677" />
   </component>
@@ -570,15 +560,15 @@
       <workItem from="1479672701230" duration="7308000" />
       <workItem from="1479762856419" duration="9749000" />
       <workItem from="1479776848768" duration="5000" />
-      <workItem from="1479776855514" duration="4254000" />
+      <workItem from="1479776855514" duration="4364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39933000" />
+    <option name="totallyTimeSpent" value="40043000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="28" width="1273" height="677" extended-state="1" />
+    <frame x="64" y="79" width="1273" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19638649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1024,18 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/core/application.php">
+    <entry file="file://$PROJECT_DIR$/team07/application/view/rent/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="45" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1048,10 +1030,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/rent/index.php">
+    <entry file="file://$PROJECT_DIR$/team07/application/core/application.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1064,10 +1046,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/controller/logout_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
