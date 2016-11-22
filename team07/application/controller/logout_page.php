@@ -18,11 +18,12 @@ class logout_page extends Controller
 
     public function logoutRegisteredUser()
     {
+        if(isset($_SESSION['logged_in'])) {
+            session_destroy();
 
-        session_destroy();
-
-        $_SESSION['logged_in'] = '';
-
+            echo "<br> you are logged out. ";
+            
+        }
 
     }
 }
