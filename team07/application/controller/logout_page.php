@@ -21,7 +21,7 @@ class logout_page extends Controller
         if(isset($_SESSION['logged_in'])) {
             session_destroy();
 
-            echo "<br> you are logged out. ";
+            header('location: ' . URL . 'proto/index');
 
         }
 
