@@ -57,12 +57,6 @@ class Login_page extends Controller
         }
     }
 
-    public function logoutRegisteredUser(){
 
-        session_destroy();
-        $_SESSION['logged_in'] = false;
-
-
-    }
 
 }
