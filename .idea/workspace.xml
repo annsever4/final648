@@ -46,12 +46,14 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="185">
+              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1479773607000" expanded="true" signature="1718:1737" ph="..." />
+                <marker date="1479774041000" expanded="true" signature="1905:1924" ph="..." />
+                <marker date="1479774041000" expanded="true" signature="2091:2265" ph="..." />
+                <marker date="1479774041000" expanded="true" signature="2334:2647" ph="..." />
+                <marker date="1479774041000" expanded="true" signature="2402:2640" ph="..." />
               </folding>
             </state>
           </provider>
@@ -135,7 +137,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
+    <option name="x" value="178" />
     <option name="y" value="23" />
     <option name="width" value="1273" />
     <option name="height" value="677" />
@@ -392,15 +394,15 @@
       <workItem from="1479505177569" duration="2959000" />
       <workItem from="1479671037941" duration="328000" />
       <workItem from="1479672701230" duration="7308000" />
-      <workItem from="1479762856419" duration="7146000" />
+      <workItem from="1479762856419" duration="7582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33071000" />
+    <option name="totallyTimeSpent" value="33507000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="23" width="1273" height="677" extended-state="0" />
+    <frame x="178" y="23" width="1273" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04870385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -878,12 +880,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="185">
+          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1479773607000" expanded="true" signature="1718:1737" ph="..." />
+            <marker date="1479774041000" expanded="true" signature="1905:1924" ph="..." />
+            <marker date="1479774041000" expanded="true" signature="2091:2265" ph="..." />
+            <marker date="1479774041000" expanded="true" signature="2334:2647" ph="..." />
+            <marker date="1479774041000" expanded="true" signature="2402:2640" ph="..." />
           </folding>
         </state>
       </provider>
