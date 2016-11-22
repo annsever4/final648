@@ -15,9 +15,7 @@ class logout_page extends Controller
     require APP . 'view/_templates/header.php';
     require APP . 'view/logout_page/index.php';
     require APP . 'view/_templates/footer.php';
-    }
-
-    public function logoutRegisteredUser()
+        public function logoutRegisteredUser()
     {
         if(isset($_SESSION['logged_in'])) {
             ini_set('display_errors',1);
@@ -31,4 +29,9 @@ class logout_page extends Controller
         }
 
     }
+
+
+    }
+
+    
 }
