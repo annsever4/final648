@@ -37,9 +37,9 @@
 	     <div class="col-md-4 text-right" id="pills" style="margin-top:3%">
              <?php
 
-            session_start();
+             session_start();
 
-             if($_SESSION['logged_in']){
+             if(isset($_SESSION['logged_in'])){
 
                  echo "hello ", htmlspecialchars($_SESSION['user'], ENT_QUOTES, 'UTF-8');
                  echo "<a href=" .URL. "logout_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Logout</a>";
@@ -47,14 +47,14 @@
 
 
              else {
-                 
 
-                 echo "<a href=" .URL. "logout_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Login</a>";
+
+                 echo "<a href=" .URL. "login_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Login</a>";
 
 
              }
              ?>
-                <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Register</a>
+             <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Register</a>
             </div>
            </div>
          </div>
