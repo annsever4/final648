@@ -19,10 +19,11 @@ class logout_page extends Controller
     public function logoutRegisteredUser()
     {
         if(isset($_SESSION['logged_in'])) {
-            session_destroy();
+            session_start();
             session_unset($_SESSION['logged_in']);
+            session_destroy();
             header('location: ' . URL . 'proto/index');
-
+            exit();
 
         }
 

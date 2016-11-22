@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/team07/application/controller/logout_page.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -123,7 +123,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
+    <option name="x" value="277" />
     <option name="y" value="23" />
     <option name="width" value="1273" />
     <option name="height" value="677" />
@@ -560,15 +560,15 @@
       <workItem from="1479672701230" duration="7308000" />
       <workItem from="1479762856419" duration="9749000" />
       <workItem from="1479776848768" duration="5000" />
-      <workItem from="1479776855514" duration="4686000" />
+      <workItem from="1479776855514" duration="4809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40365000" />
+    <option name="totallyTimeSpent" value="40488000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="23" width="1273" height="677" extended-state="1" />
+    <frame x="277" y="23" width="1273" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19638649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1057,7 +1057,7 @@
     <entry file="file://$PROJECT_DIR$/team07/application/controller/logout_page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding />
         </state>
       </provider>
