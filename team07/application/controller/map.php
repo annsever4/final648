@@ -17,9 +17,10 @@ class map extends Controller
         require APP . 'view/_templates/footer.php';
     }
 
-    public function geocode($_POST['address']){
+    public function geocode(){
+        $address = strip_tags(Request::post('address'));
 
-        
+
         //url encode the address
         $address = urlencode($address);
 
