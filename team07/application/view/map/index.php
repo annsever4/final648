@@ -12,7 +12,7 @@
 
     if($_POST){
         //get latitude, longtitude and formatted address
-        $data_arr = geocode($_POST['address']);
+        $data_arr = geocode();
 
         //if able to geocode the address
         if($data_arr){
