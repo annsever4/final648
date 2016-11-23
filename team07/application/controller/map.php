@@ -21,13 +21,10 @@ class map extends Controller
         $address = strip_tags(Request::post('address'));
 
 
-        //url encode the address
-//        $address = urlencode($address);
-//        echo $address;
 
         //google map geocode api url
         $url = 'https://maps.googleapis.com/maps/api/geocode/json?address='.urlencode($address).'&key=AIzaSyDBA9EWB_zNWC6XjDu9mGyIuuV6QSL_ABM';
-        echo $url;
+//        echo $url;
 
         //get the json response
         $resp_json = file_get_contents($url);
@@ -41,6 +38,9 @@ class map extends Controller
             $lati = $resp['results'][0]['geometry']['location']['lat'];
             $longi = $resp['results'][0]['geometry']['location']['lng'];
             $formatted_address = $resp['results'][0]['formatted_address'];
+            echo $lati;
+            echo $longi;
+            echo $formatted_address;
 
             //Verify if data is complete
             if($lati && $longi && $formatted_address){
