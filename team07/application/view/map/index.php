@@ -31,9 +31,7 @@
     <div id='map-label'>Map shows approximate location.</div>
 
     <!-- JavaScript to show google map -->
-    <script src="http://maps.google.com/maps/api/js"></script>
-<!--     <script type="text/javascript">-->
-     <script src="<?php echo URL; ?>js/application.js">
+
         function init_map() {
             var myOptions = {
                 zoom: 14,
