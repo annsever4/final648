@@ -36,8 +36,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/map/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+            <state relative-caret-position="401">
+              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,7 +108,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-187" />
+    <option name="x" value="93" />
     <option name="y" value="23" />
     <option name="width" value="1263" />
     <option name="height" value="677" />
@@ -476,15 +476,15 @@
       <workItem from="1479762856419" duration="9749000" />
       <workItem from="1479776848768" duration="5000" />
       <workItem from="1479776855514" duration="8720000" />
-      <workItem from="1479867689132" duration="10302000" />
+      <workItem from="1479867689132" duration="10567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54701000" />
+    <option name="totallyTimeSpent" value="54966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-187" y="23" width="1263" height="677" extended-state="0" />
+    <frame x="93" y="23" width="1263" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18289787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -929,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/map/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+        <state relative-caret-position="401">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
         </state>
       </provider>
