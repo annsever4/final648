@@ -1,6 +1,6 @@
 
 
-<form action="<?php echo URL; ?> map/geocode" method="post">
+<form action="<?php echo URL; ?> map/index" method="post">
 
     <input type='text' name='address' placeholder='Enter any address here' />
     <input type='submit' value='Geocode!' />
