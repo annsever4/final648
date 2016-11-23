@@ -65,7 +65,7 @@
     ?>
 
 
-
+<?php if(isset($data_arr)) { ?>
 
     <!-- google map will be shown here -->
     <div id="gmap_canvas">Loading map...</div>
