@@ -21,9 +21,9 @@
             $longitude = $data_arr[1];
             $formatted_address = $data_arr[2];
 
-        }
-    }
-?>
+
+    ?>
+
 
 
 
@@ -61,8 +61,8 @@
 
     // if unable to geocode the address
     }else{
-    echo "No map found.";
-}
+        echo "No map found.";
+    }
 }
 ?>
 
