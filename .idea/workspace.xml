@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/map/index.php" afterPath="$PROJECT_DIR$/team07/application/view/map/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/controller/map.php" afterPath="$PROJECT_DIR$/team07/application/controller/map.php" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/view/map/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -93,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="map.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/controller/map.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="855">
+              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -125,8 +125,8 @@
         <option value="$PROJECT_DIR$/team07/application/controller/logout_page.php" />
         <option value="$PROJECT_DIR$/team07/application/controller/login_page.php" />
         <option value="$PROJECT_DIR$/team07/application/view/proto/index.php" />
-        <option value="$PROJECT_DIR$/team07/application/controller/map.php" />
         <option value="$PROJECT_DIR$/team07/application/view/map/index.php" />
+        <option value="$PROJECT_DIR$/team07/application/controller/map.php" />
       </list>
     </option>
   </component>
@@ -506,12 +506,12 @@
       <workItem from="1479762856419" duration="9749000" />
       <workItem from="1479776848768" duration="5000" />
       <workItem from="1479776855514" duration="8720000" />
-      <workItem from="1479867689132" duration="7826000" />
+      <workItem from="1479867689132" duration="7953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52225000" />
+    <option name="totallyTimeSpent" value="52352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="92" y="23" width="1220" height="677" extended-state="0" />
@@ -949,18 +949,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/controller/map.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/map/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/controller/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding />
         </state>
       </provider>
