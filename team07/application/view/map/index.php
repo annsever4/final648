@@ -1,10 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: lijie
- * Date: 11/22/16
- * Time: 9:46 PM
- */
 
 
 <form action="<?php echo URL; ?> map/geocode" method="post">
