@@ -31,6 +31,7 @@ class map extends Controller
 
         //get the json response
         $resp_json = file_get_contents($url);
+        echo $resp_json;
 
         //decode the json
         $resp = json_decode($resp_json, true);
