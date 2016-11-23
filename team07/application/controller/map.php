@@ -17,22 +17,21 @@ class map extends Controller
         require APP . 'view/_templates/footer.php';
 
 
-        
-        function geocode()
-        {
-            $address = strip_tags(Request::post('address'));
 
 
-            //google map geocode api url
-            $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($address) . '&key=AIzaSyDBA9EWB_zNWC6XjDu9mGyIuuV6QSL_ABM';
+        $address = strip_tags(Request::post('address'));
+
+
+        //google map geocode api url
+        $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($address) . '&key=AIzaSyDBA9EWB_zNWC6XjDu9mGyIuuV6QSL_ABM';
 //        echo $url;
 
-            //get the json response
-            $resp_json = file_get_contents($url);
+        //get the json response
+        $resp_json = file_get_contents($url);
 //        echo $resp_json;
 
-            //decode the json
-            $resp = json_decode($resp_json, true);
+        //decode the json
+        $resp = json_decode($resp_json, true);
 
             if ($resp['status'] == 'OK') {
                 //get the lati and longti
@@ -67,6 +66,6 @@ class map extends Controller
 
         }
 
-    }
+
 
 }
