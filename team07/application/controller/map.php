@@ -26,7 +26,7 @@ class map extends Controller
         echo $address;
 
         //google map geocode api url
-        $url = "http://maps.google.com/maps/api/geocode/json?address={$address}";
+        $url = 'http://maps.google.com/maps/api/geocode/json?address=$address';
         echo $url;
 
         //get the json response
