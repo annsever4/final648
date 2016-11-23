@@ -55,11 +55,6 @@
             return false;
         }
 
-
-
-
-
-
         //if able to geocode the address
 
         $latitude = $data_arr[0];
@@ -77,6 +72,7 @@
     <div id='map-label'>Map shows approximate location.</div>
 
     <!-- JavaScript to show google map -->
+    <script src="<?php echo URL; ?>js/application.js"></script>
 
         function init_map() {
             var myOptions = {
