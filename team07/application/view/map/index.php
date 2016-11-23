@@ -10,16 +10,15 @@
 
 <?php
 
-    if($_POST){
-
+    if($_POST) {
 
 
         //if able to geocode the address
 
-            $latitude = $data_arr[0];
-            $longitude = $data_arr[1];
-            $formatted_address = $data_arr[2];
-
+        $latitude = $data_arr[0];
+        $longitude = $data_arr[1];
+        $formatted_address = $data_arr[2];
+    }
 
     ?>
 
