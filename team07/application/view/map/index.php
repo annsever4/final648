@@ -7,7 +7,6 @@
 </form>
 
 
-//Output google map
 
 <?php
 

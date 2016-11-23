@@ -17,7 +17,9 @@ class map extends Controller
         require APP . 'view/_templates/footer.php';
     }
 
-    public function geocode($address){
+    public function geocode($_POST['address']){
+
+        
         //url encode the address
         $address = urlencode($address);
 
