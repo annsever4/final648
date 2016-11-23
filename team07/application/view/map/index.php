@@ -53,14 +53,7 @@
         google.maps.event.addDomListener(window, 'load', init_map);
     </script>
 
-<?php
 
-    // if unable to geocode the address
-    }else{
-        echo "No map found.";
-    }
-}
-?>
 
 
 
