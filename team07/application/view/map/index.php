@@ -73,8 +73,9 @@
 
     <!-- JavaScript to show google map -->
     <script src="<?php echo URL; ?>js/application.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
 
-        function init_map() {
+function init_map() {
             var myOptions = {
                 zoom: 14,
                 center: new google.maps.LatLng(<?php echo $latitude; ?>, <?php echo $longitude; ?>),
