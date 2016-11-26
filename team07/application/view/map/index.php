@@ -64,14 +64,14 @@
 
     ?>
 
-
+<body onload="initialize()">
 <?php if(isset($data_arr)) { ?>
 
     <!-- google map will be shown here -->
-    <body onload="initialize()">
+
     <div id="gmap_canvas">Loading map...</div>
     <div id='map-label'>Map shows approximate location.</div>
-    </body>
+
 
     <!-- JavaScript to show google map -->
     <script src="<?php echo URL; ?>js/application.js"></script>
@@ -123,3 +123,4 @@ function initialize() {
 
 ?>
 
+</body>
