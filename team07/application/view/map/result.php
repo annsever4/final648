@@ -68,7 +68,7 @@
 <?php if(isset($data_arr)) { ?>
 
     <!-- google map will be shown here -->
-
+    <body onload=""
     <div id="gmap_canvas">Loading map...</div>
     <div id='map-label'>Map shows approximate location.</div>
 
@@ -111,6 +111,7 @@
         map = new google.maps.Map(document.getElementById('gmap_canvas'), mapOptions);
 
     }
+    initialize();
     </script>
 
 
