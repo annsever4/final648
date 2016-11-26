@@ -101,6 +101,7 @@
 
     <script>
     var googleMap = function initialize() {
+        console.log("I am here");
         geocoder = new google.maps.Geocoder();
         var latlng = new google.maps.LatLng(53.2948557, -6.139267399999994);
         var mapOptions = {
