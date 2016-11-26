@@ -15,7 +15,7 @@
         $address = strip_tags(Request::post('address'));
 
         //google map geocode api url
-        $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($address) . '&key=AIzaSyDBA9EWB_zNWC6XjDu9mGyIuuV6QSL_ABM';
+        $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($address) . '&key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ';
 //        echo $url;
 
         //get the json response
