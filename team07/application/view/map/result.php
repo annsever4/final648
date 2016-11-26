@@ -100,7 +100,7 @@
     //    </script>
 
     <script>
-    function initialize() {
+    var googleMap = function initialize() {
         geocoder = new google.maps.Geocoder();
         var latlng = new google.maps.LatLng(53.2948557, -6.139267399999994);
         var mapOptions = {
@@ -111,7 +111,7 @@
         map = new google.maps.Map(document.getElementById('gmap_canvas'), mapOptions);
 
     }
-    initialize();
+   googleMap();
     </script>
 
 
