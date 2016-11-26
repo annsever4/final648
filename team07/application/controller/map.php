@@ -66,6 +66,13 @@ class map extends Controller
 //
         }
 
+    public function result(){
+        require APP . 'view/_templates/header.php';
+        require APP . 'view/map/result.php';
+        require APP . 'view/_templates/footer.php';
+
+    }
+
 
 
 }
