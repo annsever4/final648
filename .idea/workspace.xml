@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/_templates/header.php" afterPath="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/map/result.php" afterPath="$PROJECT_DIR$/team07/application/view/map/result.php" />
     </list>
     <ignored path="f16g07.iws" />
@@ -47,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="128" selection-start-line="11" selection-start-column="128" selection-end-line="11" selection-end-column="128" />
               <folding />
             </state>
           </provider>
@@ -56,13 +57,13 @@
       <file leaf-file-name="result.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
-                <marker date="1480280841000" expanded="true" signature="1539:1876" ph="..." />
-                <marker date="1480280841000" expanded="true" signature="1566:1856" ph="{...}" />
-                <marker date="1480280841000" expanded="true" signature="1688:1742" ph="{&quot;center&quot;: uluru...}" />
-                <marker date="1480280841000" expanded="true" signature="1789:1846" ph="{&quot;position&quot;: uluru...}" />
+                <marker date="1480280977000" expanded="true" signature="1539:1876" ph="..." />
+                <marker date="1480280977000" expanded="true" signature="1566:1856" ph="{...}" />
+                <marker date="1480280977000" expanded="true" signature="1688:1742" ph="{&quot;center&quot;: uluru...}" />
+                <marker date="1480280977000" expanded="true" signature="1789:1846" ph="{&quot;position&quot;: uluru...}" />
               </folding>
             </state>
           </provider>
@@ -71,7 +72,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="101">
               <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="33" />
               <folding />
             </state>
@@ -124,7 +125,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="107" />
+    <option name="x" value="160" />
     <option name="y" value="23" />
     <option name="width" value="1128" />
     <option name="height" value="677" />
@@ -350,15 +351,15 @@
       <workItem from="1479867689132" duration="11265000" />
       <workItem from="1480200626786" duration="4162000" />
       <workItem from="1480208201896" duration="731000" />
-      <workItem from="1480209016038" duration="7835000" />
+      <workItem from="1480209016038" duration="7968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68392000" />
+    <option name="totallyTimeSpent" value="68525000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="107" y="23" width="1128" height="677" extended-state="0" />
+    <frame x="160" y="23" width="1128" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20478724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -761,6 +762,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/view/proto/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="128" selection-start-line="11" selection-start-column="128" selection-end-line="11" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -777,39 +794,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/proto/results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
+        <state relative-caret-position="101">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
-            <marker date="1480280841000" expanded="true" signature="1539:1876" ph="..." />
-            <marker date="1480280841000" expanded="true" signature="1566:1856" ph="{...}" />
-            <marker date="1480280841000" expanded="true" signature="1688:1742" ph="{&quot;center&quot;: uluru...}" />
-            <marker date="1480280841000" expanded="true" signature="1789:1846" ph="{&quot;position&quot;: uluru...}" />
+            <marker date="1480280977000" expanded="true" signature="1539:1876" ph="..." />
+            <marker date="1480280977000" expanded="true" signature="1566:1856" ph="{...}" />
+            <marker date="1480280977000" expanded="true" signature="1688:1742" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1480280977000" expanded="true" signature="1789:1846" ph="{&quot;position&quot;: uluru...}" />
           </folding>
         </state>
       </provider>
