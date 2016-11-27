@@ -30,7 +30,7 @@
             echo $longi;
             echo $formatted_address;
             echo"
-            <div>
+            <div id = 'map'>
             Here I am from php
             </div>
             ";
