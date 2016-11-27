@@ -56,9 +56,14 @@
       <file leaf-file-name="result.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="30">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <marker date="1480230173000" expanded="true" signature="1537:1871" ph="..." />
+                <marker date="1480230173000" expanded="true" signature="1567:1861" ph="{...}" />
+                <marker date="1480230173000" expanded="true" signature="1687:1745" ph="{&quot;certer&quot;: uluru...}" />
+                <marker date="1480230173000" expanded="true" signature="1792:1853" ph="{&quot;position&quot;: uluru...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,7 +124,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="99" />
+    <option name="x" value="391" />
     <option name="y" value="23" />
     <option name="width" value="1056" />
     <option name="height" value="677" />
@@ -345,15 +350,15 @@
       <workItem from="1479867689132" duration="11265000" />
       <workItem from="1480200626786" duration="4162000" />
       <workItem from="1480208201896" duration="731000" />
-      <workItem from="1480209016038" duration="5866000" />
+      <workItem from="1480209016038" duration="6026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66423000" />
+    <option name="totallyTimeSpent" value="66583000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="23" width="1056" height="677" extended-state="0" />
+    <frame x="391" y="23" width="1056" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -798,9 +803,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <marker date="1480230173000" expanded="true" signature="1537:1871" ph="..." />
+            <marker date="1480230173000" expanded="true" signature="1567:1861" ph="{...}" />
+            <marker date="1480230173000" expanded="true" signature="1687:1745" ph="{&quot;certer&quot;: uluru...}" />
+            <marker date="1480230173000" expanded="true" signature="1792:1853" ph="{&quot;position&quot;: uluru...}" />
+          </folding>
         </state>
       </provider>
     </entry>
