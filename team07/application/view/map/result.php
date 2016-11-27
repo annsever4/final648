@@ -35,7 +35,8 @@
             
                var iDiv = document.createElement('div');
                iDiv.id = 'map';
-               document.getElementByTagName('body').appendChild(iDiv);
+               
+               document.getElementByTagName('fill-height center').appendChild(iDiv);
             </script>
             
             ";
