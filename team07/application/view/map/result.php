@@ -33,7 +33,7 @@
             <div>
             Here I am from php
             </div>
-            "
+            ";
 
             //Verify if data is complete
             if ($lati && $longi && $formatted_address) {
