@@ -70,21 +70,27 @@
 </body>
 
     <script>
-    function initialize () {
-        console.log("I am here");
-        geocoder = new google.maps.Geocoder();
-
-        var latlng = new google.maps.LatLng(53.2948557, -6.139267399999994);
-        console.log(latlng);
-        var mapOptions = {
-            zoom: 10,
-            center: latlng,
+    function init_map(){
+        var myOptions = {
+            zoom: 14,
+            center: new google.maps.LatLng(<?php echo $latitude; ?>, <?php echo $longitude; ?>),
             mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        map = new google.maps.Map(document.getElementById('gmap_canvas'), mapOptions);
+            };
+        map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+        marker = new google.maps.Marker({
+            map:map,
+            position: new google.maps.LatLng(<?php echo $latitude; ?>, <?php echo $longitude; ?>)
+        });
+        infowindow = new google.maps.InfoWindow({
+            content: "<?php echo $formatted_address; ?>"
+        });
+        google.maps.event.addListener(marker, "click", function () {
+            infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
 
     }
-   initialize();
+    google.maps.event.addDomListener(window, 'load', init_map);
     </script>
 
 
