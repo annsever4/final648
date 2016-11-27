@@ -64,24 +64,15 @@ echo "
 <script>
       function initMap() {
         
-        var myOptions = {
-            zoom:14,
-            center: new google.maps.LatLng(-34.397,150.644),
-        };
-        
-        map = new google.maps.Map(document.getElementById('map'),myOptions);
-        marker = new google.maps.Marker({
-          
-          map: map,
-          position:new google.maps.LatLng(<?php echo $latitude;?>,<?php echo $longitude;?>)
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
         });
-        infowindow=new google.maps.infoWindow({
-            content:'<?php echo $formatted address;?>'
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
         });
-        google.maps.event.addListener(marker,'click', function(){
-            infoWindow.open(map,marker);
-        });
-        infoWindow.open(map,marker);
       }
 <!-- initMap(); -->
 google.maps.event.addDomListener(window,'load',initMap);

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/map/result.php" afterPath="$PROJECT_DIR$/team07/application/view/map/result.php" />
     </list>
     <ignored path="f16g07.iws" />
@@ -56,27 +57,17 @@
       <file leaf-file-name="result.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+            <state relative-caret-position="251">
+              <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
               <folding>
-                <marker date="1480286259000" expanded="true" signature="1026:1038" ph="..." />
-                <marker date="1480286259000" expanded="true" signature="1026:1052" ph="..." />
-                <marker date="1480286259000" expanded="true" signature="1053:1103" ph="..." />
-                <marker date="1480286259000" expanded="true" signature="1688:2498" ph="..." />
-                <marker date="1480286259000" expanded="true" signature="1715:1734" ph="{...}" />
-                <marker date="1480286259000" expanded="true" signature="1715:2268" ph="{...}" />
-                <marker date="1480286259000" expanded="true" signature="1715:2274" ph="{...}" />
-                <marker date="1480286259000" expanded="true" signature="1715:2386" ph="{...}" />
-                <marker date="1480286259000" expanded="true" signature="1750:1816" ph="{...}" />
-                <marker date="1480286259000" expanded="true" signature="1750:1824" ph="{...}" />
-                <marker date="1480286259000" expanded="true" signature="1750:1843" ph="{...}" />
-                <marker date="1480286259000" expanded="true" signature="1971:2057" ph="{&quot;map&quot;: map...}" />
-                <marker date="1480286259000" expanded="true" signature="1971:2058" ph="{&quot;map&quot;: map...}" />
-                <marker date="1480286259000" expanded="true" signature="1971:2105" ph="{&quot;position&quot;: uluru...}" />
-                <marker date="1480286259000" expanded="true" signature="2154:2176" ph="{...}" />
-                <marker date="1480286259000" expanded="true" signature="2154:2209" ph="{&quot;content&quot;: '&lt;?php echo EXTERNAL_FRAGMENT address;?&gt;...}" />
-                <marker date="1480286259000" expanded="true" signature="2154:2220" ph="{&quot;content&quot;: content...}" />
-                <marker date="1480286259000" expanded="true" signature="2287:2339" ph="{...}" />
+                <marker date="1480286656000" expanded="true" signature="1026:1038" ph="..." />
+                <marker date="1480286656000" expanded="true" signature="1026:1052" ph="..." />
+                <marker date="1480286656000" expanded="true" signature="1053:1103" ph="..." />
+                <marker date="1480286656000" expanded="true" signature="1688:2126" ph="..." />
+                <marker date="1480286656000" expanded="true" signature="1715:1734" ph="{...}" />
+                <marker date="1480286656000" expanded="true" signature="1715:2014" ph="{...}" />
+                <marker date="1480286656000" expanded="true" signature="1846:1900" ph="{&quot;center&quot;: uluru...}" />
+                <marker date="1480286656000" expanded="true" signature="1947:2004" ph="{&quot;position&quot;: uluru...}" />
               </folding>
             </state>
           </provider>
@@ -149,7 +140,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="193" />
+    <option name="x" value="274" />
     <option name="y" value="23" />
     <option name="width" value="1010" />
     <option name="height" value="677" />
@@ -415,15 +406,15 @@
       <workItem from="1479867689132" duration="11265000" />
       <workItem from="1480200626786" duration="4162000" />
       <workItem from="1480208201896" duration="731000" />
-      <workItem from="1480209016038" duration="12771000" />
+      <workItem from="1480209016038" duration="13166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73328000" />
+    <option name="totallyTimeSpent" value="73723000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="23" width="1010" height="677" extended-state="0" />
+    <frame x="274" y="23" width="1010" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22871287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -868,27 +859,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        <state relative-caret-position="251">
+          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
           <folding>
-            <marker date="1480286259000" expanded="true" signature="1026:1038" ph="..." />
-            <marker date="1480286259000" expanded="true" signature="1026:1052" ph="..." />
-            <marker date="1480286259000" expanded="true" signature="1053:1103" ph="..." />
-            <marker date="1480286259000" expanded="true" signature="1688:2498" ph="..." />
-            <marker date="1480286259000" expanded="true" signature="1715:1734" ph="{...}" />
-            <marker date="1480286259000" expanded="true" signature="1715:2268" ph="{...}" />
-            <marker date="1480286259000" expanded="true" signature="1715:2274" ph="{...}" />
-            <marker date="1480286259000" expanded="true" signature="1715:2386" ph="{...}" />
-            <marker date="1480286259000" expanded="true" signature="1750:1816" ph="{...}" />
-            <marker date="1480286259000" expanded="true" signature="1750:1824" ph="{...}" />
-            <marker date="1480286259000" expanded="true" signature="1750:1843" ph="{...}" />
-            <marker date="1480286259000" expanded="true" signature="1971:2057" ph="{&quot;map&quot;: map...}" />
-            <marker date="1480286259000" expanded="true" signature="1971:2058" ph="{&quot;map&quot;: map...}" />
-            <marker date="1480286259000" expanded="true" signature="1971:2105" ph="{&quot;position&quot;: uluru...}" />
-            <marker date="1480286259000" expanded="true" signature="2154:2176" ph="{...}" />
-            <marker date="1480286259000" expanded="true" signature="2154:2209" ph="{&quot;content&quot;: '&lt;?php echo EXTERNAL_FRAGMENT address;?&gt;...}" />
-            <marker date="1480286259000" expanded="true" signature="2154:2220" ph="{&quot;content&quot;: content...}" />
-            <marker date="1480286259000" expanded="true" signature="2287:2339" ph="{...}" />
+            <marker date="1480286656000" expanded="true" signature="1026:1038" ph="..." />
+            <marker date="1480286656000" expanded="true" signature="1026:1052" ph="..." />
+            <marker date="1480286656000" expanded="true" signature="1053:1103" ph="..." />
+            <marker date="1480286656000" expanded="true" signature="1688:2126" ph="..." />
+            <marker date="1480286656000" expanded="true" signature="1715:1734" ph="{...}" />
+            <marker date="1480286656000" expanded="true" signature="1715:2014" ph="{...}" />
+            <marker date="1480286656000" expanded="true" signature="1846:1900" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1480286656000" expanded="true" signature="1947:2004" ph="{&quot;position&quot;: uluru...}" />
           </folding>
         </state>
       </provider>
