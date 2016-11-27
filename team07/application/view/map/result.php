@@ -50,7 +50,7 @@
         }
 
 
-
+?>
 
 
 echo "<script language='javascript'>
@@ -75,7 +75,7 @@ echo "<script language='javascript'>
 
 
 
-
+<?php
 
 
     }

@@ -56,14 +56,14 @@
       <file leaf-file-name="result.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="341">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               <folding>
-                <marker date="1480230542000" expanded="true" signature="1537:1892" ph="..." />
-                <marker date="1480230542000" expanded="true" signature="1559:1892" ph="..." />
-                <marker date="1480230542000" expanded="true" signature="1588:1882" ph="{...}" />
-                <marker date="1480230542000" expanded="true" signature="1708:1766" ph="{&quot;certer&quot;: uluru...}" />
-                <marker date="1480230542000" expanded="true" signature="1813:1874" ph="{&quot;position&quot;: uluru...}" />
+                <marker date="1480230731000" expanded="true" signature="1539:1894" ph="..." />
+                <marker date="1480230731000" expanded="true" signature="1561:1894" ph="..." />
+                <marker date="1480230731000" expanded="true" signature="1590:1884" ph="{...}" />
+                <marker date="1480230731000" expanded="true" signature="1710:1768" ph="{&quot;certer&quot;: uluru...}" />
+                <marker date="1480230731000" expanded="true" signature="1815:1876" ph="{&quot;position&quot;: uluru...}" />
               </folding>
             </state>
           </provider>
@@ -351,12 +351,12 @@
       <workItem from="1479867689132" duration="11265000" />
       <workItem from="1480200626786" duration="4162000" />
       <workItem from="1480208201896" duration="731000" />
-      <workItem from="1480209016038" duration="6393000" />
+      <workItem from="1480209016038" duration="6582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66950000" />
+    <option name="totallyTimeSpent" value="67139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="253" y="23" width="1056" height="677" extended-state="0" />
@@ -804,14 +804,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="341">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding>
-            <marker date="1480230542000" expanded="true" signature="1537:1892" ph="..." />
-            <marker date="1480230542000" expanded="true" signature="1559:1892" ph="..." />
-            <marker date="1480230542000" expanded="true" signature="1588:1882" ph="{...}" />
-            <marker date="1480230542000" expanded="true" signature="1708:1766" ph="{&quot;certer&quot;: uluru...}" />
-            <marker date="1480230542000" expanded="true" signature="1813:1874" ph="{&quot;position&quot;: uluru...}" />
+            <marker date="1480230731000" expanded="true" signature="1539:1894" ph="..." />
+            <marker date="1480230731000" expanded="true" signature="1561:1894" ph="..." />
+            <marker date="1480230731000" expanded="true" signature="1590:1884" ph="{...}" />
+            <marker date="1480230731000" expanded="true" signature="1710:1768" ph="{&quot;certer&quot;: uluru...}" />
+            <marker date="1480230731000" expanded="true" signature="1815:1876" ph="{&quot;position&quot;: uluru...}" />
           </folding>
         </state>
       </provider>
