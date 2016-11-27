@@ -48,8 +48,7 @@
         }
 
 
-        <
-        !--google map will be shown here-->
+        <!--google map will be shown here-->
 
     <div id = "map" > Loading map...</div >
     <div id = 'map-label' > Map shows approximate location .</div >
