@@ -72,6 +72,7 @@ echo "
     }
 
 </script>
+<script async defer src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ&callback=initMap\"></script>
 ";
 
 
