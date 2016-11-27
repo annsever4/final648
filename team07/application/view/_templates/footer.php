@@ -16,7 +16,7 @@
     <script src="<?php echo URL; ?>js/application.js"></script>
     <script src="<?php echo URL; ?>js/jquery-3.1.1.js"></script>
     <script src="<?php echo URL; ?>js/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ&"></script>
     <script>
         $("#registrationForm").validate();
     </script>
