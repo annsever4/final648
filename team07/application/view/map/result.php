@@ -29,8 +29,11 @@
             echo $lati;
             echo $longi;
             echo $formatted_address;
-            echo "here I am";
-
+            echo"
+            <div>
+            Here I am from php
+            </div>
+            "
 
             //Verify if data is complete
             if ($lati && $longi && $formatted_address) {
