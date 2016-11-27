@@ -68,7 +68,7 @@ echo "
         <!-- var center = {lat: parseFloat('<?php echo $lati;?>'), lng: parseFloat('<?php echo $longi;?>')}; -->
         var center= new google.maps.LatLng(parseFloat('<?php echo $lati;?>'),parseFloat('<?php echo $longi;?>')),
 
-        console.log(center);
+        
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: center
