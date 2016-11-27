@@ -50,10 +50,12 @@
         }
 
 
-?>
 
 
-echo "<script language='javascript'>
+
+echo "
+
+<script language='javascript'>
     function initMap()
     {
         var uluru = {lat:-25.363, lng: 131.044};
@@ -75,7 +77,7 @@ echo "<script language='javascript'>
 
 
 
-<?php
+
 
 
     }
