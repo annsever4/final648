@@ -3,8 +3,8 @@
  */
 $(function(){
     // if there are results rows on a page it  adds the on click method required to call the details controller
-    if($(".row")[0]) {
-        $('.row').on('click', function () {
+    if($(".result_button")[0]) {
+        $('.result_button').on('click', function () {
             var listing_id = $(this).attr('id');
             console.log("listing_id: " +listing_id);
 
