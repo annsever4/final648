@@ -56,15 +56,15 @@
       <file leaf-file-name="result.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
               <folding>
-                <marker date="1480281213000" expanded="true" signature="1539:1936" ph="..." />
-                <marker date="1480281213000" expanded="true" signature="1566:1638" ph="{...}" />
-                <marker date="1480281213000" expanded="true" signature="1566:1648" ph="{...}" />
-                <marker date="1480281213000" expanded="true" signature="1566:1916" ph="{...}" />
-                <marker date="1480281213000" expanded="true" signature="1748:1802" ph="{&quot;center&quot;: uluru...}" />
-                <marker date="1480281213000" expanded="true" signature="1849:1906" ph="{&quot;position&quot;: uluru...}" />
+                <marker date="1480281301000" expanded="true" signature="1539:1919" ph="..." />
+                <marker date="1480281301000" expanded="true" signature="1566:1638" ph="{...}" />
+                <marker date="1480281301000" expanded="true" signature="1566:1648" ph="{...}" />
+                <marker date="1480281301000" expanded="true" signature="1566:1899" ph="{...}" />
+                <marker date="1480281301000" expanded="true" signature="1731:1785" ph="{&quot;center&quot;: uluru...}" />
+                <marker date="1480281301000" expanded="true" signature="1832:1889" ph="{&quot;position&quot;: uluru...}" />
               </folding>
             </state>
           </provider>
@@ -352,12 +352,12 @@
       <workItem from="1479867689132" duration="11265000" />
       <workItem from="1480200626786" duration="4162000" />
       <workItem from="1480208201896" duration="731000" />
-      <workItem from="1480209016038" duration="8180000" />
+      <workItem from="1480209016038" duration="8265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68737000" />
+    <option name="totallyTimeSpent" value="68822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="160" y="23" width="1128" height="677" extended-state="0" />
@@ -805,15 +805,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
           <folding>
-            <marker date="1480281213000" expanded="true" signature="1539:1936" ph="..." />
-            <marker date="1480281213000" expanded="true" signature="1566:1638" ph="{...}" />
-            <marker date="1480281213000" expanded="true" signature="1566:1648" ph="{...}" />
-            <marker date="1480281213000" expanded="true" signature="1566:1916" ph="{...}" />
-            <marker date="1480281213000" expanded="true" signature="1748:1802" ph="{&quot;center&quot;: uluru...}" />
-            <marker date="1480281213000" expanded="true" signature="1849:1906" ph="{&quot;position&quot;: uluru...}" />
+            <marker date="1480281301000" expanded="true" signature="1539:1919" ph="..." />
+            <marker date="1480281301000" expanded="true" signature="1566:1638" ph="{...}" />
+            <marker date="1480281301000" expanded="true" signature="1566:1648" ph="{...}" />
+            <marker date="1480281301000" expanded="true" signature="1566:1899" ph="{...}" />
+            <marker date="1480281301000" expanded="true" signature="1731:1785" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1480281301000" expanded="true" signature="1832:1889" ph="{&quot;position&quot;: uluru...}" />
           </folding>
         </state>
       </provider>
