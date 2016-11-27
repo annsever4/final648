@@ -18,6 +18,9 @@ class Details extends Controller
             //AS OF NOW THE DETAILS PAGE HAS A CUSTOM HEADER
             //TODO separate into a details_header in _template or something of the like
             #require APP . 'view/_templates/header.php';
+
+            echo "<script>console.log(".$listing->address.")</script>";
+
             require APP . 'view/details/index.php';
             require APP . 'view/_templates/footer.php';
         } else {

@@ -78,7 +78,7 @@ class Model
 
         $query = $this->db->prepare($sql);
 
-        //replaces first ? in string with the variable $listing_id
+                //replaces first ? in string with the variable $listing_id
         $query -> bindValue(1, $listing_id);
 
         $query -> execute();
