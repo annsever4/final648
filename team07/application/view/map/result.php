@@ -66,8 +66,7 @@ echo "
         
         var myOptions = {
             zoom:14,
-            center: new google.maps.LatLng(<?php echo $latitude;?>,<?php echo $longitude;?>),
-            mapTypeId:google.maps.MapTypeId.ROADMAP
+            center: new google.maps.LatLng(-34.397,150.644),
         };
         
         map = new google.maps.Map(document.getElementById('map'),myOptions);
