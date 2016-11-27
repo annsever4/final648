@@ -6,9 +6,10 @@ $(function(){
     if($(".row")[0]) {
         $('.row').on('click', function () {
             var listing_id = $(this).attr('id');
+            console.log(listing_id);
 
             $.ajax({
-                url: url + "details.php",
+                url: url + "details",
                 type: "POST",
                 data: {listing_detail_id: listing_id},
 
