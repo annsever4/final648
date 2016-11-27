@@ -1,7 +1,7 @@
 
 <div id = "gmap" > Loading map...</div >
 <div id = 'map-lable' > Map shows approximate location .</div >
-<div id = 'map'></div>
+
 
 
 <?php
