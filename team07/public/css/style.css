@@ -234,3 +234,8 @@ a:hover, a:active {
 background:#FFCC33;margin-top:5px;padding:2%
 display:inline-block;
 }
+
+#map{
+    height:400px;
+    width:100%;
+}
