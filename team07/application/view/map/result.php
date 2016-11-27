@@ -5,7 +5,7 @@
  * Date: 11/26/16
  * Time: 3:14 PM
  */
-<body onload="initialize()">
+<!--<body onload="initialize()">-->
 
 
 <?php
@@ -67,7 +67,7 @@
 
 
 
-</body>
+<!--</body>-->
 
     <script>
     function init_map(){
