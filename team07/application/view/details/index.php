@@ -33,8 +33,8 @@
     <!-- Portfolio Item Heading -->
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Listing Title
-                <small>address</small>
+            <h1 class="page-header"><?php if(isset($listing->title)) echo htmlspecialchars($listing->title, ENT_QUOTES, 'UTF-8'); ?>
+                <small><?php if(isset($listing->address)) echo htmlspecialchars($listing->address, ENT_QUOTES, 'UTF-8'); ?>></small>
             </h1>
         </div>
     </div>
@@ -44,18 +44,20 @@
     <div class="row">
 
         <div class="col-md-6">
+            <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($listing->image).
+                '"max-height="750px" max-width="500px" class = "img-responsive"/>' ?>
             <img class="img-responsive" src="http://placehold.it/750x500" alt="">
         </div>
 
         <div class="col-md-6">
             <h3>Listing Description</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+            <p><?php if (isset($listing->description)) echo htmlspecialchars($listing->id, ENT_QUOTES, 'UTF-8'); ?></p>
             <h3>Listing Details</h3>
             <ul>
-                <li>Square Feet: </li>
-                <li>Price: </li>
-                <li>Beds: </li>
-                <li>Bathrooms: </li>
+                <li>Square Feet: TODO ADD SQUARE FEET TO LISTINGS TABLE AND LISTING FORM </li>
+                <li>Price: <?php if (isset($listing->price)) echo htmlspecialchars($listing->id, ENT_QUOTES, 'UTF-8'); ?> </li>
+                <li>Beds: TODO: ADD BEDS COL IN DATABASE AND TO ADD LISTING FORM </li>
+                <li>Bathrooms: TODO: ADD # OF BATHROOMS TO LISTINGS TABLE AND LISTINGS FORM </li>
             </ul>
         </div>
 
@@ -66,7 +68,7 @@
             <h2 class="page-header">Location</h2>
         </div>
         <div class="col-md-6">
-            <p>Nearby Points of Interest</p>
+            <p>TODO ADD STRING TO TABLE FOR FOLLOWING VALUES: Nearby Points of Interest</p>
             <ul>
                 <li>List of points of interest
                 </li>
@@ -76,7 +78,7 @@
                 <li>grocery stores?</li>
                 <li>how close to school?</li>
             </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            <p>TODO FIGURE OUT WHAT TO PUT HERE: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
         </div>
         <div class="col-md-6">
             <img class="img-responsive" src="http://placehold.it/700x450" alt="">
@@ -131,7 +133,9 @@
                     <h4><i class="fa fa-fw fa-compass"></i> Contact Information</h4>
                 </div>
                 <div class="panel-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                    <p>NAME: <?php if(isset($listing->first_name)) echo htmlspecialchars($listing->first_name, ENT_QUOTES, 'UTF-8')." ".htmlspecialchars($listing->last_name,ENT_QUOTES,'UTF-8'); ?></p>
+                    <p>EMAIL: <?php if(isset($listing->email)) echo htmlspecialchars($listing->email, ENT_QUOTES, 'UTF-8'); ?></p>
+                    <p> PHONE: <?php if(isset($listing->phone_number)) echo htmlspecialchars($listing->phone_number, ENT_QUOTES, 'UTF-8') ?> </p>
                     <!-- !!!!!!! Connect Messages !!!!!!!!! -->
                     <a href="#" class="btn btn-default">Message</a>
                 </div>

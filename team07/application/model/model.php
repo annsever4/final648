@@ -71,8 +71,10 @@ class Model
     //gets details of a particular listing
 
     public function getDetails($listing_id){
-        $sql = "SELECT listings.*, images.image FROM listings".
-            " INNER JOIN images ON listings.image_id = images.id WHERE listings.id = ?";
+        $sql = "SELECT listings.*, images.image, member_user.id, member_user.email, member_user.first_name, member_user.last_name, member_user.phone_number FROM listings".
+            " INNER JOIN images ON listings.image_id = images.id".
+            " INNER JOIN member_user ON member_user.id = listings.owner_id".
+            " WHERE listings.id = ?";
 
         $query = $this->db->prepare($sql);
 
