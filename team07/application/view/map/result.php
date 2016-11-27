@@ -70,6 +70,7 @@ echo "
         });
       }
 initMap();
+console.log('I am here');
 </script>
 
 

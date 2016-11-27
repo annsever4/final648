@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/public/css/style.css" afterPath="$PROJECT_DIR$/team07/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/map/result.php" afterPath="$PROJECT_DIR$/team07/application/view/map/result.php" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,28 +53,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="result.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
               <folding>
-                <marker date="1480281301000" expanded="true" signature="1539:1919" ph="..." />
-                <marker date="1480281301000" expanded="true" signature="1566:1638" ph="{...}" />
-                <marker date="1480281301000" expanded="true" signature="1566:1648" ph="{...}" />
-                <marker date="1480281301000" expanded="true" signature="1566:1899" ph="{...}" />
-                <marker date="1480281301000" expanded="true" signature="1731:1785" ph="{&quot;center&quot;: uluru...}" />
-                <marker date="1480281301000" expanded="true" signature="1832:1889" ph="{&quot;position&quot;: uluru...}" />
+                <marker date="1480281685000" expanded="true" signature="1539:1945" ph="..." />
+                <marker date="1480281685000" expanded="true" signature="1566:1638" ph="{...}" />
+                <marker date="1480281685000" expanded="true" signature="1566:1648" ph="{...}" />
+                <marker date="1480281685000" expanded="true" signature="1566:1899" ph="{...}" />
+                <marker date="1480281685000" expanded="true" signature="1731:1785" ph="{&quot;center&quot;: uluru...}" />
+                <marker date="1480281685000" expanded="true" signature="1832:1889" ph="{&quot;position&quot;: uluru...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="237" column="5" selection-start-line="237" selection-start-column="5" selection-end-line="237" selection-end-column="5" />
+            <state relative-caret-position="356">
+              <caret line="229" column="12" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -124,8 +124,8 @@
         <option value="$PROJECT_DIR$/team07/application/view/map/index.php" />
         <option value="$PROJECT_DIR$/team07/application/view/_templates/footer.php" />
         <option value="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
-        <option value="$PROJECT_DIR$/team07/application/view/map/result.php" />
         <option value="$PROJECT_DIR$/team07/public/css/style.css" />
+        <option value="$PROJECT_DIR$/team07/application/view/map/result.php" />
       </list>
     </option>
   </component>
@@ -137,7 +137,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-203" />
+    <option name="x" value="-50" />
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="677" />
@@ -403,15 +403,15 @@
       <workItem from="1479867689132" duration="11265000" />
       <workItem from="1480200626786" duration="4162000" />
       <workItem from="1480208201896" duration="731000" />
-      <workItem from="1480209016038" duration="8531000" />
+      <workItem from="1480209016038" duration="8647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69088000" />
+    <option name="totallyTimeSpent" value="69204000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-203" y="23" width="840" height="677" extended-state="0" />
+    <frame x="-50" y="23" width="840" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -846,26 +846,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
+    <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <marker date="1480281301000" expanded="true" signature="1539:1919" ph="..." />
-            <marker date="1480281301000" expanded="true" signature="1566:1638" ph="{...}" />
-            <marker date="1480281301000" expanded="true" signature="1566:1648" ph="{...}" />
-            <marker date="1480281301000" expanded="true" signature="1566:1899" ph="{...}" />
-            <marker date="1480281301000" expanded="true" signature="1731:1785" ph="{&quot;center&quot;: uluru...}" />
-            <marker date="1480281301000" expanded="true" signature="1832:1889" ph="{&quot;position&quot;: uluru...}" />
-          </folding>
+        <state relative-caret-position="356">
+          <caret line="229" column="12" selection-start-line="229" selection-start-column="12" selection-end-line="229" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="237" column="5" selection-start-line="237" selection-start-column="5" selection-end-line="237" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="375">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <marker date="1480281685000" expanded="true" signature="1539:1945" ph="..." />
+            <marker date="1480281685000" expanded="true" signature="1566:1638" ph="{...}" />
+            <marker date="1480281685000" expanded="true" signature="1566:1648" ph="{...}" />
+            <marker date="1480281685000" expanded="true" signature="1566:1899" ph="{...}" />
+            <marker date="1480281685000" expanded="true" signature="1731:1785" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1480281685000" expanded="true" signature="1832:1889" ph="{&quot;position&quot;: uluru...}" />
+          </folding>
         </state>
       </provider>
     </entry>
