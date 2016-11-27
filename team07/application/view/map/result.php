@@ -1,6 +1,7 @@
 
 <div id = "gmap" > Loading map...</div >
 <div id = 'map-lable' > Map shows approximate location .</div >
+<div id = 'map'></div>
 
 
 <?php
@@ -29,17 +30,6 @@
             echo $longi;
             echo $formatted_address;
 
-            echo "
-
-            <script>
-            
-               var iDiv = document.createElement('div');
-               iDiv.id = 'map';
-               
-               document.getElementByTagName('fill-height center').appendChild(iDiv);
-            </script>
-            
-            ";
 
             //Verify if data is complete
             if ($lati && $longi && $formatted_address) {
