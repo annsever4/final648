@@ -70,7 +70,7 @@
 
 
     <script>
-    var googleMap = function () {
+    function initialize () {
         console.log("I am here");
         geocoder = new google.maps.Geocoder();
         var latlng = new google.maps.LatLng(53.2948557, -6.139267399999994);
@@ -82,7 +82,7 @@
         map = new google.maps.Map(document.getElementById('gmap_canvas'), mapOptions);
 
     };
-   googleMap();
+   initialize();
     </script>
 
 
