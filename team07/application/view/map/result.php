@@ -53,7 +53,7 @@
 
 
 
-echo "<script >
+echo "<script language='javascript'>
     function initMap()
     {
         var uluru = {lat:-25.363, lng: 131.044};
@@ -74,7 +74,7 @@ echo "<script >
 
 <script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ&callback=initMap"></script>
 
-";"
+";
 
     }
 
