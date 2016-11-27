@@ -16,14 +16,6 @@
         </select>
         //if the form is set  call request class to aqcuire _POST values
 
-  <!-- 
-    <br /><b><u>NOTE</u>!</b> We only have 2 apartments in DB,
-    <br />search by any character from its addresses:<br />
-    <br />566 46th Ave
-    <br />362 43rd Ave
-    <br />I am logged in
-  //-->
-
 </div>
 
 <!-- Output  Test -->
@@ -94,7 +86,7 @@
 			<!-- TODO THE TITLE OF THE LISTING NEEDS BE DISPLAYED ABOVE EACH RESULT -->
 	    
     <?php foreach ($apartments as $apartment) { ?>
-        <div class="row" style="margin:5px; background:#FFFFFF">
+        <div class="row" style="margin:5px; background:#FFFFFF" id="<?php echo $apartment->id; ?>">
 	    <div class="col-xs-6 col-sm-3" style="padding:2px">
                 <?php if (isset($apartment->image)) { ?>
                     <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).

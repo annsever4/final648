@@ -68,6 +68,22 @@ class Model
         return $query->fetchAll();
     }
 
+    //gets details of a particular listing
+
+    public function getDetails($listing_id){
+        $sql = "SELECT listings.*, images.image FROM listings".
+            " INNER JOIN images ON listings.image_id = images.id WHERE listings.id = ?";
+
+        $query = $this->db->prepare($sql);
+
+        //replaces first ? in string with the variable $listing_id
+        $query -> bindValue(1, $listing_id);
+
+        $query -> execute();
+
+        return $query->fetch();
+    }
+
 
     public function registerUser($user_email, $password_hash , $first_name, $last_name ,$phone_number)
     {
