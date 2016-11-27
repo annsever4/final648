@@ -53,9 +53,9 @@ define('URL', URL_PROTOCOL . URL_DOMAIN . URL_SUB_FOLDER);
  */
 define('DB_TYPE', 'mysql');
 define('DB_HOST', '127.0.0.1');
-define('DB_NAME', 'f16g07');
-define('DB_USER', 'f16g07');
-define('DB_PASS', 'sfsuf16swe');
+define('DB_NAME', 'student_lfiggins');
+define('DB_USER', 'lfiggins');
+define('DB_PASS', '@6848Tiara');
 define('DB_CHARSET', 'utf8');
 
 
