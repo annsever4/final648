@@ -18,7 +18,7 @@ class Details extends Controller
             //TODO separate into a details_header in _template or something of the like
             #require APP . 'view/_templates/header.php';
 
-            require APP.  'view/_templates/details_header.php';
+            require APP.  'view/_templates/header.php';
             require APP . 'view/details/index.php';
             require APP . 'view/_templates/footer.php';
         } else {
