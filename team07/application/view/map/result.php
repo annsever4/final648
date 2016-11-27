@@ -55,34 +55,29 @@
 
 echo "
 
-<script language='javascript'>
-    function initMap()
-    
-    {
-       
-        var uluru = {lat:-25.363, lng: 131.044};
-       
-        var map = new google.maps.Map(document.getElementById('map'),{
-            zoom:4,
-            certer:uluru
-
-
+<script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
         });
-        console.log(\"I am here.\");
         var marker = new google.maps.Marker({
-            position: uluru,
-            map: map
+          position: uluru,
+          map: map
         });
-    }
-
+      }
+initMap();
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ&callback=initMap"></script>
+
+
+
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ&callback=initMap'></script>
+
+        
+        
+        
 ";
-
-
-
-
-
 
 
     }
