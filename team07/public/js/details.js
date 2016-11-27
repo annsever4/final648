@@ -6,25 +6,9 @@ $(function(){
     if($(".row")[0]) {
         $('.row').on('click', function () {
             var listing_id = $(this).attr('id');
-            console.log(listing_id);
+            console.log("listing_id: " +listing_id);
 
-            $.ajax({
-                url: url + "details",
-                type: "POST",
-                data: {listing_detail_id: listing_id},
-
-                success: function (response) {
-                    console.log($(this).attr('id'));
-                    window.location = url + "details";
-                },
-
-                error: function () {
-                    console.log("ajax detail error");
-                }
-
-
-            })
-
+            $.redirect(url + "details", {listing_detail_id: listing_id});
         })
     } else {
         console.log("No Result Rows Visible on this Page");
