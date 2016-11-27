@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/_templates/header.php" afterPath="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/map/result.php" afterPath="$PROJECT_DIR$/team07/application/view/map/result.php" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,20 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="128" selection-start-line="11" selection-start-column="128" selection-end-line="11" selection-end-column="128" />
+            <state relative-caret-position="270">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="result.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="1200">
               <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <marker date="1480280977000" expanded="true" signature="1539:1876" ph="..." />
@@ -112,8 +111,8 @@
         <option value="$PROJECT_DIR$/team07/application/controller/map.php" />
         <option value="$PROJECT_DIR$/team07/application/view/map/index.php" />
         <option value="$PROJECT_DIR$/team07/application/view/_templates/footer.php" />
-        <option value="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
         <option value="$PROJECT_DIR$/team07/application/view/map/result.php" />
+        <option value="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
       </list>
     </option>
   </component>
@@ -351,12 +350,12 @@
       <workItem from="1479867689132" duration="11265000" />
       <workItem from="1480200626786" duration="4162000" />
       <workItem from="1480208201896" duration="731000" />
-      <workItem from="1480209016038" duration="7968000" />
+      <workItem from="1480209016038" duration="8055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68525000" />
+    <option name="totallyTimeSpent" value="68612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="160" y="23" width="1128" height="677" extended-state="0" />
@@ -770,14 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="128" selection-start-line="11" selection-start-column="128" selection-end-line="11" selection-end-column="128" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -804,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/map/result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="1200">
           <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <marker date="1480280977000" expanded="true" signature="1539:1876" ph="..." />
@@ -812,6 +803,14 @@
             <marker date="1480280977000" expanded="true" signature="1688:1742" ph="{&quot;center&quot;: uluru...}" />
             <marker date="1480280977000" expanded="true" signature="1789:1846" ph="{&quot;position&quot;: uluru...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
