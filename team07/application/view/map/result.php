@@ -1,4 +1,6 @@
 
+<div id = "map" > Loading map...</div >
+<div id = 'map-label' > Map shows approximate location .</div >
 
 
 <?php
@@ -47,8 +49,9 @@
             $formatted_address = $data_arr[2];
         }
 
-        <div id = "map" > Loading map...</div >
-    <div id = 'map-label' > Map shows approximate location .</div >
+
+
+     
 
 <script >
     function initMap()
