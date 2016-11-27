@@ -73,8 +73,9 @@
     function initialize () {
         console.log("I am here");
         geocoder = new google.maps.Geocoder();
-        console.log(geocoder);
+
         var latlng = new google.maps.LatLng(53.2948557, -6.139267399999994);
+        console.log(latlng);
         var mapOptions = {
             zoom: 10,
             center: latlng,
