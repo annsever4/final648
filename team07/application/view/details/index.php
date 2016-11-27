@@ -29,10 +29,10 @@
             <p><?php if (isset($listing->description)) echo htmlspecialchars($listing->description, ENT_QUOTES, 'UTF-8'); ?></p>
             <h3>Listing Details</h3>
             <ul>
-                <li>Square Feet:  <?php if(isset($listing->square_feet)) echo htmlspecialchars($listing->square_feet, ENT_QUOTES, 'UTF-8');?></li>
+                <li>Square Feet: <?php if(isset($listing->square_feet)) echo htmlspecialchars($listing->square_feet, ENT_QUOTES, 'UTF-8');?></li>
                 <li>Price: <?php if (isset($listing->price)) echo htmlspecialchars($listing->id, ENT_QUOTES, 'UTF-8'); ?> </li>
                 <li>Bedrooms: <?php if(isset($listing->bed_rooms)) echo htmlspecialchars($listing->bed_rooms, ENT_QUOTES, 'UTF-8');?> </li>
-                <li>Bathrooms: TODO: <?php if(isset($listing->bathrooms)) echo htmlspecialchars($listing->bathrooms,ENT_QUOTES,'UTF-8')?></li>
+                <li>Bathrooms: <?php if(isset($listing->bathrooms)) echo htmlspecialchars($listing->bathrooms,ENT_QUOTES,'UTF-8')?></li>
             </ul>
         </div>
 
@@ -77,10 +77,20 @@
                     <h4><i class="fa fa-fw fa-check"></i> Amenities</h4>
                 </div>
                 <div class="panel-body">
-                    <p>
-                    <ul><li>List of amenities</li></ul>
+                    <p>List of Amenities
+                    <ul>
+                        <?php if($listing->private_room) : ?>
+                        <li>Private Room</li>
+                        <?php if($listing->laundry_on_site) : ?>
+                        <li>Laundry Available on Site</li>
+                        <?php if($listing->utilities_included) : ?>
+                        <li>Utilities Included</li>
+                        <?php if($listing->dogs_ok) : ?>
+                        <li>Dogs Allowed</li>
+                        <?php if($listing->cats_ok) : ?>
+                        <li>Cats Allowed</li>
+                    </ul>
                     </p>
-                    <!--  <a href="#" class="btn btn-default">Learn More</a> -->
                 </div>
             </div>
         </div>
