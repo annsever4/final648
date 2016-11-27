@@ -1,7 +1,7 @@
 /**
  * Created by euphoric on 11/26/16.
  */
-(function(){
+$(function(){
 
     if($(".row")[0]) {
         $('.row').on('click', function () {
