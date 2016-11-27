@@ -81,14 +81,23 @@
                     <ul>
                         <?php if($listing->private_room) : ?>
                         <li>Private Room</li>
+                        <?php endif; ?>
+
                         <?php if($listing->laundry_on_site) : ?>
                         <li>Laundry Available on Site</li>
+                        <?php endif; ?>
+
                         <?php if($listing->utilities_included) : ?>
                         <li>Utilities Included</li>
+                        <?php endif; ?>
+
                         <?php if($listing->dogs_ok) : ?>
                         <li>Dogs Allowed</li>
+                        <?php endif; ?>
+
                         <?php if($listing->cats_ok) : ?>
                         <li>Cats Allowed</li>
+                        <?php endif; ?>
                     </ul>
                     </p>
                 </div>
