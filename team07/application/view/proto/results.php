@@ -81,7 +81,7 @@
 	<section class="col-xs-12 col-sm-6 col-md-12">
 		<article class="search-result row">
 			<div class="col-xs-12 col-sm-12 col-md-4">
-			<a href="#" title="Lorem ipsum" class="thumbnail">
+			<a href="#" onclick="return false;" title="Lorem ipsum" class="thumbnail">
 			<?php if (isset($apartment->image)) { ?>
                         <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).
                         '"max-height="300px" max-width="300px"/>' ?>
@@ -95,10 +95,10 @@
 			<div class="col-xs-12 col-sm-12 col-md-7 excerpet">
 			<h3 style="margin-top:0px"><a href="#" title="address" style="width:96%"><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?></a></h3>
 
-			<span class="plus"><a href="#" title="bed" style="width:23%">Beds</i></a></span>
-			<span class="plus"><a href="#" title="bath" style="width:23%">Baths</a></span>
-			<span class="plus"><a href="#" title="size" style="width:23%"> Sq. Ft.</a></span>
-			<span class="plus"><a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope">  Message</i></a></span>			
+			<span class="plus"><a href="#" onclick="return false;" title="bed" style="width:23%">Beds</i></a></span>
+			<span class="plus"><a href="#" onclick="return false;" title="bath" style="width:23%">Baths</a></span>
+			<span class="plus"><a href="#" onclick="return false;" title="size" style="width:23%"> Sq. Ft.</a></span>
+			<span class="plus"><a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope">  Message</i></a></span>
 				
 			</div>
 		<span class="clearfix borda"></span>
