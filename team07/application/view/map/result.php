@@ -1,6 +1,6 @@
 
-<div id = "map" > Loading map...</div >
-<div id = 'map-label' > Map shows approximate location .</div >
+<div id = "map-label" > Loading map...</div >
+<div id = 'map' > Map shows approximate location .</div >
 
 
 <?php
