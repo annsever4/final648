@@ -14,7 +14,7 @@ $(function(){
 
                 success: function (response) {
                     console.log($(this).attr('id'));
-                    //window.location = url + "details";
+                    window.location = url + "details";
                 },
 
                 error: function () {
