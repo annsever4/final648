@@ -29,6 +29,7 @@
             echo $lati;
             echo $longi;
             echo $formatted_address;
+            echo "here I am";
 
 
             //Verify if data is complete
