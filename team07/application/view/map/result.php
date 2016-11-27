@@ -65,7 +65,7 @@ echo "
       function initMap() {
         
         <!-- var uluru = {lat: -25.363, lng: 131.044}; -->
-        var center = {lat: <?php echo $latitude;?>, lng: <?php echo $longitude;?>};
+        var center = {lat: parseFloat('<?php echo $latitude;?>'), lng: parseFloat('<?php echo $longitude;?>')};
         console.log(center);
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
