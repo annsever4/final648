@@ -11,12 +11,13 @@
 
     <!-- Latest compiled and minified JavaScript, over CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ&"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
     <!-- our JavaScript -->
     <script src="<?php echo URL; ?>js/application.js"></script>
     <script src="<?php echo URL; ?>js/jquery-3.1.1.js"></script>
     <script src="<?php echo URL; ?>js/jquery-validation/dist/jquery.validate.min.js"></script>
-<!--<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>-->
+
     <!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ&"></script> -->
     <script>
         $("#registrationForm").validate();
