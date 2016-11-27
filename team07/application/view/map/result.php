@@ -73,7 +73,7 @@
     function init_map(){
         var myOptions = {
             zoom: 14,
-            center: new google.maps.LatLng(<?php echo $latitude; ?>, <?php echo $longitude; ?>),
+            center: new google.maps.LatLng(53.2948557, -6.139267399999994),
             mapTypeId: google.maps.MapTypeId.ROADMAP
             };
         map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
