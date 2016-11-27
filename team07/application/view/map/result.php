@@ -5,9 +5,9 @@
  * Date: 11/26/16
  * Time: 3:14 PM
  */
-<body>
+<body onload="initialize()">
 
-</body>
+
 <?php
 
     if($_POST['address']) {
@@ -67,7 +67,7 @@
 
 
 
-
+</body>
 
     <script>
     function initialize () {
@@ -81,7 +81,7 @@
         };
         map = new google.maps.Map(document.getElementById('gmap_canvas'), mapOptions);
 
-    };
+    }
    initialize();
     </script>
 
