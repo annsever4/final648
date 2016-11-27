@@ -70,8 +70,10 @@ echo "<script language='javascript'>
     }
 
 </script>
+";
 
 
+echo "        
 <script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ&callback=initMap"></script>
 
 ";
@@ -81,4 +83,4 @@ echo "<script language='javascript'>
 
 
  ?>
-
+    
