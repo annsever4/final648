@@ -1,7 +1,7 @@
 
 
 
-<body>
+
 
 <!-- Page Content -->
 <div class="container">
@@ -22,18 +22,17 @@
         <div class="col-md-6">
             <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($listing->image).
                 '"max-height="750px" max-width="500px" class = "img-responsive"/>' ?>
-            <img class="img-responsive" src="http://placehold.it/750x500" alt="">
         </div>
 
         <div class="col-md-6">
             <h3>Listing Description</h3>
-            <p><?php if (isset($listing->description)) echo htmlspecialchars($listing->id, ENT_QUOTES, 'UTF-8'); ?></p>
+            <p><?php if (isset($listing->description)) echo htmlspecialchars($listing->description, ENT_QUOTES, 'UTF-8'); ?></p>
             <h3>Listing Details</h3>
             <ul>
-                <li>Square Feet: TODO ADD SQUARE FEET TO LISTINGS TABLE AND LISTING FORM </li>
+                <li>Square Feet:  <?php if(isset($listing->square_feet)) echo htmlspecialchars($listing->square_feet, ENT_QUOTES, 'UTF-8');?></li>
                 <li>Price: <?php if (isset($listing->price)) echo htmlspecialchars($listing->id, ENT_QUOTES, 'UTF-8'); ?> </li>
-                <li>Beds: TODO: ADD BEDS COL IN DATABASE AND TO ADD LISTING FORM </li>
-                <li>Bathrooms: TODO: ADD # OF BATHROOMS TO LISTINGS TABLE AND LISTINGS FORM </li>
+                <li>Bedrooms: <?php if(isset($listing->bed_rooms)) echo htmlspecialchars($listing->bed_rooms, ENT_QUOTES, 'UTF-8');?> </li>
+                <li>Bathrooms: TODO: <?php if(isset($listing->bathrooms)) echo htmlspecialchars($listing->bathrooms,ENT_QUOTES,'UTF-8')?></li>
             </ul>
         </div>
 
@@ -94,9 +93,11 @@
                 <div class="panel-body">
                     <p>
                     <ul style="list-style: none">
-                        <li>Start Date: *insert start date*</li>
-                        <br></br>
-                        <li>End Date: *insert end date*</li>
+                        <li>Start Date: <?php if(isset($listing->move_in_date)) echo
+                                htmlspecialchars($listing->move_in_date, ENT_QUOTES, 'UTF-8');?></li>
+                        <br>
+                        <li>End Date: <?php if(isset($listing->lease_end_date)) echo
+                    htmlspecialchars($listing->lease_end_date, ENT_QUOTES, 'UTF-8');?></li>
                     </ul>
                     </p>
                     <!--  <a href="#" class="btn btn-default">Learn More</a> -->

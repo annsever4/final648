@@ -12,13 +12,12 @@ class Details extends Controller
     {
         //target
         $target_listing_id = Request::post('listing_detail_id');
-        echo "<script> console.log('ID TO BE PASSED TO MODEL FUNCTION:' + ".$target_listing_id. ")</script>";
         if($target_listing_id) {
            $listing = $this->model->getDetails($target_listing_id);
             //AS OF NOW THE DETAILS PAGE HAS A CUSTOM HEADER
             //TODO separate into a details_header in _template or something of the like
             #require APP . 'view/_templates/header.php';
-            
+
             require APP.  'view/_templates/details_header.php';
             require APP . 'view/details/index.php';
             require APP . 'view/_templates/footer.php';
