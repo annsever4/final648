@@ -66,10 +66,10 @@ echo "
         
         <!-- var uluru = {lat: -25.363, lng: 131.044}; -->
         <!-- var center = {lat: parseFloat('<?php echo $lati;?>'), lng: parseFloat('<?php echo $longi;?>')}; -->
-        var center= new google.maps.LatLng(parseFloat('<?php echo $lati;?>'),parseFloat('<?php echo $longi;?>')),
+        var center= new google.maps.LatLng(parseFloat('<?php echo $latitude;?>'),parseFloat('<?php echo $longitude;?>')),
 
         
-        var map = new google.maps.Map(document.getElementById('map'), {
+        map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: center
         });
