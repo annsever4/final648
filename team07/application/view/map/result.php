@@ -75,7 +75,8 @@ echo "
           map: map
         });
       }
-initMap();
+<!-- initMap(); -->
+google.maps.event.addDomListener(window,'load',initMap);
 console.log('I am here');
 </script>
 
