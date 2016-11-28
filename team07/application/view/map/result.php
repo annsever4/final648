@@ -1,11 +1,7 @@
 
-/**
- * Created by PhpStorm.
- * User: lijie
- * Date: 11/26/16
- * Time: 3:14 PM
- */
-<body onload="initialize()">
+<div id = "gmap" > Loading map...</div >
+<div id = 'map-lable' > Map shows approximate location .</div >
+
 
 
 <?php
@@ -34,6 +30,55 @@
             echo $longi;
             echo $formatted_address;
 
+            echo"
+            <div id = 'map' style='width:500px; height:500px;'>
+            Here I am from php
+            </div>
+            ";
+
+            echo "
+
+<script>
+    var latitude =  $lati;
+    var longitude = $longi;
+      
+
+      
+      function initMap() {
+        
+       <!-- var uluru = {lat: -25.363, lng: 131.044}; -->
+       
+       var uluru = new google.maps.LatLng(latitude.toFixed(10),longitude.toFixed(10));
+        
+        <!-- var location= new google.maps.LatLng(parseFloat('<?php echo $lati;?>'),parseFloat('<?php echo $longi;?>')), -->
+        <!-- var uluru = new google.maps.LatLng( lat.toFixed(10), lng.toFixed(10) ); -->
+        
+
+        
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+
+google.maps.event.addDomListener(window,'load',initMap);
+console.log('I am here');
+</script>
+
+
+
+
+
+        
+        
+        
+";
+
+
             //Verify if data is complete
             if ($lati && $longi && $formatted_address) {
                 //put the data in the array
@@ -53,37 +98,16 @@
             $longitude = $data_arr[1];
             $formatted_address = $data_arr[2];
         }
-    }
 
+
+
+
+
+
+
+
+    }
 
 
 
  ?>
-
-    <!-- google map will be shown here -->
-    
-    <div id="gmap_canvas">Loading map...</div>
-    <div id='map-label'>Map shows approximate location.</div>
-
-
-
-</body>
-
-    <script>
-    function initialize () {
-        console.log("I am here");
-        geocoder = new google.maps.Geocoder();
-        var latlng = new google.maps.LatLng(53.2948557, -6.139267399999994);
-        var mapOptions = {
-            zoom: 10,
-            center: latlng,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        map = new google.maps.Map(document.getElementById('gmap_canvas'), mapOptions);
-
-    }
-   initialize();
-    </script>
-
-
-
