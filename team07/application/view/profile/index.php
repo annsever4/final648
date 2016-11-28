@@ -1,6 +1,6 @@
 <div class="container-fluid" id="profile-color">
 	<div class="row">
-  		<div class="col-sm-10" id="main_text_color"><h1><?php echo htmlspecialchars($_SESSION['user_name'], ENT_QUOTES, 'UTF-8'); ?></h1></div>
+  		<div class="col-sm-10" id="main_text_color"><h1><?php echo htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8'); ?></h1></div>
 <!--    
 	<div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="http://www.gravatar.com/avatar/28fd20ccec6865e2d5f0e1f4446eb7bf?s=100"></a></div>
 -->    
@@ -10,7 +10,7 @@
               
           <ul class="list-group">
             <li class="list-group-item text-muted">Profile</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Name: </strong></span><?php echo htmlspecialchars($_SESSION['user_name'],ENT_QUOTES,'UTF-8');?></li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Name: </strong></span><?php echo htmlspecialchars($_SESSION['name'],ENT_QUOTES,'UTF-8');?></li>
             <li class="list-group-item text-right"><span class="pull-left"><strong>Email: </strong></span><?php echo htmlspecialchars($_SESSION['member_user_email'],ENT_QUOTES,'UTF-8'); ?></li>
             <li class="list-group-item text-right"><span class="pull-left"><strong>Phone Number: </strong></span><?php echo htmlspecialchars($_SESSION['phone_number'],ENT_QUOTES, 'UTF-8'); ?></li>
             
@@ -61,7 +61,7 @@
                     </tr>
                   </thead>
                   <tbody id="items">
-                  <?php foreach ($member_user_listing as $listing) {?>
+                  <?php foreach ($member_user_listings as $listing) {?>
                     <tr>
                       <td><?php if(isset($listing->id)) echo htmlspecialchars($listing->id,ENT_QUOTES,'UTF-8');?></td>
                       <td><?php if(isset($listing->title)) echo htmlspecialchars($listing->title,ENT_QUOTES,'UTF-8');?></td>
