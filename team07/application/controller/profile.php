@@ -12,7 +12,7 @@ class Profile extends Controller
         if(isset($_SESSION['logged_in'])) {
            //$profile_information = $this->model->getUserProfileInformation();
 
-            $member_user_listings = $this ->model->getUserLisings($_SESSION['user_id']);
+            $member_user_listings = $this ->model->getUserListings($_SESSION['user_id']);
 
             require APP . 'view/_templates/header.php';
             require APP . 'view/profile/index.php';
