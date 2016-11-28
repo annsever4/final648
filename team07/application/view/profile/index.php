@@ -284,4 +284,4 @@
 
         </div><!--/col-9-->
     </div><!--/row-->
-<script src = "<?php echo APP . "team07/public/js/profile.js" ?>"></script>
+
