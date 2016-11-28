@@ -55,7 +55,7 @@
             </ul>
             <p>TODO FIGURE OUT WHAT TO PUT HERE: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
         </div>
-        <div class="col-md-6" id = 'map' style= 'width:500px; height:300px;'>
+        <div class="col-md-6" id = 'map' style= 'width:400px; height:280px;'>
 
 <!--            <img class="img-responsive" src="http://placehold.it/700x450" alt="">-->
         </div>
