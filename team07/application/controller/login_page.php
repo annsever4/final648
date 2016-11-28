@@ -46,4 +46,7 @@ class Login_page extends Controller
             //echo $hash;
         }
     }
+
+
+
 }
