@@ -90,7 +90,7 @@
                   <li class="list-group-item text-muted">Inbox</li>
 
                  <?php foreach ($all_user_messages as $message) {?>
-                   <li class="list-group-item text-right"><a href="#" onclick="return false;"><?php echo htmlspecialchars($message->message)?></a></li>
+                   <li class="list-group-item text-right"><a href="#" onclick="return false;"><?php echo htmlspecialchars($message->message,ENT_QUOTES, 'UTF-8')?></a></li>
                     <?php } ?>
                 </ul> 
                
