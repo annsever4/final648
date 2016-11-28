@@ -30,7 +30,7 @@ class Login_page extends Controller
 
         if ($password_verification_result) {
 
-            $credentials = $this->model->getCredentials();
+            $credentials = $this->model->getCredentials($user_email);
             $_SESSION['member_user_email'] = $user_email;
             $_SESSION['name'] = $credentials->first_name . $credentials->last_name;
             $_SESSION['phone_number'] = $credentials->phone_number;
