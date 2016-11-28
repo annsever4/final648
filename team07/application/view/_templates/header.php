@@ -58,8 +58,8 @@
 <div class="fill-height center" style="background-color:#ffffff;">
 	<ul class="nav nav-default nav-justified" style="font-size:20px;">
         <li id="pills"><a href="<?php echo URL; ?> rent">Rent</a></li>
-        <li id="pills"><a href="#">Add a Listing</a></li>
-        <li id="pills"><a href="#">Profile</a></li>
-        <li id="pills"><a href="#">Inbox</a></li>
+        <li id="pills"><a href="<?php echo URL; ?> add_listing">Add a Listing</a></li>
+        <li id="pills"><a href="<?php echo URL; ?> profile">Profile</a></li>
+        <li id="pills"><a href="<?php echo URL; ?> inbox">Inbox</a></li>
 	</ul>
 </div>
