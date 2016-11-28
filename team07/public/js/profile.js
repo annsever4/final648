@@ -1,6 +1,6 @@
 /* pagination */
 
-(function() {
+$(function() {
 
     if($('.clickable_details_row')[0]) {
         $('.clickable_details_row').on('click', function () {
@@ -130,4 +130,4 @@ $.fn.pageMe = function(opts){
 
 $('#items').pageMe({pagerSelector:'#myPager',childSelector:'tr',showPrevNext:true,hidePageNumbers:false,perPage:5});
 /****/
-})();
+});
