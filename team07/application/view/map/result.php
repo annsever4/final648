@@ -40,14 +40,14 @@
 <script>
       function initMap() {
         
-        <!-- var uluru = {lat: -25.363, lng: 131.044}; -->
+        var uluru = {lat: -25.363, lng: 131.044};
         <!-- var center = {lat: parseFloat('<?php echo $lati;?>'), lng: parseFloat('<?php echo $longi;?>')}; -->
-        var location= new google.maps.LatLng(parseFloat('<?php echo $lati;?>'),parseFloat('<?php echo $longi;?>')),
+        <!-- var location= new google.maps.LatLng(parseFloat('<?php echo $lati;?>'),parseFloat('<?php echo $longi;?>')), -->
 
         
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
-          center: location
+          center: uluru
         });
         var marker = new google.maps.Marker({
           position: uluru,
