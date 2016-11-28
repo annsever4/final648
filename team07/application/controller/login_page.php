@@ -31,22 +31,12 @@ class Login_page extends Controller
         if ($password_verification_result) {
             //Start the session
             session_start();
-            $_SESSION['user'] = $user_email;
-            $_SESSION['name'] = $this->model->getMemberUsersName($user_email);
-            $_SESSION['phone_number'] = $this->model->getMemberUserPhoneNumber($user_email);
+            $credentials = $this->model->getCredentials();
+            $_SESSION['member_user_email'] = $user_email;
+            $_SESSION['name'] = $credentials->first_name . $credentials->last_name;
+            $_SESSION['phone_number'] = $credentials->phone_number;
+            $_SESSION['member_user_id'] = $credentials->id;
             $_SESSION['logged_in'] = true;
-
-
-
-
-
-            /*
-            echo $_SESSION['user'];
-            echo $_SESSION['name'];
-            echo $_SESSION['phone_number'];
-            */
-
-
 
             header('location: ' . URL . 'proto/index');
         } else {

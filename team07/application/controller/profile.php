@@ -8,9 +8,18 @@ class Profile extends Controller
     public function index()
     {
         // load views
-        require APP . 'view/_templates/header.php';
-        require APP . 'view/profile/index.php';
-        require APP . 'view/_templates/footer.php';
+
+        if([$_SESSION['logged_in']]) {
+           //$profile_information = $this->model->getUserProfileInformation();
+
+            $member_user_listings = $this ->model->getUserLisings($_SESSION['user_id']);
+
+            require APP . 'view/_templates/header.php';
+            require APP . 'view/profile/index.php';
+            require APP . 'view/_templates/footer.php';
+        } else {
+            header('location: ' . URL . 'login_page/index');
+        }
     }
 
 }

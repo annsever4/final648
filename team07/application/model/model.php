@@ -86,6 +86,32 @@ class Model
         return $query->fetch();
     }
 
+    public function getUserProfileInformation($user_id){
+            $sql = "SELECT member_user.id, member_user.email, member_user.first_name, member_user.last_name, ".
+                    "member_user.phone_number FROM member_user WHERE member_user.id = ?";
+
+            $query = $this->db->prepare($sql);
+
+            $query -> bindValue(1, $user_id);
+
+            $query->execute();
+
+            return $query->fetch();
+    }
+
+    public function getUserListings($user_id){
+
+        $sql = "SELECT listings.id, listings.address, listings.title, listings.price, listings.square_feet, listings.move_in_date, listings.owner_id, ".
+            "member_user.id FROM listings INNER JOIN member_user ON listings.owner_id = member_user.id WHERE member_user.id = ?";
+
+        $query = $this->db->prepare($sql);
+
+        $query -> bindValue(1, $user_id);
+
+        $query->execute();
+
+        return $query->fetchAll();
+    }
 
     public function registerUser($user_email, $password_hash , $first_name, $last_name ,$phone_number)
     {
@@ -129,24 +155,21 @@ class Model
         return $query->fetch();
     }
 
-    public function getMemberUsersName($user_email)
+    public function getCredentials($user_email)
     {
         //prepare query to retrieve first and last name from database
-        $sql = "SELECT member_user.first_name, member_user.last_name FROM member_user WHERE member_user.email = ?";
+        $sql = "SELECT member_user.first_name, member_user.last_name, member_user.id, member_user.phone_number FROM member_user WHERE member_user.email = ?";
         $query = $this->db->prepare($sql);
         $query->bindValue(1,$user_email);
 
         //execute query
         $query->execute();
 
-        //fetch result
-        $result = $query->fetch();
 
-        $name = $result->first_name. " " .$result->last_name;
-
-        return $name;
+        return $query->fetch();
     }
 
+    /*
     public function getMemberUserPhoneNumber($user_email)
     {
         $sql = "SELECT member_user.phone_number FROM member_user WHERE member_user.email = ?";
@@ -158,7 +181,7 @@ class Model
         $result = $query->fetch();
 
         return $result->phone_number;
-    }
+    } */
 
     public function getMessagesALL() {
 
