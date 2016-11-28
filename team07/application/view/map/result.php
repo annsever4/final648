@@ -39,10 +39,17 @@
 
 <script>
 
+      <? php
+         echo '
+         var lat={$lati};
+         var lng={$longi};';
+      ?>
+
       
       function initMap() {
         
-       var uluru = {lat: -25.363, lng: 131.044};
+       <!-- var uluru = {lat: -25.363, lng: 131.044}; -->
+       var uluru = new google.maps.LatLng(lat.toFixed(10),lng.toFixed(10));
         
         <!-- var location= new google.maps.LatLng(parseFloat('<?php echo $lati;?>'),parseFloat('<?php echo $longi;?>')), -->
         <!-- var uluru = new google.maps.LatLng( lat.toFixed(10), lng.toFixed(10) ); -->
