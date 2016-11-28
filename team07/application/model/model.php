@@ -21,7 +21,7 @@ class Model
                                 $cats_ok, $utilities_included, $min_price, $max_price)
     {
         //creates initial sql statement to return listings with addresses LIKE the key value
-        $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings".
+        $sql = "SELECT listings.*, images.image FROM listings".
             " INNER JOIN images ON listings.image_id = images.id WHERE listings.address LIKE '%"
             . $key . "%'";
 
