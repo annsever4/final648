@@ -36,9 +36,9 @@
 
 				<hr>
 				<li style="font:bold;font-size:30px;margin-top:20px; margin-bottom:10px"> Listings Type </li>	
-				<li id="nav-font"><input type="checkbox">Apartments</li>
-				<li id="nav-font"><input type="checkbox">Houses</li>
-				<li id="nav-font"><input type="checkbox">Room</li>
+				<li id="nav-font"><input name="is_apartment" type="checkbox">Apartments</li>
+				<li id="nav-font"><input name="is_house" type="checkbox">Houses</li>
+				<li id="nav-font"><input name="is_room" "checkbox">Room</li>
 
 				<hr>	
 				<li style="font:bold;font-size:30px; margin-bottom:10px"> Price Range </li>
@@ -53,14 +53,14 @@
 		</li>
 			<hr>	
 			<li style="font:bold;font-size:30px; margin-bottom:10px"> Amenities </li>
-			<li id="nav-font"><input type="checkbox">Laundry On-Site</li>		
-			<li id="nav-font"><input type="checkbox">Utilities</li>
-			<li id="nav-font"><input type="checkbox">Private Room</li>
+			<li id="nav-font"><input name="laundry_on_site" type="checkbox">Laundry On-Site</li>
+			<li id="nav-font"><input name="utilities_included" type="checkbox">Utilities</li>
+			<li id="nav-font"><input name="private_room" type="checkbox">Private Room</li>
 			
 			<hr>
 			<li style="font:bold;font-size:30px; margin-bottom:10px"> Pets </li>
-			<li id="nav-font"><input type="checkbox">Cat</li>
-			<li id="nav-font"><input type="checkbox">Dogs</li>	
+			<li id="nav-font"><input name="cats_ok" type="checkbox">Cat</li>
+			<li id="nav-font"><input name="dogs_ok" type="checkbox">Dogs</li>
 			<hr>	
 		        </ul>
 	        </div>
