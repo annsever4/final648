@@ -39,7 +39,7 @@
             echo "
 
 <script>
-    var latitude = <?php echo $lati; ?>;
+    var latitude = <?php echo $lati ?>;
     var longitude = <?php echo $longi ?>;
       
 
