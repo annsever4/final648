@@ -20,6 +20,7 @@ class Controller
     {
         $this->openDatabaseConnection();
         $this->loadModel();
+        session_start();
     }
 
     /**
