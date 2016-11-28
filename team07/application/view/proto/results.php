@@ -79,7 +79,7 @@
 
 <?php foreach ($apartments as $apartment) { ?>
 	<section class="col-xs-12 col-sm-6 col-md-12">
-		<article class="search-result row">
+		<article class="search-result row" id="<?php echo $apartment->id;?>">
 			<div class="col-xs-12 col-sm-12 col-md-4">
 			<a href="#" onclick="return false;" title="Lorem ipsum" class="thumbnail">
 			<?php if (isset($apartment->image)) { ?>
@@ -92,7 +92,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-2">
 			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-7 excerpet">
+			<div class="col-xs-12 col-sm-12 col-md-7 excerpt">
 			<h3 style="margin-top:0px"><a href="#" onclick="return false;" title="address" style="width:96%"><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?></a></h3>
 
 			<span class="plus"><a href="#" onclick="return false;" title="bed" style="width:23%">Beds</i></a></span>
