@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,7 +38,7 @@
 	     <div class="col-md-4 text-right" id="pills" style="margin-top:3%">
              <?php
 
-             session_start();
+
 
              if(isset($_SESSION['logged_in'])){
 

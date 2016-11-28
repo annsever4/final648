@@ -29,8 +29,7 @@ class Login_page extends Controller
         $password_verification_result = password_verify($user_password, $hash_password->password_hash);
 
         if ($password_verification_result) {
-            //Start the session
-            session_start();
+
             $credentials = $this->model->getCredentials();
             $_SESSION['member_user_email'] = $user_email;
             $_SESSION['name'] = $credentials->first_name . $credentials->last_name;
