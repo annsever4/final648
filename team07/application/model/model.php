@@ -199,7 +199,7 @@ class Model
 
         $query = $this->db->prepare($sql);
 
-        $query -> bindValue(':current_user_id', $_SESSION['user_id']);
+        $query -> bindValue(':current_user_id', $_SESSION['member_user_id']);
 
         $query->execute();
 
