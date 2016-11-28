@@ -93,9 +93,9 @@
 			<div class="col-xs-12 col-sm-12 col-md-7 excerpt">
 			<h3 style="margin-top:0px"><a href="#" onclick="return false;" title="address" style="width:96%"><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?></a></h3>
 
-			<span class="plus"><a href="#" onclick="return false;" title="bed" style="width:23%">Beds</i></a></span>
-			<span class="plus"><a href="#" onclick="return false;" title="bath" style="width:23%">Baths</a></span>
-			<span class="plus"><a href="#" onclick="return false;" title="size" style="width:23%"> Sq. Ft.</a></span>
+			<span class="plus"><a href="#" onclick="return false;" title="bed" style="width:23%">$<?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </i></a></span>
+			<span class="plus"><a href="#" onclick="return false;" title="bath" style="width:23%"><?php if (isset($apartment->bed_rooms)) echo htmlspecialchars($apartment->bed_rooms, ENT_QUOTES, 'UTF-8'); ?> Bedrooms</a></span>
+			<span class="plus"><a href="#" onclick="return false;" title="size" style="width:23%"><?php if (isset($apartment->square_feet)) echo htmlspecialchars($apartment->square_feet, ENT_QUOTES, 'UTF-8'); ?> Sq. Ft.</a></span>
 			<span class="plus"><a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope">  Message</i></a></span>
 				
 			</div>
