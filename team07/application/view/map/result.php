@@ -29,6 +29,7 @@
             echo $lati;
             echo $longi;
             echo $formatted_address;
+
             echo"
             <div id = 'map' style='width:500px; height:500px;'>
             Here I am from php
@@ -38,14 +39,16 @@
             echo "
 
 <script>
-
+    var latitude = <?php echo $lati; ?>;
+    var longitude = <?php echo $longi ?>;
       
 
       
       function initMap() {
         
        <!-- var uluru = {lat: -25.363, lng: 131.044}; -->
-       var uluru = new google.maps.LatLng(lat.toFixed(10),lng.toFixed(10));
+       
+       var uluru = new google.maps.LatLng(latitude.toFixed(10),longitude.toFixed(10));
         
         <!-- var location= new google.maps.LatLng(parseFloat('<?php echo $lati;?>'),parseFloat('<?php echo $longi;?>')), -->
         <!-- var uluru = new google.maps.LatLng( lat.toFixed(10), lng.toFixed(10) ); -->
