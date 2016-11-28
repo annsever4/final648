@@ -39,11 +39,7 @@
 
 <script>
 
-      <? php
-         echo '
-         var lat={$lati};
-         var lng={$longi};';
-      ?>
+      
 
       
       function initMap() {
