@@ -22,4 +22,9 @@ class Profile extends Controller
         }
     }
 
+    // called if user needs to update their information
+    public function update()
+    {
+        header('location: ' . URL . 'profile/index');
+    }
 }

@@ -1,6 +1,6 @@
 <div class="container-fluid" id="profile-color">
 	<div class="row">
-  		<div class="col-sm-10" id="main_text_color"><h1>Joeuser</h1></div>
+  		<div class="col-sm-10" id="main_text_color"><h1><?php echo htmlspecialchars($_SESSION['user_name'], ENT_QUOTES, 'UTF-8'); ?></h1></div>
 <!--    
 	<div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="http://www.gravatar.com/avatar/28fd20ccec6865e2d5f0e1f4446eb7bf?s=100"></a></div>
 -->    
@@ -10,9 +10,9 @@
               
           <ul class="list-group">
             <li class="list-group-item text-muted">Profile</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Joined</strong></span> 2.13.2014</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Last seen</strong></span> Yesterday</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Real name</strong></span> Joseph Doe</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Name: </strong></span><?php echo htmlspecialchars($_SESSION['user_name'],ENT_QUOTES,'UTF-8');?></li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Email: </strong></span><?php echo htmlspecialchars($_SESSION['member_user_email'],ENT_QUOTES,'UTF-8'); ?></li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Phone Number: </strong></span><?php echo htmlspecialchars($_SESSION['phone_number'],ENT_QUOTES, 'UTF-8'); ?></li>
             
           </ul> 
     <!--           
@@ -52,25 +52,26 @@
                 <table class="table table-hover">
                   <thead>
                     <tr>
-                      <th>#</th>
-                      <th>Label 1</th>
-                      <th>Label 2</th>
-                      <th>Label 3</th>
-                      <th>Label </th>
-                      <th>Label </th>
-                      <th>Label </th>
+                      <th>Listing ID</th>
+                      <th>Title</th>
+                      <th>Price</th>
+                      <th>Address</th>
+                      <th>Square Feet</th>
+                      <th>Move In Date</th>
                     </tr>
                   </thead>
                   <tbody id="items">
+                  <?php foreach ($member_user_listing as $listing) {?>
                     <tr>
-                      <td>1</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
+                      <td><?php if(isset($listing->id)) echo htmlspecialchars($listing->id,ENT_QUOTES,'UTF-8');?></td>
+                      <td><?php if(isset($listing->title)) echo htmlspecialchars($listing->title,ENT_QUOTES,'UTF-8');?></td>
+                      <td><?php if(isset($listing->price)) echo htmlspecialchars($listing->price,ENT_QUOTES,'UTF-8');?></td>
+                      <td><?php if(isset($listing->address)) echo htmlspecialchars($listing->address,ENT_QUOTES,'UTF-8');?></td>
+                      <td><?php if(isset($listing->square_feet)) echo htmlspecialchars($listing->square_feet,ENT_QUOTES,'UTF-8');?></td>
+                      <td><?php if(isset($listing->move_in_date)) echo htmlspecialchars($listing->move_in_date,ENT_QUOTES,'UTF-8');?></td>
                     </tr>
+                  <?php } ?>
+                  <!-- TEMPORARILY COMMENTING THIS OUT> WILL DELETE AFTER TESTING
                     <tr>
                       <td>2</td>
                       <td>Table cell</td>
@@ -152,6 +153,7 @@
                       <td>Table cell</td>
                       <td>Table cell</td>
                     </tr>
+                    -->
                   </tbody>
                 </table>
                 <!-- <hr> -->
@@ -216,16 +218,16 @@
             		
                	
                   <hr>
-                  <form class="form" action="##" method="post" id="registrationForm">
+                  <form class="form" action="<?php echo URL;?>profile/update" method="post" id="registrationForm">
+
                       <div class="form-group">
-                          
                           <div class="col-xs-6">
                               <label for="first_name"><h4>First name</h4></label>
                               <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name" title="enter your first name if any.">
                           </div>
                       </div>
+
                       <div class="form-group">
-                          
                           <div class="col-xs-6">
                             <label for="last_name"><h4>Last name</h4></label>
                               <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name" title="enter your last name if any.">
@@ -233,7 +235,6 @@
                       </div>
           
                       <div class="form-group">
-                          
                           <div class="col-xs-6">
                               <label for="phone"><h4>Phone</h4></label>
                               <input type="text" class="form-control" name="phone" id="phone" placeholder="enter phone" title="enter your phone number if any.">
@@ -246,34 +247,28 @@
                               <input type="text" class="form-control" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
                           </div>
                       </div>
+
                       <div class="form-group">
-                          
                           <div class="col-xs-6">
                               <label for="email"><h4>Email</h4></label>
                               <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="enter your email.">
                           </div>
                       </div>
+
                       <div class="form-group">
-                          
-                          <div class="col-xs-6">
-                              <label for="email"><h4>Location</h4></label>
-                              <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
-                          </div>
-                      </div>
-                      <div class="form-group">
-                          
                           <div class="col-xs-6">
                               <label for="password"><h4>Password</h4></label>
                               <input type="password" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
                           </div>
                       </div>
+
                       <div class="form-group">
-                          
                           <div class="col-xs-6">
                             <label for="password2"><h4>Verify</h4></label>
                               <input type="password" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
                           </div>
                       </div>
+
                       <div class="form-group">
                            <div class="col-xs-12">
                                 <br>
