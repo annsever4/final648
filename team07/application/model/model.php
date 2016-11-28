@@ -18,7 +18,7 @@ class Model
      * Get all songs from database
      */
     public function getListing($key, $order=null, $is_house, $is_apartment, $is_room, $laundry_on_site, $dogs_ok,
-                                $cats_ok, $utilities_included)
+                                $cats_ok, $utilities_included, $min_price, $max_price)
     {
         //creates initial sql statement to return listings with addresses LIKE the key value
         $sql = "SELECT listings.id, listings.address, listings.price, images.image FROM listings".
@@ -52,6 +52,16 @@ class Model
 
         if($utilities_included){
             $sql .= " AND listings.utilities = 1";
+        }
+
+        if($min_price) {
+            $min_price = trim($min_price);
+            $sql .= " AND listings.price > ".$min_price;
+        }
+
+        if($max_price){
+            $max_price = trim($max_price);
+            $sql = " AND listings.price < ".$max_price;
         }
 
         if($order) {
@@ -185,7 +195,7 @@ class Model
 
     public function getMessagesALL() {
 
-        $sql = "SELECT * FROM messages WHERE messages.sender_id = :current_user_id OR messages.recipient_id = :current_user_id";
+        $sql = "SELECT * FROM messages WHERE messages.recipient_id = :current_user_id";
 
         $query = $this->db->prepare($sql);
 
