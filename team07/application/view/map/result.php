@@ -39,7 +39,7 @@
 
 <script>
 
-      <? php>
+      <? php
          echo '
             var lat = {$lati};
             var lng = {$longi}
