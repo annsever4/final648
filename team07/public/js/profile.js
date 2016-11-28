@@ -1,4 +1,21 @@
 /* pagination */
+
+(function() {
+
+    if($('.clickable_details_row')[0]) {
+        $('.clickable_details_row').on('click', function () {
+            var listing_id = $(this).attr('id');
+            console.log("listing_id: " +listing_id);
+
+            $.redirect(url + "details", {listing_detail_id: listing_id});
+        })
+    } else {
+        console.log("No Result Rows Visible on this Page");
+    }
+
+
+
+
 $.fn.pageMe = function(opts){
     var $this = this,
         defaults = {
@@ -113,3 +130,4 @@ $.fn.pageMe = function(opts){
 
 $('#items').pageMe({pagerSelector:'#myPager',childSelector:'tr',showPrevNext:true,hidePageNumbers:false,perPage:5});
 /****/
+});

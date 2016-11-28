@@ -62,7 +62,7 @@
                   </thead>
                   <tbody id="items">
                   <?php foreach ($member_user_listings as $listing) {?>
-                    <tr>
+                    <tr class="clickable_details_row" id="<?php echo $listing->id;?>">
                       <td><?php if(isset($listing->id)) echo htmlspecialchars($listing->id,ENT_QUOTES,'UTF-8');?></td>
                       <td><?php if(isset($listing->title)) echo htmlspecialchars($listing->title,ENT_QUOTES,'UTF-8');?></td>
                       <td><?php if(isset($listing->price)) echo htmlspecialchars($listing->price,ENT_QUOTES,'UTF-8');?></td>
