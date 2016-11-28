@@ -201,7 +201,9 @@
 
         //if($_POST['address']) {
 
-            $address = strip_tags(Request::post('address'));
+            //$address = strip_tags(Request::post('address'));
+        $address = $listing->address;
+            echo $address;
 
             //google map geocode api url
             $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($address) . '&key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ';

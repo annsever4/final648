@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/details/index.php" afterPath="$PROJECT_DIR$/team07/application/view/details/index.php" />
     </list>
     <ignored path="f16g07.iws" />
@@ -90,15 +89,15 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/details/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1004">
-              <caret line="293" column="0" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="205" column="26" selection-start-line="205" selection-start-column="26" selection-end-line="205" selection-end-column="26" />
               <folding>
-                <marker date="1480369799000" expanded="false" signature="8848:8874" ph="..." />
-                <marker date="1480369799000" expanded="true" signature="8875:8925" ph="..." />
-                <marker date="1480369799000" expanded="true" signature="8974:9808" ph="..." />
-                <marker date="1480369799000" expanded="true" signature="9071:9715" ph="{...}" />
-                <marker date="1480369799000" expanded="true" signature="9547:9601" ph="{&quot;center&quot;: uluru...}" />
-                <marker date="1480369799000" expanded="true" signature="9648:9705" ph="{&quot;position&quot;: uluru...}" />
+                <marker date="1480370260000" expanded="false" signature="8915:8941" ph="..." />
+                <marker date="1480370260000" expanded="true" signature="8942:8992" ph="..." />
+                <marker date="1480370260000" expanded="true" signature="9041:9875" ph="..." />
+                <marker date="1480370260000" expanded="true" signature="9138:9782" ph="{...}" />
+                <marker date="1480370260000" expanded="true" signature="9614:9668" ph="{&quot;center&quot;: uluru...}" />
+                <marker date="1480370260000" expanded="true" signature="9715:9772" ph="{&quot;position&quot;: uluru...}" />
               </folding>
             </state>
           </provider>
@@ -172,7 +171,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
+    <option name="x" value="75" />
     <option name="y" value="23" />
     <option name="width" value="1295" />
     <option name="height" value="677" />
@@ -491,15 +490,15 @@
       <workItem from="1480200626786" duration="4162000" />
       <workItem from="1480208201896" duration="731000" />
       <workItem from="1480209016038" duration="17532000" />
-      <workItem from="1480368993460" duration="668000" />
+      <workItem from="1480368993460" duration="928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78757000" />
+    <option name="totallyTimeSpent" value="79017000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="23" width="1295" height="677" extended-state="0" />
+    <frame x="75" y="23" width="1295" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17837837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -953,15 +952,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/details/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="293" column="0" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="205" column="26" selection-start-line="205" selection-start-column="26" selection-end-line="205" selection-end-column="26" />
           <folding>
-            <marker date="1480369799000" expanded="false" signature="8848:8874" ph="..." />
-            <marker date="1480369799000" expanded="true" signature="8875:8925" ph="..." />
-            <marker date="1480369799000" expanded="true" signature="8974:9808" ph="..." />
-            <marker date="1480369799000" expanded="true" signature="9071:9715" ph="{...}" />
-            <marker date="1480369799000" expanded="true" signature="9547:9601" ph="{&quot;center&quot;: uluru...}" />
-            <marker date="1480369799000" expanded="true" signature="9648:9705" ph="{&quot;position&quot;: uluru...}" />
+            <marker date="1480370260000" expanded="false" signature="8915:8941" ph="..." />
+            <marker date="1480370260000" expanded="true" signature="8942:8992" ph="..." />
+            <marker date="1480370260000" expanded="true" signature="9041:9875" ph="..." />
+            <marker date="1480370260000" expanded="true" signature="9138:9782" ph="{...}" />
+            <marker date="1480370260000" expanded="true" signature="9614:9668" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1480370260000" expanded="true" signature="9715:9772" ph="{&quot;position&quot;: uluru...}" />
           </folding>
         </state>
       </provider>
