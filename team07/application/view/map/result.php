@@ -39,8 +39,8 @@
             echo "
 
 <script>
-    var latitude =  echo $lati;
-    var longitude = echo $longi ;
+    var latitude =  $lati;
+    var longitude = $longi;
       
 
       
