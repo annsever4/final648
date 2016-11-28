@@ -4,7 +4,7 @@
 
 
 <!-- Page Content -->
-<div class="container">
+<div class="container" id="details-page">
 
     <!-- Portfolio Item Heading -->
     <div class="row">
@@ -74,10 +74,10 @@
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
-                <div class="panel-heading">
+                <div class="panel-heading" id="contact-info">
                     <h4><i class="fa fa-fw fa-check"></i> Amenities</h4>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body" id="contact-info">
                     <p>List of Amenities
                     <ul>
                         <?php if($listing->private_room) : ?>
@@ -110,7 +110,7 @@
                 <div class="panel-heading">
                     <h4><i class="fa fa-fw fa-gift"></i> Lease Information</h4>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body" id="contact-info">
                     <p>
                     <ul style="list-style: none">
                         <li>Start Date: <?php if(isset($listing->move_in_date)) echo
@@ -129,7 +129,7 @@
                 <div class="panel-heading">
                     <h4><i class="fa fa-fw fa-compass"></i> Contact Information</h4>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body" id="contact-info">
                     <p>NAME: <?php if(isset($listing->first_name)) echo htmlspecialchars($listing->first_name, ENT_QUOTES, 'UTF-8')." ".htmlspecialchars($listing->last_name,ENT_QUOTES,'UTF-8'); ?></p>
                     <p>EMAIL: <?php if(isset($listing->email)) echo htmlspecialchars($listing->email, ENT_QUOTES, 'UTF-8'); ?></p>
                     <p> PHONE: <?php if(isset($listing->phone_number)) echo htmlspecialchars($listing->phone_number, ENT_QUOTES, 'UTF-8') ?> </p>
