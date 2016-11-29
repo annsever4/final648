@@ -256,7 +256,10 @@
           center: uluru,
           scaleControl: false,
           scrollWheel: false,
-          panControl: false
+          panControl: false,
+          draggable: false,
+          minzoom: 15,
+          maxZoom: 15,
         });
         var marker = new google.maps.Marker({
           position: uluru,
