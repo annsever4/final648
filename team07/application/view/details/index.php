@@ -138,62 +138,9 @@
                 </div>
             </div>
         </div>
-        <!--  </div> -->
-        <!-- /.row -->
 
-        <!--
-                <!-- /.row
-
-                <!-- Related Projects Row
-                <div class="row">
-
-                    <div class="col-lg-12">
-                        <h3 class="page-header">Related Projects</h3>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                </div>
-                <!-- /.row
-        -->
 
         <hr>
-        <!--
-                <!-- Footer
-                <footer>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <p>Copyright &copy; Your Website 2014</p>
-                        </div>
-                    </div>
-                    <!-- /.row
-                </footer>
-
-            </div>
-        -->
-        <!-- /.container -->
 
 
 
@@ -279,8 +226,6 @@ console.log('I am here');
         
         
 ";
-
-
                 //Verify if data is complete
                 if ($lati && $longi && $formatted_address) {
                     //put the data in the array
@@ -300,18 +245,7 @@ console.log('I am here');
                 $longitude = $data_arr[1];
                 $formatted_address = $data_arr[2];
             //}
-
-
-
-
-
-
-
-
         }
-
-
-
         ?>
 
 
