@@ -258,7 +258,7 @@
           scrollWheel: false,
           panControl: false,
           draggable: false,
-          minzoom: 15,
+          minZoom: 15,
           maxZoom: 15,
         });
         var marker = new google.maps.Marker({
