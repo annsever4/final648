@@ -27,7 +27,7 @@ class Model
 
         //checks what filters to add the sql statement
         if ($is_house){
-            $sql.= " AND listings.is_house = 1";
+            $sql .= " AND listings.is_house = 1";
         }
         //
         if($is_apartment) {
@@ -61,7 +61,7 @@ class Model
 
         if($max_price){
             $max_price = trim($max_price);
-            $sql = " AND listings.price < ".$max_price; 
+            $sql .= " AND listings.price < ".$max_price; 
         }
 
         if($order) {
