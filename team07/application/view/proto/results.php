@@ -38,7 +38,7 @@
 				<li style="font:bold;font-size:30px;margin-top:20px; margin-bottom:10px"> Listings Type </li>	
 				<li id="nav-font"><input name="is_apartment" type="checkbox">Apartments</li>
 				<li id="nav-font"><input name="is_house" type="checkbox">Houses</li>
-				<li id="nav-font"><input name="is_room" "checkbox">Room</li>
+				<li id="nav-font"><input name="is_room" type="checkbox">Room</li>
 
 				<hr>	
 				<li style="font:bold;font-size:30px; margin-bottom:10px"> Price Range </li>

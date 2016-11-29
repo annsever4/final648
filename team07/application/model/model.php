@@ -56,11 +56,13 @@ class Model
 
         if($min_price) {
             $min_price = trim($min_price);
+            echo "<script> console.log(".$min_price.");<script>";
             $sql .= " AND listings.price > ".$min_price;
         }
 
         if($max_price){
             $max_price = trim($max_price);
+            echo "<script> console.log(".$max_price.");<script>";
             $sql = " AND listings.price < ".$max_price;
         }
 
