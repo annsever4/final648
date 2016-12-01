@@ -80,7 +80,7 @@
                   </div>
                 </div>
               </div>
-  -->            
+            
              </div><!--/tab-pane-->
              <div class="tab-pane" id="messages">
                

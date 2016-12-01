@@ -6,7 +6,7 @@
         <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3>
 		
         <form class="form-inline" id="black_text" style="margin-bottom:25%" action="<?php echo URL; ?>proto/searchlisting" method="POST">
-          <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
+          <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Enter zipcode or city" required >
           <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
         </form>
 </div>

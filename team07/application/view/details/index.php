@@ -134,7 +134,7 @@
                     <p>EMAIL: <?php if(isset($listing->email)) echo htmlspecialchars($listing->email, ENT_QUOTES, 'UTF-8'); ?></p>
                     <p> PHONE: <?php if(isset($listing->phone_number)) echo htmlspecialchars($listing->phone_number, ENT_QUOTES, 'UTF-8') ?> </p>
                     <!-- !!!!!!! Connect Messages !!!!!!!!! -->
-                    <a href="#" class="btn btn-default">Message</a>
+                    <a href="#" class="btn btn-default">Contact</a>
                 </div>
             </div>
         </div>
