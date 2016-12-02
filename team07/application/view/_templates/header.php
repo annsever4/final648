@@ -77,8 +77,14 @@
 
 //-->
 <div class="fill-height center" style="background-color:#ffffff;">
-	<ul class="nav nav-default nav-justified" style="font-size:20px;">
+	<ul class="nav navbar-nav" style="font-size:20px;">
+	<li id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
         <li id="pills"><a href="<?php echo URL; ?>add_listing">Add a Listing</a></li>
         <li id="pills"><a href="<?php echo URL; ?>profile">Profile</a></li>
 	</ul>
+	<form class="navbar-form navbar-right" id="black_text" style="margin-bottom:25%" action="<?php echo URL; ?>proto/searchlisting" method="POST">
+          <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
+          <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
+        </form>
+	
 </div>
