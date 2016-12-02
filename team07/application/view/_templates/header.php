@@ -45,19 +45,19 @@
              if(isset($_SESSION['logged_in'])){
 
                  echo "hello ", htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8');
-                 echo "<a  href = " .URL. "logout_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Logout</a>";
+                 echo "<a  href = " .URL. "logout_page class='btn btn-primary btn-lg active' style='background:#FFFF;' role='button' aria-pressed='true'>Logout</a>";
              }
 
 
              else {
 
 
-                 echo "<a href=" .URL. "login_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Login</a>";
+                 echo "<a href=" .URL. "login_page class='btn btn-primary btn-lg active' style='background:#000000;' role='button' aria-pressed='true'>Login</a>";
 
 
              }
              ?>
-             <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Register</a>
+             <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#000000;" role="button" aria-pressed="true">Register</a>
             </div>
            </div>
          </div>
@@ -82,7 +82,7 @@
         <li id="pills"><a href="<?php echo URL; ?>add_listing">Add a Listing</a></li>
         <li id="pills"><a href="<?php echo URL; ?>profile">Profile</a></li>
 	</ul>
-	<form class="navbar-form navbar-right" id="black_text" style="margin-bottom:25%" action="<?php echo URL; ?>proto/searchlisting" method="POST">
+	<form class="navbar-form navbar-right" id="black_text" style="width:40%;" action="<?php echo URL; ?>proto/searchlisting" method="POST">
           <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
           <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
         </form>
