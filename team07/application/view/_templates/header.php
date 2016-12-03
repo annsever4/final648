@@ -82,9 +82,12 @@
         <li id="pills"><a href="<?php echo URL; ?>add_listing">Add a Listing</a></li>
         <li id="pills"><a href="<?php echo URL; ?>profile">Profile</a></li>
 	</ul>
-	<form class="navbar-form navbar-right" id="black_text" style="width:40%;" action="<?php echo URL; ?>proto/searchlisting" method="POST">
-          <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
-          <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
-        </form>
-	
 </div>
+
+	<div style="float:right">
+	<form class="navbar-form" id="black_text" style="" action="<?php echo URL; ?>proto/searchlisting" method="POST">
+          <input class="form-control " type="text" name="key"  placeholder="Search location..." required >
+          <input class="btn btn-success" style="margin:0" type="submit" name="submit_search" value="Search"/>
+        </form>
+	</div>
+	
