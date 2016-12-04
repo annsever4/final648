@@ -45,19 +45,19 @@
              if(isset($_SESSION['logged_in'])){
 
                  echo "hello ", htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8');
-                 echo "<a  href = " .URL. "logout_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Logout</a>";
+                 echo "<a  href = " .URL. "logout_page class='btn btn-primary btn-lg active' style='background:#FFFF;' role='button' aria-pressed='true'>Logout</a>";
              }
 
 
              else {
 
 
-                 echo "<a href=" .URL. "login_page class='btn btn-primary btn-lg active' style='background:#330033;' role='button' aria-pressed='true'>Login</a>";
+                 echo "<a href=" .URL. "login_page class='btn btn-primary btn-lg active' style='background:#000000;' role='button' aria-pressed='true'>Login</a>";
 
 
              }
              ?>
-             <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#330033;" role="button" aria-pressed="true">Register</a>
+             <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#000000;" role="button" aria-pressed="true">Register</a>
             </div>
            </div>
          </div>
@@ -77,8 +77,17 @@
 
 //-->
 <div class="fill-height center" style="background-color:#ffffff;">
-	<ul class="nav nav-default nav-justified" style="font-size:20px;">
+	<ul class="nav navbar-nav" style="font-size:20px;">
+	<li id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
         <li id="pills"><a href="<?php echo URL; ?>add_listing">Add a Listing</a></li>
         <li id="pills"><a href="<?php echo URL; ?>profile">My Page</a></li>
 	</ul>
 </div>
+
+	<div style="float:right">
+	<form class="navbar-form" id="black_text" style="" action="<?php echo URL; ?>proto/searchlisting" method="POST">
+          <input class="form-control " type="text" name="key"  placeholder="Enter city or zipcode..." required >
+          <input class="btn btn-success" style="margin:0" type="submit" name="submit_search" value="Search"/>
+        </form>
+	</div>
+	

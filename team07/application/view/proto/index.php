@@ -2,20 +2,7 @@
 
 
 
-<div class="fill-height center" id="secondary_background">
-        <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3>
-		
-        <form class="form-inline" id="black_text" style="margin-bottom:25%" action="<?php echo URL; ?>proto/searchlisting" method="POST">
-          <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Enter zipcode or city" required >
-          <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
-        </form>
-</div>
-
-
-
 <!-- Output  Test -->
-
-
 <?php if(isset($apartments)) { ?>
 
 <p> SOMETHING HAS GONE TERRIBLY WRONG</p>
@@ -58,3 +45,16 @@
 
            
 <?php } ?>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88370313-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
