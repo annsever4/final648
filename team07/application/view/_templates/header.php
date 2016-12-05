@@ -79,7 +79,7 @@
 <div class="fill-height center" style="background-color:#ffffff;">
 	<ul class="nav navbar-nav" style="font-size:20px;">
 	<li id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
-        <li id="pills"><a href="<?php echo URL; ?>add_listing">Add a Listing</a></li>
+        <li id="pills"><a href="<?php echo URL; ?>addlisting">Add a Listing</a></li>
         <li id="pills"><a href="<?php echo URL; ?>profile">My Page</a></li>
 	</ul>
 </div>
