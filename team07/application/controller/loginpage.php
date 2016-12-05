@@ -1,6 +1,6 @@
 
 <?php
-class Login_page extends Controller
+class LoginPage extends Controller
 {
     /**
      * PAGE: index
