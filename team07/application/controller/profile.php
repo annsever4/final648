@@ -22,7 +22,7 @@ class Profile extends Controller
             require APP . 'view/_templates/footer.php';
         } else {
             // if the user has not logged it directs the user to the log in page
-            header('location: ' . URL . 'login_page/index');
+            header('location: ' . URL . 'loginpage/index');
 
         }
 

@@ -40,7 +40,7 @@ class Login_page extends Controller
             header('location: ' . URL . 'proto/index');
         } else {
             //reloads page so user can try to log in again <invalid email>
-            header('location: ' . URL . 'login_page/index');
+            header('location: ' . URL . 'loginpage/index');
             echo $user_password;
             //echo $hash;
         }
