@@ -10,7 +10,7 @@ class Login_page extends Controller
     {
         // load views
         require APP . 'view/_templates/header.php';
-        require APP . 'view/login_page/index.php';
+        require APP . 'view/loginpage/index.php';
         require APP . 'view/_templates/footer.php';
     }
 

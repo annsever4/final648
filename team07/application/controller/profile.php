@@ -1,4 +1,5 @@
 <?php
+
 class Profile extends Controller
 {
     /**
@@ -22,11 +23,16 @@ class Profile extends Controller
         } else {
             // if the user has not logged it directs the user to the log in page
             header('location: ' . URL . 'login_page/index');
+
         }
+
     }
     // called if user needs to update their information
     public function update()
     {
+
         header('location: ' . URL . 'profile/index');
+
     }
+
 }
