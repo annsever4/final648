@@ -151,7 +151,7 @@
 
             //$address = strip_tags(Request::post('address'));
         $address = $listing->address;
-            echo $address;
+//            echo $address;
 
             //google map geocode api url
             $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($address) . '&key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ';
@@ -169,8 +169,8 @@
                 $lati = $resp['results'][0]['geometry']['location']['lat'];
                 $longi = $resp['results'][0]['geometry']['location']['lng'];
                 $formatted_address = $resp['results'][0]['formatted_address'];
-//                echo $lati;
-//                echo $longi;
+                echo $lati;
+                echo $longi;
 //                echo $formatted_address;
 
                 $latiSFSU = 37.7219;
