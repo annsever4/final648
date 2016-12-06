@@ -258,7 +258,7 @@ console.log('I am here');
                 }
 
                 //if able to geocode the address
-``
+
 //                $latitude = $data_arr[0];
 //                $longitude = $data_arr[1];
 //                $formatted_address = $data_arr[2];
