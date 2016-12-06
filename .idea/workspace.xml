@@ -29,10 +29,10 @@
             <state relative-caret-position="281">
               <caret line="183" column="44" selection-start-line="183" selection-start-column="44" selection-end-line="183" selection-end-column="44" />
               <folding>
-                <marker date="1480985475000" expanded="true" signature="7985:8991" ph="..." />
-                <marker date="1480985475000" expanded="true" signature="8088:8898" ph="{...}" />
-                <marker date="1480985475000" expanded="true" signature="8564:8784" ph="{&quot;center&quot;: uluru...}" />
-                <marker date="1480985475000" expanded="true" signature="8831:8888" ph="{&quot;position&quot;: uluru...}" />
+                <marker date="1480985575000" expanded="true" signature="7984:8990" ph="..." />
+                <marker date="1480985575000" expanded="true" signature="8087:8897" ph="{...}" />
+                <marker date="1480985575000" expanded="true" signature="8563:8783" ph="{&quot;center&quot;: uluru...}" />
+                <marker date="1480985575000" expanded="true" signature="8830:8887" ph="{&quot;position&quot;: uluru...}" />
               </folding>
             </state>
           </provider>
@@ -58,8 +58,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="244" />
-    <option name="y" value="23" />
+    <option name="x" value="195" />
+    <option name="y" value="25" />
     <option name="width" value="973" />
     <option name="height" value="677" />
   </component>
@@ -207,15 +207,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480984340447</updated>
-      <workItem from="1480984343708" duration="1053000" />
+      <workItem from="1480984343708" duration="1153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1053000" />
+    <option name="totallyTimeSpent" value="1153000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="244" y="23" width="973" height="677" extended-state="0" />
+    <frame x="195" y="25" width="973" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.331963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -258,10 +258,10 @@
         <state relative-caret-position="281">
           <caret line="183" column="44" selection-start-line="183" selection-start-column="44" selection-end-line="183" selection-end-column="44" />
           <folding>
-            <marker date="1480985475000" expanded="true" signature="7985:8991" ph="..." />
-            <marker date="1480985475000" expanded="true" signature="8088:8898" ph="{...}" />
-            <marker date="1480985475000" expanded="true" signature="8564:8784" ph="{&quot;center&quot;: uluru...}" />
-            <marker date="1480985475000" expanded="true" signature="8831:8888" ph="{&quot;position&quot;: uluru...}" />
+            <marker date="1480985575000" expanded="true" signature="7984:8990" ph="..." />
+            <marker date="1480985575000" expanded="true" signature="8087:8897" ph="{...}" />
+            <marker date="1480985575000" expanded="true" signature="8563:8783" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1480985575000" expanded="true" signature="8830:8887" ph="{&quot;position&quot;: uluru...}" />
           </folding>
         </state>
       </provider>

@@ -179,7 +179,7 @@
                 $earthRadius = 6371000;
 
                 //convert from degree to radius
-                $latiFrom = deg2rad($lati);
+                $latFrom = deg2rad($lati);
                 $lonFrom = deg2rad($longi);
                 $latTo = deg2rad($latiSFSU);
                 $lonTo = deg2rad($longiSFSU);
