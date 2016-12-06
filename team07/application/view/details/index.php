@@ -174,7 +174,7 @@
 //                echo $formatted_address;
 
                 $latiSFSU = 37.7219;
-                $longiSFSU = 122.4782;
+                $longiSFSU = -122.4782;
 
                 $earthRadius = 6371000;
 
