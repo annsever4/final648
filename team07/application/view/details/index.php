@@ -151,7 +151,7 @@
 
             //$address = strip_tags(Request::post('address'));
         $address = $listing->address;
-            echo $address;
+//            echo $address;
 
             //google map geocode api url
             $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($address) . '&key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ';
@@ -258,7 +258,7 @@ console.log('I am here');
                 }
 
                 //if able to geocode the address
-
+``
 //                $latitude = $data_arr[0];
 //                $longitude = $data_arr[1];
 //                $formatted_address = $data_arr[2];
