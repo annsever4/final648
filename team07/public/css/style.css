@@ -5,7 +5,7 @@ html{
 body{
     font-family: Arial;
     font-size: 14px;
-    background-color: #330033;
+    background-color: #ffffff;
 }
 img{
     max-height:200px;
@@ -50,7 +50,7 @@ img{
     margin: 33px;
 }
 .container a {
-    color: #222;
+    color: #22;
 }
 .container table {
     font-size: 11px;
@@ -99,7 +99,8 @@ img{
 
 .footer {
     padding-top: 20px;
-    margin-top: 33px;
+    margin-top: 35%;
+    background: #F4C300;
     padding-bottom: 20px; 
     font-size: 12px;
     opacity: 0.75;
@@ -134,19 +135,16 @@ img{
 }
 
 #main_text_color:{
-    color: #ffcc33;
+    color: #000000;
 }
 
 #secondary_text_color{
     color: #330033;
 }
 
-#main_background{
-    background-color:  #ffcc33;
-}
 
 #secondary_background{
-    background-color: #330033;
+    background-color: #ffffff;
 
 }
 
@@ -206,7 +204,8 @@ ls{
 }
 
 a:link, a:visited {
-    background-color: #FFCC33;
+    background-color: #FFFFFF;
+    font-color: ##330033;
     color: white;
     padding: 14px 25px;
     text-align: center; 
@@ -214,24 +213,19 @@ a:link, a:visited {
     display: inline-block;
 }
 
-a:hover, a:active {
-    background-color:#FFCC33;
-}
 
 #pills a:link, a:visited {
-    background-color: #FFCC33;
-    color: white;
+    color: #000000;
     text-align: center;
     text-decoration: none;
 }
 
 #pills a:hover, a:active {
-    background-color:#330033;
 }
 
 #pill-shape{
  border-radius: 500px;
- background:#FFCC33;
+ background:#ffcc33;
  color:#330033;
  margin-top:5px;
  font-weight:bold;
@@ -265,3 +259,12 @@ a:hover, a:active {
     height:400px;
     width:100%;
 }
+
+#details-page{
+    color:#FFFFFF;
+}
+
+#contact-info{
+    color:#330033;
+}
+

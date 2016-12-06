@@ -1,5 +1,5 @@
 <?php
-class Add_listing extends Controller
+class AddListing extends Controller
 {
     /**
      * PAGE: index
@@ -9,7 +9,7 @@ class Add_listing extends Controller
     {
         // load views
         require APP . 'view/_templates/header.php';
-        require APP . 'view/add_listing/index.php';
+        require APP . 'view/addlisting/index.php';
         require APP . 'view/_templates/footer.php';
     }
 

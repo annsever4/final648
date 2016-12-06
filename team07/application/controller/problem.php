@@ -23,4 +23,5 @@ class Problem extends Controller
         require APP . 'view/problem/index.php';
         require APP . 'view/_templates/footer.php';
     }
+
 }

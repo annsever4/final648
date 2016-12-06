@@ -7,7 +7,7 @@
 // --> 
 
 
-<form action="<?php echo URL; ?> login_page/loginRegisteredUser" method="post">
+<form action="<?php echo URL; ?> login_page/loginRegisteredUser"  style="margin-bottom:15%" method="post">
 
   <div class="row">
   <div class="col-md-4 col-md-offset-4 form-group" style="color:#FFFFFF">

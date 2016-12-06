@@ -1,6 +1,6 @@
 <div class="container-fluid" id="profile-color">
 	<div class="row">
-  		<div class="col-sm-10" id="main_text_color"><h1><?php echo htmlspecialchars($_SESSION['user_name'], ENT_QUOTES, 'UTF-8'); ?></h1></div>
+  		<div class="col-sm-10" id="main_text_color"><h1><?php echo htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8'); ?></h1></div>
 <!--    
 	<div class="col-sm-2"><a href="/users" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="http://www.gravatar.com/avatar/28fd20ccec6865e2d5f0e1f4446eb7bf?s=100"></a></div>
 -->    
@@ -10,7 +10,7 @@
               
           <ul class="list-group">
             <li class="list-group-item text-muted">Profile</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Name: </strong></span><?php echo htmlspecialchars($_SESSION['user_name'],ENT_QUOTES,'UTF-8');?></li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Name: </strong></span><?php echo htmlspecialchars($_SESSION['name'],ENT_QUOTES,'UTF-8');?></li>
             <li class="list-group-item text-right"><span class="pull-left"><strong>Email: </strong></span><?php echo htmlspecialchars($_SESSION['member_user_email'],ENT_QUOTES,'UTF-8'); ?></li>
             <li class="list-group-item text-right"><span class="pull-left"><strong>Phone Number: </strong></span><?php echo htmlspecialchars($_SESSION['phone_number'],ENT_QUOTES, 'UTF-8'); ?></li>
             
@@ -61,8 +61,8 @@
                     </tr>
                   </thead>
                   <tbody id="items">
-                  <?php foreach ($member_user_listing as $listing) {?>
-                    <tr>
+                  <?php foreach ($member_user_listings as $listing) {?>
+                    <tr class="clickable_details_row" id="<?php echo $listing->id;?>">
                       <td><?php if(isset($listing->id)) echo htmlspecialchars($listing->id,ENT_QUOTES,'UTF-8');?></td>
                       <td><?php if(isset($listing->title)) echo htmlspecialchars($listing->title,ENT_QUOTES,'UTF-8');?></td>
                       <td><?php if(isset($listing->price)) echo htmlspecialchars($listing->price,ENT_QUOTES,'UTF-8');?></td>
@@ -71,89 +71,6 @@
                       <td><?php if(isset($listing->move_in_date)) echo htmlspecialchars($listing->move_in_date,ENT_QUOTES,'UTF-8');?></td>
                     </tr>
                   <?php } ?>
-                  <!-- TEMPORARILY COMMENTING THIS OUT> WILL DELETE AFTER TESTING
-                    <tr>
-                      <td>2</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                    </tr>
-                    <tr>
-                      <td>7</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                    </tr>
-                     <tr>
-                      <td>8</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                    </tr>
-                    <tr>
-                      <td>9</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                    </tr>
-                    <tr>
-                      <td>10</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                      <td>Table cell</td>
-                    </tr>
-                    -->
                   </tbody>
                 </table>
                 <!-- <hr> -->
@@ -162,38 +79,8 @@
                   	<ul class="pagination" id="myPager"></ul>
                   </div>
                 </div>
-              </div><!--/table-resp-->
-              
-             <!-- <hr>-->
-<!--              
-              <h4>Recent Activity</h4>
-              
-              <div class="table-responsive">
-                <table class="table table-hover">
-                  
-                  <tbody>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> Today, 1:00 - Jeff Manzi liked your post.</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> Today, 12:23 - Mark Friendo liked and shared your post.</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> Today, 12:20 - You posted a new blog entry title "Why social media is".</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> Yesterday - Karen P. liked your post.</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> 2 Days Ago - Philip W. liked your post.</td>
-                    </tr>
-                    <tr>
-                      <td><i class="pull-right fa fa-edit"></i> 2 Days Ago - Jeff Manzi liked your post.</td>
-                    </tr>
-                  </tbody>
-                </table>
               </div>
-  -->            
+            
              </div><!--/tab-pane-->
              <div class="tab-pane" id="messages">
                
@@ -201,16 +88,10 @@
                
                <ul class="list-group">
                   <li class="list-group-item text-muted">Inbox</li>
-                  <li class="list-group-item text-right"><a href="#">Here is your a link to the latest summary report from the..</a>2.13.2014</li>
-                  <li class="list-group-item text-right"><a href="#">Hi Joe, There has been a request on your account since that was..</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#">Nullam sapien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#">Thllam sapien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#">Wesm sapien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#">For therepien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#">Also we, havesapien massaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
-                  <li class="list-group-item text-right"><a href="#">Swedish chef is assaortor. A lobortis vitae, condimentum justo...</a> 2.11.2014</li>
 
-                  
+                 <?php foreach ($all_user_messages as $message) {?>
+                   <li class="list-group-item text-right"><a href="#" onclick="return false;"><?php echo htmlspecialchars($message->message,ENT_QUOTES, 'UTF-8')?></a></li>
+                    <?php } ?>
                 </ul> 
                
              </div><!--/tab-pane-->
@@ -284,4 +165,4 @@
 
         </div><!--/col-9-->
     </div><!--/row-->
-<script src = "<?php echo APP . "team07/public/js/profile.js" ?>"></script>
+

@@ -1,6 +1,6 @@
 
 <?php
-class Login_page extends Controller
+class LoginPage extends Controller
 {
     /**
      * PAGE: index
@@ -10,7 +10,7 @@ class Login_page extends Controller
     {
         // load views
         require APP . 'view/_templates/header.php';
-        require APP . 'view/login_page/index.php';
+        require APP . 'view/loginpage/index.php';
         require APP . 'view/_templates/footer.php';
     }
 
@@ -30,7 +30,7 @@ class Login_page extends Controller
 
         if ($password_verification_result) {
 
-            $credentials = $this->model->getCredentials();
+            $credentials = $this->model->getCredentials($user_email);
             $_SESSION['member_user_email'] = $user_email;
             $_SESSION['name'] = $credentials->first_name . $credentials->last_name;
             $_SESSION['phone_number'] = $credentials->phone_number;
@@ -40,7 +40,7 @@ class Login_page extends Controller
             header('location: ' . URL . 'proto/index');
         } else {
             //reloads page so user can try to log in again <invalid email>
-            header('location: ' . URL . 'login_page/index');
+            header('location: ' . URL . 'loginpage/index');
             echo $user_password;
             //echo $hash;
         }

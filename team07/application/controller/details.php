@@ -12,17 +12,23 @@ class Details extends Controller
     {
         //target
         $target_listing_id = Request::post('listing_detail_id');
+
         if($target_listing_id) {
-           $listing = $this->model->getDetails($target_listing_id);
-            //AS OF NOW THE DETAILS PAGE HAS A CUSTOM HEADER
-            //TODO separate into a details_header in _template or something of the like
-            #require APP . 'view/_templates/header.php';
+
+            $listing = $this->model->getDetails($target_listing_id);
 
             require APP.  'view/_templates/header.php';
+
             require APP . 'view/details/index.php';
+
             require APP . 'view/_templates/footer.php';
+
         } else {
+
             echo "<script> console.log('model function never called')</script>";
+
         }
+
     }
+
 }

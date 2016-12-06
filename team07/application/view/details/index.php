@@ -4,7 +4,7 @@
 
 
 <!-- Page Content -->
-<div class="container">
+<div class="container" id="details-page">
 
     <!-- Portfolio Item Heading -->
     <div class="row">
@@ -74,10 +74,10 @@
         </div>
         <div class="col-md-4">
             <div class="panel panel-default">
-                <div class="panel-heading">
+                <div class="panel-heading" id="contact-info">
                     <h4><i class="fa fa-fw fa-check"></i> Amenities</h4>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body" id="contact-info">
                     <p>List of Amenities
                     <ul>
                         <?php if($listing->private_room) : ?>
@@ -110,7 +110,7 @@
                 <div class="panel-heading">
                     <h4><i class="fa fa-fw fa-gift"></i> Lease Information</h4>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body" id="contact-info">
                     <p>
                     <ul style="list-style: none">
                         <li>Start Date: <?php if(isset($listing->move_in_date)) echo
@@ -129,71 +129,18 @@
                 <div class="panel-heading">
                     <h4><i class="fa fa-fw fa-compass"></i> Contact Information</h4>
                 </div>
-                <div class="panel-body">
+                <div class="panel-body" id="contact-info">
                     <p>NAME: <?php if(isset($listing->first_name)) echo htmlspecialchars($listing->first_name, ENT_QUOTES, 'UTF-8')." ".htmlspecialchars($listing->last_name,ENT_QUOTES,'UTF-8'); ?></p>
                     <p>EMAIL: <?php if(isset($listing->email)) echo htmlspecialchars($listing->email, ENT_QUOTES, 'UTF-8'); ?></p>
                     <p> PHONE: <?php if(isset($listing->phone_number)) echo htmlspecialchars($listing->phone_number, ENT_QUOTES, 'UTF-8') ?> </p>
                     <!-- !!!!!!! Connect Messages !!!!!!!!! -->
-                    <a href="#" class="btn btn-default">Message</a>
+                    <a href="#" class="btn btn-default">Contact</a>
                 </div>
             </div>
         </div>
-        <!--  </div> -->
-        <!-- /.row -->
 
-        <!--
-                <!-- /.row
-
-                <!-- Related Projects Row
-                <div class="row">
-
-                    <div class="col-lg-12">
-                        <h3 class="page-header">Related Projects</h3>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                    <div class="col-sm-3 col-xs-6">
-                        <a href="#">
-                            <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                        </a>
-                    </div>
-
-                </div>
-                <!-- /.row
-        -->
 
         <hr>
-        <!--
-                <!-- Footer
-                <footer>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <p>Copyright &copy; Your Website 2014</p>
-                        </div>
-                    </div>
-                    <!-- /.row
-                </footer>
-
-            </div>
-        -->
-        <!-- /.container -->
 
 
 
@@ -252,8 +199,14 @@
 
         
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
+          zoom: 15,
+          center: uluru,
+          scaleControl: false,
+          scrollWheel: false,
+          panControl: false,
+          draggable: false,
+          minZoom: 15,
+          maxZoom: 15,
         });
         var marker = new google.maps.Marker({
           position: uluru,
@@ -273,8 +226,6 @@ console.log('I am here');
         
         
 ";
-
-
                 //Verify if data is complete
                 if ($lati && $longi && $formatted_address) {
                     //put the data in the array
@@ -294,18 +245,7 @@ console.log('I am here');
                 $longitude = $data_arr[1];
                 $formatted_address = $data_arr[2];
             //}
-
-
-
-
-
-
-
-
         }
-
-
-
         ?>
 
 
