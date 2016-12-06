@@ -173,18 +173,36 @@
 //                echo $longi;
 //                echo $formatted_address;
 
-//                echo"
-//            <div id = 'map' style='width:500px; height:500px;'>
-//            Here I am from php
-//            </div>
-//            ";
+                $latiSFSU = 37.7219;
+                $longiSFSU = 122.4782;
+
+                $earthRadius = 6371000;
+
+                //convert from degree to radius
+                $latiFrom = deg2rad($lati);
+                $lonFrom = deg2rad($longi);
+                $latTo = deg2rad($latiSFSU);
+                $lonTo = deg2rad($longiSFSU);
+
+                $longDelta = $lonTo - $lonFrom;
+
+                $a = pow(cos($latTo) * sin($lonDelta), 2) +
+                    pow(cos($latFrom) * sin($latTo) - sin($latFrom) * cos($latTo) * cos($lonDelta), 2);
+                $b = sin($latFrom) * sin($latTo) + cos($latFrom) * cos($latTo) * cos($lonDelta);
+
+                $angle = atan2(sqrt($a), $b);
+                echo $angle * $earthRadius;
+
+
 
                 echo "
 
 <script>
     var latitude =  $lati;
     var longitude = $longi;
-      
+    
+   
+   
 
       
       function initMap() {
