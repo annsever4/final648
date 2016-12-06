@@ -26,13 +26,13 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/details/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+            <state relative-caret-position="281">
+              <caret line="183" column="44" selection-start-line="183" selection-start-column="44" selection-end-line="183" selection-end-column="44" />
               <folding>
-                <marker date="1480985309000" expanded="true" signature="7986:8992" ph="..." />
-                <marker date="1480985309000" expanded="true" signature="8089:8899" ph="{...}" />
-                <marker date="1480985309000" expanded="true" signature="8565:8785" ph="{&quot;center&quot;: uluru...}" />
-                <marker date="1480985309000" expanded="true" signature="8832:8889" ph="{&quot;position&quot;: uluru...}" />
+                <marker date="1480985475000" expanded="true" signature="7985:8991" ph="..." />
+                <marker date="1480985475000" expanded="true" signature="8088:8898" ph="{...}" />
+                <marker date="1480985475000" expanded="true" signature="8564:8784" ph="{&quot;center&quot;: uluru...}" />
+                <marker date="1480985475000" expanded="true" signature="8831:8888" ph="{&quot;position&quot;: uluru...}" />
               </folding>
             </state>
           </provider>
@@ -58,7 +58,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="412" />
+    <option name="x" value="244" />
     <option name="y" value="23" />
     <option name="width" value="973" />
     <option name="height" value="677" />
@@ -207,15 +207,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480984340447</updated>
-      <workItem from="1480984343708" duration="894000" />
+      <workItem from="1480984343708" duration="1053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="894000" />
+    <option name="totallyTimeSpent" value="1053000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="412" y="23" width="973" height="677" extended-state="0" />
+    <frame x="244" y="23" width="973" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.331963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -255,13 +255,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/team07/application/view/details/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        <state relative-caret-position="281">
+          <caret line="183" column="44" selection-start-line="183" selection-start-column="44" selection-end-line="183" selection-end-column="44" />
           <folding>
-            <marker date="1480985309000" expanded="true" signature="7986:8992" ph="..." />
-            <marker date="1480985309000" expanded="true" signature="8089:8899" ph="{...}" />
-            <marker date="1480985309000" expanded="true" signature="8565:8785" ph="{&quot;center&quot;: uluru...}" />
-            <marker date="1480985309000" expanded="true" signature="8832:8889" ph="{&quot;position&quot;: uluru...}" />
+            <marker date="1480985475000" expanded="true" signature="7985:8991" ph="..." />
+            <marker date="1480985475000" expanded="true" signature="8088:8898" ph="{...}" />
+            <marker date="1480985475000" expanded="true" signature="8564:8784" ph="{&quot;center&quot;: uluru...}" />
+            <marker date="1480985475000" expanded="true" signature="8831:8888" ph="{&quot;position&quot;: uluru...}" />
           </folding>
         </state>
       </provider>
