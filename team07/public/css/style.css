@@ -203,7 +203,7 @@ ls{
     text-color:#000000;
 }
 
-a:link, a:visited {
+a:link {
     background-color: #FFFFFF;
     font-color: ##330033;
     color: white;
@@ -261,7 +261,6 @@ a:link, a:visited {
 }
 
 #details-page{
-    color:#FFFFFF;
 }
 
 #contact-info{

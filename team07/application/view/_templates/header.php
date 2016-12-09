@@ -52,7 +52,7 @@
              else {
 
 
-                 echo "<a href=" .URL. "loginpage class='btn btn-primary btn-lg active' style='background:#000000;' role='button' aria-pressed='true'>Login</a>";
+                 echo "<a href=" .URL. "loginpage class='btn btn-primary btn-lg active' style='background:#000000; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
 
 
              }
@@ -90,4 +90,4 @@
           <input class="btn btn-success" style="margin:0" type="submit" name="submit_search" value="Search"/>
         </form>
 	</div>
-	
+<hr>	

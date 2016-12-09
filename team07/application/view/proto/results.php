@@ -12,7 +12,7 @@
 
    <div id="fancy-border">
     <form class="form-inline" id="black_text" action="<?php echo URL; ?>proto/searchlisting" method="POST">
-        <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Search location..." required >
+        <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Enter city or zipcode..." required >
         <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
         <select name="slt_sort_by">
             <option value="price">Price</option>

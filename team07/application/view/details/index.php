@@ -11,6 +11,7 @@
         <div class="col-lg-12">
             <h1 class="page-header"><?php if(isset($listing->title)) echo htmlspecialchars($listing->title, ENT_QUOTES, 'UTF-8'); ?>
                 <small><?php if(isset($listing->address)) echo htmlspecialchars($listing->address, ENT_QUOTES, 'UTF-8'); ?></small>
+		<a href="#" class="btn btn-default" style="background:red">Contact</a>
             </h1>
         </div>
     </div>
@@ -134,7 +135,7 @@
                     <p>EMAIL: <?php if(isset($listing->email)) echo htmlspecialchars($listing->email, ENT_QUOTES, 'UTF-8'); ?></p>
                     <p> PHONE: <?php if(isset($listing->phone_number)) echo htmlspecialchars($listing->phone_number, ENT_QUOTES, 'UTF-8') ?> </p>
                     <!-- !!!!!!! Connect Messages !!!!!!!!! -->
-                    <a href="#" class="btn btn-default">Contact</a>
+                    <a href="#" class="btn btn-default" style="background:red">Contact</a>
                 </div>
             </div>
         </div>
@@ -151,7 +152,7 @@
 
             //$address = strip_tags(Request::post('address'));
         $address = $listing->address;
-            echo $address;
+           # echo $address;
 
             //google map geocode api url
             $url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode($address) . '&key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ';
