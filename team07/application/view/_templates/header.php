@@ -51,13 +51,17 @@
 
              else {
 
-
                  echo "<a href=" .URL. "loginpage class='btn btn-primary btn-block btn-lg active' style='background:#000000; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
-
 
              }
              ?>
-             <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#000000;" role="button" aria-pressed="true">Register</a>
+
+         </div>
+
+           <div class= "col-md-2 test-right" id = "pills" style="margin-top:3%">
+             <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg btn-block active" style="background:#000000;" role="button" aria-pressed="true">Register</a>
+           </div>
+
             </div>
            </div>
          </div>
