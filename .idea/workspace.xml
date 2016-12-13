@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/controller/loginpage.php" afterPath="$PROJECT_DIR$/team07/application/controller/loginpage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/_templates/header.php" afterPath="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
     </list>
     <ignored path="f16g07.iws" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="481">
+              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -541,12 +540,12 @@
       <workItem from="1480209016038" duration="17532000" />
       <workItem from="1480368993460" duration="2276000" />
       <workItem from="1480906828990" duration="5868000" />
-      <workItem from="1481653430941" duration="2701000" />
+      <workItem from="1481653430941" duration="3211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88934000" />
+    <option name="totallyTimeSpent" value="89444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -950,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="481">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding />
         </state>
       </provider>
