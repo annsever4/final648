@@ -43,8 +43,9 @@
 
 
 	     <div class="col-md-2  text-right" id="pills" style="margin-top:3%">
+             <span></span>
              <div class ="btn-group">
-                 <span
+
              <?php
 
 
