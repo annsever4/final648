@@ -20,7 +20,8 @@ class Proto extends Controller
            $apartments = $this->model->getListing(
                 Request::post("key"), Request::post('slt_sort_by'),Request::postCheckbox("is_house"),
                 Request::postCheckbox("is_apartment"),Request::postCheckbox('is_room'), Request::postCheckbox('laundry_on_site'),
-                Request::postCheckbox('dogs_ok'),Request::postCheckbox('cats_ok'), Request::postCheckbox('utilities_included') ,Request::post('min_price'),Request::post('max_price')
+                Request::postCheckbox('dogs_ok'),Request::postCheckbox('cats_ok'), Request::postCheckbox('utilities_included') ,
+                Request::post('min_price'),Request::post('max_price')
             );
 
         }
