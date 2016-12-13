@@ -37,7 +37,7 @@
     	        </h1>
   	    </div>
 	   
-	     <div class="col-md-2 text-right" id="pills" style="margin-top:3%">
+	     <div class="col-md-1 text-right" id="pills" style="margin-top:3%">
              <?php
 
 
@@ -58,7 +58,7 @@
 
          </div>
 
-           <div class= "col-md-2 test-right" id = "pills" style="margin-top:3%">
+           <div class= "col-md-1 test-right" id = "pills" style="margin-top:3%">
              <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg btn-block active" style="background:#000000;" role="button" aria-pressed="true">Register</a>
            </div>
 
