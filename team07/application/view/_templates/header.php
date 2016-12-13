@@ -44,6 +44,7 @@
 
 	     <div class="col-md-2  text-right" id="pills" style="margin-top:3%">
              <div class ="btn-group">
+                 <span
              <?php
 
 
@@ -62,11 +63,11 @@
              }
              ?>
 
-         
+
 
 
              <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg btn-block active" style="background:#000000;" role="button" aria-pressed="true">Register</a>
-
+            </span>
 
             </div>
            </div>
