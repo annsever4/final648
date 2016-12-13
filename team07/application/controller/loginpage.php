@@ -32,7 +32,7 @@ class LoginPage extends Controller
 
             $credentials = $this->model->getCredentials($user_email);
             $_SESSION['member_user_email'] = $user_email;
-            $_SESSION['name'] = $credentials->first_name . $credentials->last_name;
+            $_SESSION['name'] = $credentials->first_name . " " . $credentials->last_name;
             $_SESSION['phone_number'] = $credentials->phone_number;
             $_SESSION['member_user_id'] = $credentials->id;
             $_SESSION['logged_in'] = true;

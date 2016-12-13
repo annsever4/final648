@@ -44,15 +44,15 @@
 
              if(isset($_SESSION['logged_in'])){
 
-                 echo "hello ", htmlspecialchars($_SESSION['name'], ENT_QUOTES, 'UTF-8');
-                 echo "<a  href = " .URL. "logoutpage class='btn btn-primary btn-lg active' style='background:#FFFF;' role='button' aria-pressed='true'>Logout</a>";
+
+                 echo "<a  href = " .URL. "logoutpage class='btn btn-primary btn-block btn-lg active' style='background:#FFFF;' role='button' aria-pressed='true'>Logout</a>";
              }
 
 
              else {
 
 
-                 echo "<a href=" .URL. "loginpage class='btn btn-primary btn-lg active' style='background:#000000; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
+                 echo "<a href=" .URL. "loginpage class='btn btn-primary btn-block btn-lg active' style='background:#000000; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
 
 
              }
