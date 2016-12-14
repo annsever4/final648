@@ -68,7 +68,7 @@
 
 
 
-             <a  href="<?php echo URL; ?>registration" class="btn equal-size btn-primary btn-lg active" style="background:#f4d942; color:#6D32B0her" role="button" aria-pressed="true">Register</a>
+             <a  href="<?php echo URL; ?>registration" class="btn equal-size btn-primary btn-lg active" style="background:#f4d942; color:#6D32B0" role="button" aria-pressed="true">Register</a>
 
 
 
