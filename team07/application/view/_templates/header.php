@@ -91,7 +91,7 @@
 //-->
 
 
-        <div class ="container">
+
             <div class = "row">
                 <div class = "col-md-4" id = "tabs"
 <div class="fill-height center" style="background-color:#ffffff;">
@@ -104,7 +104,7 @@
 
         </div>
         </div>
-        </div>
+    
 
 
 
