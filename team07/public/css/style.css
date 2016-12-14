@@ -13,11 +13,11 @@ img{
 }
 
 .logo {
-    font-size: 100px;
-    font-weight: bolder;
-    letter-spacing: -6px;
-    color: #222;
-    margin: 20px 30px;
+    afont-size: 100px;
+    afont-weight: bolder;
+    aletter-spacing: -6px;
+    acolor: #222;
+    amargin: 20px 30px;
     display:inline-block;
 }
 .logo .number {
