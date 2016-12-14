@@ -29,7 +29,7 @@
                             <h3 class = "panel-title"><?php echo current($listings)->title;?></h3>
                             </div>
 
-                        <div class = "panel-body">
+                        <div class = "panel-body fixed-panel">
                             <ul>
                                 <li>$<?php echo current($listings)->price; ?></li>
                                 <li><?php echo current($listings)->bed_rooms; ?> bedrooms</li>
