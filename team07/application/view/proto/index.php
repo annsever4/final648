@@ -26,12 +26,18 @@
                     <div class = "panel panel-default">
 
                         <div class = "panel-heading">
-                            <h3 class = "panel-title"><?php echo current($listings)->price;?></h3>
+                            <h3 class = "panel-title"><?php echo current($listings)->title;?></h3>
                             </div>
 
                         <div class = "panel-body">
-                            <?php echo current($listings)->title; ?>
+                            <ul>
+                                <li>$<?php echo current($listings)->price; ?></li>
+                                <li><?php echo current($listing)->bed_rooms; ?> bedrooms</li>
+                                <li><?php echo current($listing)->square_feet;?> square feet</li>
+
+                            </ul>
                             </div>
+
 
                     </div>
 

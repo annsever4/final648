@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/proto/index.php" afterPath="$PROJECT_DIR$/team07/application/view/proto/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/public/css/style.css" afterPath="$PROJECT_DIR$/team07/public/css/style.css" />
     </list>
     <ignored path="f16g07.iws" />
@@ -60,20 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="169" selection-start-line="15" selection-start-column="169" selection-end-line="15" selection-end-column="169" />
+            <state relative-caret-position="522">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1481747929029" expanded="true" signature="990:1443" ph="..." />
-                <marker date="1481747929029" expanded="true" signature="1046:1419" ph="..." />
-                <marker date="1481747929029" expanded="true" signature="1101:1235" ph="..." />
-                <marker date="1481747929029" expanded="true" signature="1287:1391" ph="..." />
-                <marker date="1481747929029" expanded="true" signature="1779:2185" ph="..." />
-                <marker date="1481747929029" expanded="true" signature="1807:2026" ph="{...}" />
-                <marker date="1481747929029" expanded="true" signature="1858:1898" ph="{...}" />
+                <marker date="1481749174525" expanded="true" signature="990:1718" ph="..." />
+                <marker date="1481749174525" expanded="true" signature="1046:1694" ph="..." />
+                <marker date="1481749174525" expanded="true" signature="1101:1235" ph="..." />
+                <marker date="1481749174525" expanded="true" signature="1287:1665" ph="..." />
+                <marker date="1481749174525" expanded="true" signature="2054:2460" ph="..." />
+                <marker date="1481749174525" expanded="true" signature="2082:2301" ph="{...}" />
+                <marker date="1481749174525" expanded="true" signature="2133:2173" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+            <state relative-caret-position="711">
+              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -177,8 +178,8 @@
         <option value="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
         <option value="$PROJECT_DIR$/team07/application/model/model.php" />
         <option value="$PROJECT_DIR$/team07/application/controller/proto.php" />
-        <option value="$PROJECT_DIR$/team07/application/view/proto/index.php" />
         <option value="$PROJECT_DIR$/team07/public/css/style.css" />
+        <option value="$PROJECT_DIR$/team07/application/view/proto/index.php" />
       </list>
     </option>
   </component>
@@ -521,12 +522,12 @@
       <workItem from="1480209016038" duration="17532000" />
       <workItem from="1480368993460" duration="2276000" />
       <workItem from="1480906828990" duration="5868000" />
-      <workItem from="1481653430941" duration="29345000" />
+      <workItem from="1481653430941" duration="30127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115578000" />
+    <option name="totallyTimeSpent" value="116360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -941,23 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="169" selection-start-line="15" selection-start-column="169" selection-end-line="15" selection-end-column="169" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1481747929029" expanded="true" signature="990:1443" ph="..." />
-            <marker date="1481747929029" expanded="true" signature="1046:1419" ph="..." />
-            <marker date="1481747929029" expanded="true" signature="1101:1235" ph="..." />
-            <marker date="1481747929029" expanded="true" signature="1287:1391" ph="..." />
-            <marker date="1481747929029" expanded="true" signature="1779:2185" ph="..." />
-            <marker date="1481747929029" expanded="true" signature="1807:2026" ph="{...}" />
-            <marker date="1481747929029" expanded="true" signature="1858:1898" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/proto/results.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -968,9 +952,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+        <state relative-caret-position="711">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1481749174525" expanded="true" signature="990:1718" ph="..." />
+            <marker date="1481749174525" expanded="true" signature="1046:1694" ph="..." />
+            <marker date="1481749174525" expanded="true" signature="1101:1235" ph="..." />
+            <marker date="1481749174525" expanded="true" signature="1287:1665" ph="..." />
+            <marker date="1481749174525" expanded="true" signature="2054:2460" ph="..." />
+            <marker date="1481749174525" expanded="true" signature="2082:2301" ph="{...}" />
+            <marker date="1481749174525" expanded="true" signature="2133:2173" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
