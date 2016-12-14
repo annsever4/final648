@@ -31,6 +31,7 @@
                     </div>
 
                 </div>
+                </div>
                 <?php try{
                     next($listings);
                 } catch (Exception $e) {
@@ -48,7 +49,7 @@
 
 
 </div>
-    </div>
+
 
 
 

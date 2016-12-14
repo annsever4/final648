@@ -43,13 +43,13 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+            <state relative-caret-position="522">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
-                <marker date="1481743480128" expanded="true" signature="1555:1948" ph="..." />
-                <marker date="1481743480128" expanded="true" signature="2352:2758" ph="..." />
-                <marker date="1481743480128" expanded="true" signature="2380:2599" ph="{...}" />
-                <marker date="1481743480128" expanded="true" signature="2431:2471" ph="{...}" />
+                <marker date="1481743634332" expanded="true" signature="1568:1961" ph="..." />
+                <marker date="1481743634332" expanded="true" signature="2365:2771" ph="..." />
+                <marker date="1481743634332" expanded="true" signature="2393:2612" ph="{...}" />
+                <marker date="1481743634332" expanded="true" signature="2444:2484" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -509,12 +509,12 @@
       <workItem from="1480209016038" duration="17532000" />
       <workItem from="1480368993460" duration="2276000" />
       <workItem from="1480906828990" duration="5868000" />
-      <workItem from="1481653430941" duration="24445000" />
+      <workItem from="1481653430941" duration="24587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110678000" />
+    <option name="totallyTimeSpent" value="110820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -949,13 +949,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        <state relative-caret-position="522">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
-            <marker date="1481743480128" expanded="true" signature="1555:1948" ph="..." />
-            <marker date="1481743480128" expanded="true" signature="2352:2758" ph="..." />
-            <marker date="1481743480128" expanded="true" signature="2380:2599" ph="{...}" />
-            <marker date="1481743480128" expanded="true" signature="2431:2471" ph="{...}" />
+            <marker date="1481743634332" expanded="true" signature="1568:1961" ph="..." />
+            <marker date="1481743634332" expanded="true" signature="2365:2771" ph="..." />
+            <marker date="1481743634332" expanded="true" signature="2393:2612" ph="{...}" />
+            <marker date="1481743634332" expanded="true" signature="2444:2484" ph="{...}" />
           </folding>
         </state>
       </provider>
