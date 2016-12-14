@@ -93,6 +93,8 @@
 </div>
 
             <div class = "row">
+
+                <div class = "col-md-12">
                 <div class = "col-md-4" id = "tabs">
 <div class="fill-height center" style="background-color:#ffffff;">
 	<ul class="nav navbar-nav" style="font-size:20px;">
@@ -116,5 +118,6 @@
           <input class="btn btn-success" style="margin:0" type="submit" name="submit_search" value="Search"/>
         </form>
             </div>
+                </div>
                 </div>
 <hr>	
