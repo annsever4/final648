@@ -134,6 +134,11 @@ img{
     
 }
 
+.panel-purple-heading{
+    background:#6D32B0;
+    color:#f4d942
+}
+
 .recent-listing{
     background-color: black;
     width:250px;
