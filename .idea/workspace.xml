@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/proto/index.php" afterPath="$PROJECT_DIR$/team07/application/view/proto/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/public/css/style.css" afterPath="$PROJECT_DIR$/team07/public/css/style.css" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,12 +44,17 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <marker date="1481744812269" expanded="true" signature="1572:1978" ph="..." />
-                <marker date="1481744812269" expanded="true" signature="1600:1819" ph="{...}" />
-                <marker date="1481744812269" expanded="true" signature="1651:1691" ph="{...}" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1481745337979" expanded="true" signature="938:1391" ph="..." />
+                <marker date="1481745337979" expanded="true" signature="994:1367" ph="..." />
+                <marker date="1481745337979" expanded="true" signature="1049:1183" ph="..." />
+                <marker date="1481745337979" expanded="true" signature="1235:1339" ph="..." />
+                <marker date="1481745337979" expanded="true" signature="1727:2133" ph="..." />
+                <marker date="1481745337979" expanded="true" signature="1755:1974" ph="{...}" />
+                <marker date="1481745337979" expanded="true" signature="1806:1846" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -103,8 +109,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="630">
+              <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -161,11 +167,11 @@
         <option value="$PROJECT_DIR$/team07/application/controller/loginpage.php" />
         <option value="$PROJECT_DIR$/team07/public/js/eql-btn.js" />
         <option value="$PROJECT_DIR$/team07/application/view/_templates/footer.php" />
-        <option value="$PROJECT_DIR$/team07/public/css/style.css" />
         <option value="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
         <option value="$PROJECT_DIR$/team07/application/model/model.php" />
         <option value="$PROJECT_DIR$/team07/application/controller/proto.php" />
         <option value="$PROJECT_DIR$/team07/application/view/proto/index.php" />
+        <option value="$PROJECT_DIR$/team07/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -508,12 +514,12 @@
       <workItem from="1480209016038" duration="17532000" />
       <workItem from="1480368993460" duration="2276000" />
       <workItem from="1480906828990" duration="5868000" />
-      <workItem from="1481653430941" duration="25765000" />
+      <workItem from="1481653430941" duration="26457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111998000" />
+    <option name="totallyTimeSpent" value="112690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -875,14 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/details/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
@@ -946,14 +944,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1481744812269" expanded="true" signature="1572:1978" ph="..." />
-            <marker date="1481744812269" expanded="true" signature="1600:1819" ph="{...}" />
-            <marker date="1481744812269" expanded="true" signature="1651:1691" ph="{...}" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1481745337979" expanded="true" signature="938:1391" ph="..." />
+            <marker date="1481745337979" expanded="true" signature="994:1367" ph="..." />
+            <marker date="1481745337979" expanded="true" signature="1049:1183" ph="..." />
+            <marker date="1481745337979" expanded="true" signature="1235:1339" ph="..." />
+            <marker date="1481745337979" expanded="true" signature="1727:2133" ph="..." />
+            <marker date="1481745337979" expanded="true" signature="1755:1974" ph="{...}" />
+            <marker date="1481745337979" expanded="true" signature="1806:1846" ph="{...}" />
           </folding>
         </state>
       </provider>

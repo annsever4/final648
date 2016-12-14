@@ -134,6 +134,13 @@ img{
     
 }
 
+.recent-listing{
+    display: inline-block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 #main_text_color:{
     color: #000000;
 }
