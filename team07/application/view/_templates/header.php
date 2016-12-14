@@ -112,7 +112,7 @@
 
 
 
-	<div class = "col-md-4 offset-md-3">
+	<div class = "col-md-4 offset-3">
 	<form class="navbar-form" id="black_text" style="" action="<?php echo URL; ?>proto/searchlisting" method="POST">
           <input class="form-control " type="text" name="key"  placeholder="Enter city or zipcode..." required >
           <input class="btn btn-success" style="margin:0" type="submit" name="submit_search" value="Search"/>
