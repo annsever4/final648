@@ -43,7 +43,7 @@
   	    </div>
 
 
-	     <div class="col-md-4 col-lg-4 col-sm-4 text-right" id="pills" style="margin-top:3%">
+	     <div class="col-md-3 col-lg-3 col-sm-3 text-right" id="pills" style="margin-top:3%">
 
 
 
