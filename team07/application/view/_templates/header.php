@@ -95,7 +95,7 @@
             <div class = "row" id ="flex">
 
                 <div class = "col-md-12">
-                <div class = "col-md-4" id = "tabs">
+                <div class = "col-md-3 col-md-offset-1" id = "tabs">
 <div class="fill-height center" style="background-color:#ffffff;">
 	<ul class="nav nav-pills" style="font-size:20px; margin-left=7%;">
 	<li id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
