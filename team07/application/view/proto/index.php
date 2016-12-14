@@ -12,7 +12,7 @@
             <?php for($j = 0; $j < 3; $j++) { ?>
             <div class = "col-md-4">
 
-                <div class = "col-md-6 recent-listing" style = "background-image:url(data:image/jpeg;base64, <?php echo base64_encode(current($listings)->image)?>);">
+                <div class = "col-md-6 recent-listing" style = "background-image:url(data:image/jpeg;base64, <?php echo base64_encode(current($listings)->image);?>);">
 
 
 

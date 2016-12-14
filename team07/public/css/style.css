@@ -135,6 +135,7 @@ img{
 }
 
 .recent-listing{
+    background-color: black;
     display: inline-block;
     background-size: cover;
     background-position: center center;
