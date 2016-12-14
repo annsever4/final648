@@ -12,12 +12,12 @@
             <?php for($j = 0; $j < 3; $j++) { ?>
             <div class = "col-md-4">
 
-                <div class = "col-md-8">
+                <div class = "col-md-6">
                     <?php echo '<img src="data:image/jpeg;base64, '.base64_encode(current($listings)->image).
                         '"max-height="300px" max-width="300px"/>' ?>
                     </div>
 
-                <div class = "col-md-4">
+                <div class = "col-md-6">
                     <div class = "panel panel-default">
 
                         <div class = "panel-heading">
