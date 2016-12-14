@@ -14,7 +14,7 @@
 
                 <div class = "col-md-6">
                     <?php echo '<a href = "#" class = "thumbnail"> <img src="data:image/jpeg;base64, '.base64_encode(current($listings)->image).
-                        '"max-height="300px" max-width="300px"/>/>' ?>
+                        '"max-height="300px" max-width="300px"></a>' ?>
                     </div>
 
                 <div class = "col-md-6">
