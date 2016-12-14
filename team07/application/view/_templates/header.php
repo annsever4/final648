@@ -110,6 +110,10 @@
 
                    <script> $(document).ready(function() {
 
+                       var url_parts = location.href.split('/');
+                           var url_parts = url_parts.pop();
+                           var new_url = url_parts.join('/');
+
                     $('.nav-pills a[href="'+location.href+'"]').parents('li').addClass('active');
 
                     }); </script>
