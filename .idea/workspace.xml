@@ -44,11 +44,11 @@
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
-                <marker date="1481743961914" expanded="true" signature="1534:1940" ph="..." />
-                <marker date="1481743961914" expanded="true" signature="1562:1781" ph="{...}" />
-                <marker date="1481743961914" expanded="true" signature="1613:1653" ph="{...}" />
+                <marker date="1481744555094" expanded="true" signature="1571:1977" ph="..." />
+                <marker date="1481744555094" expanded="true" signature="1599:1818" ph="{...}" />
+                <marker date="1481744555094" expanded="true" signature="1650:1690" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -508,12 +508,12 @@
       <workItem from="1480209016038" duration="17532000" />
       <workItem from="1480368993460" duration="2276000" />
       <workItem from="1480906828990" duration="5868000" />
-      <workItem from="1481653430941" duration="24915000" />
+      <workItem from="1481653430941" duration="25508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111148000" />
+    <option name="totallyTimeSpent" value="111741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -949,11 +949,11 @@
     <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
-            <marker date="1481743961914" expanded="true" signature="1534:1940" ph="..." />
-            <marker date="1481743961914" expanded="true" signature="1562:1781" ph="{...}" />
-            <marker date="1481743961914" expanded="true" signature="1613:1653" ph="{...}" />
+            <marker date="1481744555094" expanded="true" signature="1571:1977" ph="..." />
+            <marker date="1481744555094" expanded="true" signature="1599:1818" ph="{...}" />
+            <marker date="1481744555094" expanded="true" signature="1650:1690" ph="{...}" />
           </folding>
         </state>
       </provider>
