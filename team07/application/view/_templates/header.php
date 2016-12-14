@@ -34,7 +34,7 @@
     <div class="row flex"> 
 	 <div class="col-md-12">
 	   <div class="row" id="flex"> 
-	    <div class="col-md-4 col-lg-4 col-sm-4 col-lg-offset-1 col-sm-offset-1 col-md-offset-1" id="logo"><img id="logo"  src="https://mgtvsportzedge.files.wordpress.com/2014/11/sfsu-gators.png"></div>
+	    <div class="col-md-4 col-lg-4 col-sm-4 id="logo"><img id="logo"  src="https://mgtvsportzedge.files.wordpress.com/2014/11/sfsu-gators.png"></div>
 	   
 	    <div class="col-md-4 col-lg-4 col-sm-4">
     		<h1 class="text_color_white" id="gatorlodge" style="font-size:50px">
@@ -95,7 +95,7 @@
             <div class = "row" id ="flex">
 
                 <div class = "col-md-12">
-                <div class = "col-md-3 col-md-offset-1" id = "tabs">
+                <div class = "col-md-4" id = "tabs">
 <div class="fill-height text-left" style="background-color:#ffffff;">
 	<ul class="nav nav-pills" style="font-size:20px;">
 	<li class="active" id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
