@@ -90,7 +90,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-2">
 			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-7 excerpt">
+			<div class="col-xs-12 col-sm-12 col-md-7">
 			<h3 style="margin-top:0px"><a href="#" onclick="return false;" title="address" style="width:96%"><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?></a></h3>
 
 			<span class="plus"><a href="#" onclick="return false;" title="bed" style="width:23%">$<?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </i></a></span>
