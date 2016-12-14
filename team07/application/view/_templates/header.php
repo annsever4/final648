@@ -114,7 +114,7 @@
                            var url_parts = url_parts.pop();
                            var new_url = url_parts.join('/');
 
-                    $('.nav-pills a[href="'+location.href+'"]').parents('li').addClass('active');
+                    $('.nav-pills a[href="'+new_url+'"]').parents('li').addClass('active');
 
                     }); </script>
 
