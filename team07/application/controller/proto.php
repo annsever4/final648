@@ -21,7 +21,7 @@ class Proto extends Controller
         //if the form is set  call request class to retrieve _POST values. If they are not set they function will return
         // null
         if (isset($_POST["key"])) {
-            //do Search
+            $key = Request::post('key');
            $apartments = $this->model->getListing(
                 Request::post("key"), Request::post('slt_sort_by'),Request::postCheckbox("is_house"),
                 Request::postCheckbox("is_apartment"),Request::postCheckbox('is_room'), Request::postCheckbox('laundry_on_site'),

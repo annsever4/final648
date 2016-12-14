@@ -109,3 +109,7 @@
 
     <!--================= END OF TABLE ================== --> 
 <?php } ?>
+
+		<script>
+			document.getElementById('header_search_bar').value = "<?php echo $key;?>";
+		</script>
