@@ -28,7 +28,7 @@
 
 
 
-<div class="container" id="main_background" ><!-- start of global container -->
+<div class="c" id="main_background" ><!-- start of global container -->
     <!-- logo -->
  
     <div class="row flex"> 
