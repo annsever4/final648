@@ -6,11 +6,13 @@ class Proto extends Controller
 
 	 public function index()
     {
+
+        $listings = $this->model->populateIndex();
+
         require APP . 'view/_templates/header.php';
         require APP . 'view/proto/index.php';
         require APP . 'view/_templates/footer.php';
 
-        $listings = $this->model->populateIndex();
 
     }
 
