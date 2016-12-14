@@ -13,7 +13,7 @@
             <div class = "col-md-4">
 
                 <div class = "col-md-6">
-                    <div class = "recent-listing" style = "background-image: url(<?php echo 'data:image/jpeg; base64,'. base64_encode(current($listings)->image).');';?>">
+                    <div class = "recent-listing" style = "background-image: url(<?php echo 'data:image/jpeg;base64,'. base64_encode(current($listings)->image).');';?>">
                         </div>
 
 
