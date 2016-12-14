@@ -32,8 +32,8 @@
                         <div class = "panel-body">
                             <ul>
                                 <li>$<?php echo current($listings)->price; ?></li>
-                                <li><?php echo current($listing)->bed_rooms; ?> bedrooms</li>
-                                <li><?php echo current($listing)->square_feet;?> square feet</li>
+                                <li><?php echo current($listings)->bed_rooms; ?> bedrooms</li>
+                                <li><?php echo current($listings)->square_feet;?> square feet</li>
 
                             </ul>
                             </div>
