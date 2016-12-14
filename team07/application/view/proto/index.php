@@ -12,10 +12,10 @@
             <?php for($j = 0; $j < 3; $j++) { ?>
             <div class = "col-md-4">
 
-                <div class = "col-md-6 recent-listing" style = "background-image:url(<?php echo "data:image/jpeg;base64, '.base64_encode(current($listings)->image)"?>;"
+                <div class = "col-md-6 recent-listing" style = "background-image:url(data:image/jpeg;base64, <?php echo base64_encode(current($listings)->image)?>);">
 
 
-                     
+
                     <?php # echo '<a href = "#" class = "thumbnail"> <img src="data:image/jpeg;base64, '.base64_encode(current($listings)->image).
                         #'"max-height="300px" max-width="300px"></a>' ?>
                     </div>
