@@ -3,7 +3,7 @@
 <div class = "container-fluid">
     <div class = "row">
         <div class = "col-md-6 col-md-offset-3">
-            <h3 class="center">Recent Listings</h3>
+            <h2 class="center">Recent Listings</h2>
         </div>
     </div>
 
