@@ -2,7 +2,7 @@
  * Created by euphoric on 12/13/16.
  */
 
-try {
+//try {
     $('.equal-size').width(
         Math.max.apply(
             Math,
@@ -11,6 +11,6 @@ try {
             }).get()
         )
     );
-} catch (e) {
-    console.log("eql-btn function not working")
-}
+//} catch (e) {
+ //   console.log("eql-btn function not working")
+//}
