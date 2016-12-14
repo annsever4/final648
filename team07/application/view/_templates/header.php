@@ -7,6 +7,10 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="<?php echo URL; ?>js/eql-btn.js"></script>
+
+
     <!-- JS -->
     <!-- please note: The JavaScript files are loaded in the footer to speed up page construction -->
     <!-- See more here: http://stackoverflow.com/q/2105327/1114320 -->
@@ -51,13 +55,13 @@
              if(isset($_SESSION['logged_in'])){
 
 
-                 echo "<a  href = " .URL. "logoutpage class='btn btn-primary span2 equal-size btn-lg active' style='background:#FFFF;' role='button' aria-pressed='true'>Logout</a>";
+                 echo "<a  href = " .URL. "logoutpage class='btn btn-primary equal-size btn-lg active' style='background:#FFFF;' role='button' aria-pressed='true'>Logout</a>";
              }
 
 
              else {
 
-                 echo "<a href=" .URL. "loginpage class='btn btn-primary equal-size span2 btn-lg active' style='background:#000000; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
+                 echo "<a href=" .URL. "loginpage class='btn btn-primary equal-size  btn-lg active' style='background:#000000; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
 
              }
              ?>
@@ -74,7 +78,6 @@
 
 </div>
 
-        <script src="<?php echo URL; ?>js/eql-btn.js"></script>
 <!--- test div -->
 
 <!-- navigation -->
