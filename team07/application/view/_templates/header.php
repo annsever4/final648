@@ -93,7 +93,7 @@
 </div>
 
             <div class = "row">
-                <div class = "col-md-4" id = "tabs"
+                <div class = "col-md-4" id = "tabs">
 <div class="fill-height center" style="background-color:#ffffff;">
 	<ul class="nav navbar-nav" style="font-size:20px;">
 	<li id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
