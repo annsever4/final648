@@ -38,12 +38,8 @@
   	    </div>
 
 
-
-           <div class = "col-md-2"> </div>
-
-
-	     <div class="col-md-2  text-right" id="pills" style="margin-top:3%">
-             <span>
+	     <div class="col-md-4  text-right" id="pills" style="margin-top:3%">
+             
              <div class ="btn-group">
 
              <?php
@@ -53,13 +49,13 @@
              if(isset($_SESSION['logged_in'])){
 
 
-                 echo "<a  href = " .URL. "logoutpage class='btn btn-primary btn-block btn-lg active' style='background:#FFFF;' role='button' aria-pressed='true'>Logout</a>";
+                 echo "<a  href = " .URL. "logoutpage class='btn btn-primary btn-lg active' style='background:#FFFF;' role='button' aria-pressed='true'>Logout</a>";
              }
 
 
              else {
 
-                 echo "<a href=" .URL. "loginpage class='btn btn-primary btn-block btn-lg active' style='background:#000000; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
+                 echo "<a href=" .URL. "loginpage class='btn btn-primary btn-lg active' style='background:#000000; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
 
              }
              ?>
@@ -67,10 +63,9 @@
 
 
 
-             <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg btn-block active" style="background:#000000;" role="button" aria-pressed="true">Register</a>
-            </span>
+             <a  href="<?php echo URL; ?>registration" class="btn btn-primary btn-lg active" style="background:#000000;" role="button" aria-pressed="true">Register</a>
 
-            </div>
+
            </div>
          </div>
     </div>
