@@ -5,27 +5,38 @@
 <!-- Output  Test -->
 <?php if(isset($listings)) { ?>
 <div class="container-fluid">
+
     <?php for($i = 0; $i < 3; $i++) { ?>
         <div class = "row">
+
             <?php for($j = 0; $j < 3; $j++) { ?>
             <div class = "col-md-4">
+
                 <div class = "col-md-8">
                     <?php echo '<img src="data:image/jpeg;base64, '.base64_encode(current($listings)->image).
                         '"max-height="300px" max-width="300px"/>' ?>
                     </div>
+
                 <div class = "col-md-4">
                     <div class = "panel panel-default">
+
                         <div class = "panel-heading">
-                            <h3 class = "panel-title"><?php echo current($listings)->price?></h3>
-                            </div>
-                        <div class = "panel-body">
-                            <?php echo current($listings)->title ?>
+                            <h3 class = "panel-title"><?php echo current($listings)->price;?></h3>
                             </div>
 
+                        <div class = "panel-body">
+                            <?php echo current($listings)->title; ?>
+                            </div>
 
                     </div>
 
                 </div>
+                <?php try{
+                    next($listings);
+                } catch (Exception $e) {
+                    echo "<script>console.log('bounds exception ins listings array')</script>";
+                }
+            } ?>
 
 
 
