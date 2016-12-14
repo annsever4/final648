@@ -92,7 +92,7 @@
 
 </div>
 
-            <div class = "row">
+            <div class = "row" id ="flex">
 
                 <div class = "col-md-12">
                 <div class = "col-md-4" id = "tabs">
