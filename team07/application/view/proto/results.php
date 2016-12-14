@@ -72,7 +72,7 @@
 <div class="container" style="background:#FFFFFF;margin:0;">
 
 <hgroup class="mb20">
-<h2 class="lead"><strong class="text-danger">#number</strong> results were found for the search for <strong class="text-danger">SearchTexts</strong></h2>
+<h2 class="lead"><strong class="text-danger"><?php echo count($apartments);?></strong> results were found for the search for <strong class="text-danger"><?php echo $key ?></strong></h2>
 </hgroup>
 
 <?php foreach ($apartments as $apartment) { ?>

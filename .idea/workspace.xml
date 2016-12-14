@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/controller/proto.php" afterPath="$PROJECT_DIR$/team07/application/controller/proto.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/_templates/header.php" afterPath="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/proto/results.php" afterPath="$PROJECT_DIR$/team07/application/view/proto/results.php" />
     </list>
     <ignored path="f16g07.iws" />
@@ -129,8 +127,8 @@
       <file leaf-file-name="results.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/results.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="113" column="86" selection-start-line="113" selection-start-column="86" selection-end-line="113" selection-end-column="86" />
+            <state relative-caret-position="198">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#div#2;n#article#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#h3#0;n#div#2;n#article#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
@@ -477,12 +475,12 @@
       <workItem from="1480209016038" duration="17532000" />
       <workItem from="1480368993460" duration="2276000" />
       <workItem from="1480906828990" duration="5868000" />
-      <workItem from="1481653430941" duration="36801000" />
+      <workItem from="1481653430941" duration="37122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123034000" />
+    <option name="totallyTimeSpent" value="123355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -926,8 +924,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/proto/results.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="113" column="86" selection-start-line="113" selection-start-column="86" selection-end-line="113" selection-end-column="86" />
+        <state relative-caret-position="198">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#2;n#article#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#h3#0;n#div#2;n#article#0;n#section#0;n#div#1;n#div#1;n#!!top" expanded="true" />
