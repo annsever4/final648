@@ -9,6 +9,9 @@ class Proto extends Controller
         require APP . 'view/_templates/header.php';
         require APP . 'view/proto/index.php';
         require APP . 'view/_templates/footer.php';
+
+        $listings = $this->model->populateIndex();
+
     }
 
     public function searchListing()

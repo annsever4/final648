@@ -3,23 +3,40 @@
 
 
 <!-- Output  Test -->
-<?php if(isset($apartments)) { ?>
+<?php if(isset($listings)) { ?>
+<div class="container-fluid">
+    <?php for($i = 0; $i < 3; $i++) { ?>
+        <div class = "row">
+            <?php for($j = 0; $j < 3; $j++) { ?>
+            <div class = "col-md-4">
+                <div class = "col-md-8">
+                    <?php echo '<img src="data:image/jpeg;base64, '.base64_encode(current($listings)->image).
+                        '"max-height="300px" max-width="300px"/>' ?>
+                    </div>
+                <div class = "col-md-4">
+                    <div class = "panel panel-default">
+                        <div class = "panel-heading">
+                            <h3 class = "panel-title"><?php echo current($listings)->price?></h3>
+                            </div>
+                        <div class = "panel-body">
+                            <?php echo current($listings)->title ?>
+                            </div>
 
-<p> SOMETHING HAS GONE TERRIBLY WRONG</p>
-<div class="box">
-<h3>Result</h3>
 
-        <table>
-        <thead style="background-color: #ddd; font-weight: bold;">
-                <tr>
-                <td>Id</td>
-                <td>Address</td>
-                <td>Price</td>
-                <td>Pictures</td>
+                    </div>
 
-                </tr>
-         </thead>
-         <tbody>
+                </div>
+
+
+
+        </div>
+
+
+
+   <?php } ?>
+
+
+</div>
 
 
 

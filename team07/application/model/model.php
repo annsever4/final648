@@ -78,6 +78,17 @@ class Model
         return $query->fetchAll();
     }
 
+    public function populateIndex(){
+        $sql = "SELECT listings.*, images.image FROM listings".
+            " INNER JOIN images ON listings.image_id = images.id ORDER BY listing.id DESC LIMIT 9";
+
+        $query = $this->db->prepare($sql);
+
+        $query->execute();
+
+        return $query->fetchAll();
+    }
+
     //gets details of a particular listing
 
     public function getDetails($listing_id){
