@@ -80,7 +80,7 @@ class Model
 
     public function populateIndex(){
         $sql = "SELECT listings.*, images.image FROM listings".
-            " INNER JOIN images ON listings.image_id = images.id ORDER BY listing.id DESC LIMIT 9";
+            " INNER JOIN images ON listings.image_id = images.id ORDER BY listings.id DESC LIMIT 9";
 
         $query = $this->db->prepare($sql);
 

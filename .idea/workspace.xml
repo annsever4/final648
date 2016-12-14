@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/proto/index.php" afterPath="$PROJECT_DIR$/team07/application/view/proto/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/model/model.php" afterPath="$PROJECT_DIR$/team07/application/model/model.php" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/view/proto/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -82,20 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="model.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/application/model/model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+            <state relative-caret-position="126">
+              <caret line="82" column="82" selection-start-line="82" selection-start-column="82" selection-end-line="82" selection-end-column="82" />
               <folding>
-                <marker date="1481740473235" expanded="true" signature="654:823" ph="SELECT listi... listings" />
-                <marker date="1481740473235" expanded="true" signature="2192:2337" ph="SELECT listi... listings" />
-                <marker date="1481740473235" expanded="true" signature="2560:2895" ph="SELECT listi... listings" />
-                <marker date="1481740473235" expanded="true" signature="4277:4383" ph="INSERT INTO member_user... " />
-                <marker date="1481740473235" expanded="true" signature="4870:4939" ph="SELECT membe... member_user" />
-                <marker date="1481740473235" expanded="true" signature="5287:5364" ph="SELECT membe... member_user" />
-                <marker date="1481740473235" expanded="true" signature="5660:5799" ph="SELECT membe... member_user" />
-                <marker date="1481740473235" expanded="true" signature="6399:6468" ph="SELECT * FRO... messages" />
+                <marker date="1481743269890" expanded="true" signature="654:823" ph="SELECT listi... listings" />
+                <marker date="1481743269890" expanded="true" signature="2192:2338" ph="SELECT listi... listings" />
+                <marker date="1481743269890" expanded="true" signature="2561:2896" ph="SELECT listi... listings" />
+                <marker date="1481743269890" expanded="true" signature="4278:4384" ph="INSERT INTO member_user... " />
+                <marker date="1481743269890" expanded="true" signature="4871:4940" ph="SELECT membe... member_user" />
+                <marker date="1481743269890" expanded="true" signature="5288:5365" ph="SELECT membe... member_user" />
+                <marker date="1481743269890" expanded="true" signature="5661:5800" ph="SELECT membe... member_user" />
+                <marker date="1481743269890" expanded="true" signature="6400:6469" ph="SELECT * FRO... messages" />
               </folding>
             </state>
           </provider>
@@ -164,9 +164,9 @@
         <option value="$PROJECT_DIR$/team07/application/view/_templates/footer.php" />
         <option value="$PROJECT_DIR$/team07/public/css/style.css" />
         <option value="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
-        <option value="$PROJECT_DIR$/team07/application/model/model.php" />
         <option value="$PROJECT_DIR$/team07/application/controller/proto.php" />
         <option value="$PROJECT_DIR$/team07/application/view/proto/index.php" />
+        <option value="$PROJECT_DIR$/team07/application/model/model.php" />
       </list>
     </option>
   </component>
@@ -561,12 +561,12 @@
       <workItem from="1480209016038" duration="17532000" />
       <workItem from="1480368993460" duration="2276000" />
       <workItem from="1480906828990" duration="5868000" />
-      <workItem from="1481653430941" duration="24129000" />
+      <workItem from="1481653430941" duration="24223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110362000" />
+    <option name="totallyTimeSpent" value="110456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -936,23 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/application/model/model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
-          <folding>
-            <marker date="1481740473235" expanded="true" signature="654:823" ph="SELECT listi... listings" />
-            <marker date="1481740473235" expanded="true" signature="2192:2337" ph="SELECT listi... listings" />
-            <marker date="1481740473235" expanded="true" signature="2560:2895" ph="SELECT listi... listings" />
-            <marker date="1481740473235" expanded="true" signature="4277:4383" ph="INSERT INTO member_user... " />
-            <marker date="1481740473235" expanded="true" signature="4870:4939" ph="SELECT membe... member_user" />
-            <marker date="1481740473235" expanded="true" signature="5287:5364" ph="SELECT membe... member_user" />
-            <marker date="1481740473235" expanded="true" signature="5660:5799" ph="SELECT membe... member_user" />
-            <marker date="1481740473235" expanded="true" signature="6399:6468" ph="SELECT * FRO... messages" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2412">
@@ -1008,6 +991,23 @@
             <marker date="1481743175879" expanded="true" signature="2341:2747" ph="..." />
             <marker date="1481743175879" expanded="true" signature="2369:2588" ph="{...}" />
             <marker date="1481743175879" expanded="true" signature="2420:2460" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/model/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="82" column="82" selection-start-line="82" selection-start-column="82" selection-end-line="82" selection-end-column="82" />
+          <folding>
+            <marker date="1481743269890" expanded="true" signature="654:823" ph="SELECT listi... listings" />
+            <marker date="1481743269890" expanded="true" signature="2192:2338" ph="SELECT listi... listings" />
+            <marker date="1481743269890" expanded="true" signature="2561:2896" ph="SELECT listi... listings" />
+            <marker date="1481743269890" expanded="true" signature="4278:4384" ph="INSERT INTO member_user... " />
+            <marker date="1481743269890" expanded="true" signature="4871:4940" ph="SELECT membe... member_user" />
+            <marker date="1481743269890" expanded="true" signature="5288:5365" ph="SELECT membe... member_user" />
+            <marker date="1481743269890" expanded="true" signature="5661:5800" ph="SELECT membe... member_user" />
+            <marker date="1481743269890" expanded="true" signature="6400:6469" ph="SELECT * FRO... messages" />
           </folding>
         </state>
       </provider>
