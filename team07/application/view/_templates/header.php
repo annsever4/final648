@@ -93,7 +93,7 @@
 </div>
 
             <div class = "row">
-                <div class = "col-md-4 center" id = "tabs">
+                <div class = "col-md-4" id = "tabs">
 <div class="fill-height center" style="background-color:#ffffff;">
 	<ul class="nav navbar-nav" style="font-size:20px;">
 	<li id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
@@ -103,17 +103,18 @@
 </div>
 
         </div>
-        </div>
 
 
 
 
 
 
-	<div style="float:right">
+
+	<div class = "col-md-4 offset-md-4"
 	<form class="navbar-form" id="black_text" style="" action="<?php echo URL; ?>proto/searchlisting" method="POST">
           <input class="form-control " type="text" name="key"  placeholder="Enter city or zipcode..." required >
           <input class="btn btn-success" style="margin:0" type="submit" name="submit_search" value="Search"/>
         </form>
-	</div>
+            </div>
+                </div>
 <hr>	
