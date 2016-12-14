@@ -97,7 +97,7 @@
                 <div class = "col-md-12">
                 <div class = "col-md-4" id = "tabs">
 <div class="fill-height center" style="background-color:#ffffff;">
-	<ul class="nav navbar-nav" style="font-size:20px; margin-left=7%;">
+	<ul class="nav nav-pills" style="font-size:20px; margin-left=7%;">
 	<li id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
         <li id="pills"><a href="<?php echo URL; ?>addlisting">Add a Listing</a></li>
         <li id="pills"><a href="<?php echo URL; ?>profile">My Page</a></li>
