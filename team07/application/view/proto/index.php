@@ -23,7 +23,7 @@
                     </div>
 
                 <div class = "col-md-6">
-                    <div class = "panel panel-default">
+                    <div class = "panel panel-default panel-purple-heading">
 
                         <div class = "panel-heading panel-purple-heading">
                             <h3 class = "panel-title"><?php echo current($listings)->title;?></h3>
