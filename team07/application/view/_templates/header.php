@@ -90,7 +90,7 @@
 
 //-->
 
-
+</div>
 
             <div class = "row">
                 <div class = "col-md-4" id = "tabs"
@@ -104,7 +104,7 @@
 
         </div>
         </div>
-    
+
 
 
 
