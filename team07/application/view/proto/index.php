@@ -1,18 +1,27 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" cro    ssorigin="anonymous">
 
+<div class = "container-fluid">
+    <div row = "row">
+        <div class="col-md-6 col-md-offset-3">
+        <h3>Re</h3>
+            </div>
+    </div>
+
+</div>
 
 
 <!-- Output  Test -->
 <?php if(isset($listings)) { ?>
 <div class="container-fluid">
 
+
     <?php for($i = 0; $i < 3; $i++) { ?>
         <div class = "row">
 
             <?php for($j = 0; $j < 3; $j++) { ?>
-            <div class = "col-md-4">
+            <div class = "col-md-4 result_button" id="<?php echo current($listings)->id;?>" >
 
-                <div class = "col-md-6">
+
                     <div class = "recent-listing" style = "background-image: url(<?php echo 'data:image/jpeg;base64,'. base64_encode(current($listings)->image).');';?>">
                         </div>
 
