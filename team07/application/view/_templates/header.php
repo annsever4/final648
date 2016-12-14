@@ -10,7 +10,7 @@
     <!-- JS -->
     <!-- please note: The JavaScript files are loaded in the footer to speed up page construction -->
     <!-- See more here: http://stackoverflow.com/q/2105327/1114320 -->
-    <script src="<?php echo URL; ?>js/eql-btn"></script>
+    <script src="<?php echo URL; ?>js/eql-btn.js"></script>
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ'></script>
     <!-- Latest compiled and minified CSS, from CDN -->
 
