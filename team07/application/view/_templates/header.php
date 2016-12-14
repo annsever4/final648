@@ -54,13 +54,13 @@
              if(isset($_SESSION['logged_in'])){
 
 
-                 echo "<a  href = " .URL. "logoutpage class='btn btn-primary equal-size btn-lg active' style='background:#FFFF;' role='button' aria-pressed='true'>Logout</a>";
+                 echo "<a  href = " .URL. "logoutpage class='btn btn-primary equal-size btn-lg active' style='background:#6D32B0;' role='button' aria-pressed='true'>Logout</a>";
              }
 
 
              else {
 
-                 echo "<a href=" .URL. "loginpage class='btn btn-primary equal-size  btn-lg active' style='background:#000000; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
+                 echo "<a href=" .URL. "loginpage class='btn btn-primary equal-size  btn-lg active' style='background:#6D32B0; color:#FFFF;' role='button' aria-pressed='true'>Login</a>";
 
              }
              ?>
