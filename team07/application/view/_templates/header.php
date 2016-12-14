@@ -108,7 +108,11 @@
 
 
 
+                   <script> $(document).ready(function() {
 
+                    $('.nav-pills a[href="'+location.href+'"]').parents('li').addClass('active');
+
+                    }); </script>
 
 
 
