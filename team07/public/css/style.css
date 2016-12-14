@@ -135,8 +135,13 @@ img{
 }
 
 .panel-purple-heading{
+    
+}
+
+.panel-purple-heading > .panel-heading{
     background:#6D32B0;
     color:#f4d942
+
 }
 
 .recent-listing{
