@@ -34,7 +34,7 @@
     <div class="row flex"> 
 	 <div class="col-md-12">
 	   <div class="row" id="flex"> 
-	    <div class="col-md-4 col-lg-4 col-sm-6 inline-block" id="logo"><img id="logo" style=""  src="https://mgtvsportzedge.files.wordpress.com/2014/11/sfsu-gators.png"></div>
+	    <div class="col-md-4 col-lg-4 col-sm-6 inline-block" id="logo"><img class="img-responsive" id="logo" style=""  src="https://mgtvsportzedge.files.wordpress.com/2014/11/sfsu-gators.png"></div>
 	   
 	    <div class="col-md-4 col-lg-4 col-sm-6">
     		<h1 class="text_color_white" id="gatorlodge" style="font-size:50px">
