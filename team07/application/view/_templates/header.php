@@ -116,7 +116,7 @@
                            var new_url = [].url_parts.join('/');
                            console.log(new_url);
 
-                    $('.nav-pills a[href="'+new_url+'"]').parents('li').addClass('active');
+                    $('.nav-pills a[href="'+url_parts+'"]').parents('li').addClass('active');
 
                     }); </script>
 
