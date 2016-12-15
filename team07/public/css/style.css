@@ -140,8 +140,8 @@ img{
 }
 
 .outline-col{
-    outline: 2px solid #cccccc;
-    outline-offset: -10px;
+    outline: 3px solid #cccccc;
+    outline-offset: 2px;
     -moz-outline-radius: 10px;
 }
 
