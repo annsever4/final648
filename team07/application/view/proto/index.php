@@ -19,7 +19,7 @@
         <div class = "row">
 
             <?php for($j = 0; $j < 3; $j++) { ?>
-            <div class = "col-md-4 result_button" id="<?php echo current($listings)->id;?>" >
+            <div class = "col-md-4 result_button outline-col" id="<?php echo current($listings)->id;?>" >
 
                 <div class = "col-md-6">
                     <div class = "recent-listing" style = "background-image: url(<?php echo 'data:image/jpeg;base64,'. base64_encode(current($listings)->image).');';?>">
