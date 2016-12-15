@@ -110,11 +110,10 @@
 
                    <script> $(document).ready(function() {
 
-                       var url_parts = location.href.split('/');
-                           console.log("URL_Parts before POP" + url_parts);
-                           var temp = url_parts.pop();
+                       var url_parts = location.href;
+
                            console.log("AFTER POP: "+url_parts);
-                           var new_url = [].spurl_parts.join('/');
+                           var new_url = [].url_parts.join('/');
                            console.log(new_url);
 
                     $('.nav-pills a[href="'+new_url+'"]').parents('li').addClass('active');
