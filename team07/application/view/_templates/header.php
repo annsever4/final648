@@ -105,22 +105,7 @@
 </div>
 
         </div>
-
-
-
-                   <script> $(document).ready(function() {
-
-                       var url_parts = location.href;
-
-                           console.log("AFTER POP: "+url_parts);
-                           var new_url = [].url_parts.join('/');
-                           console.log(new_url);
-
-                    $('.nav-pills a[href="'+url_parts+'"]').parents('li').addClass('active');
-
-                    }); </script>
-
-
+                    
 
 	<div class = "col-md-4 col-md-offset-3 center">
 	<form class="navbar-form" id="black_text" style="margin-right: 5.5%;" action="<?php echo URL; ?>proto/searchlisting" method="POST">
