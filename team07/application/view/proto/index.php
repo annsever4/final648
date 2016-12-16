@@ -92,7 +92,7 @@
 
 <script>
     $(document).ready(function(){
-        $('#home-pill').addClass("active");
+        $('#Home-Pill').addClass("active");
     });
 
 </script>
