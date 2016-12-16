@@ -148,3 +148,13 @@
         </div><!--/col-9-->
     </div><!--/row-->
 
+
+
+<script>
+    $(document).ready(function(){
+        $('#Add-Listing-Pill').addClass("active");
+    });
+
+</script>
+
+<script src = "<?php echo URL;?>js/profile"></script>

@@ -78,4 +78,9 @@
 
 </div>
 
-<script src = "<?php echo APP . "team07/public/js/profile.js" ?>"></script>
+<script>
+    $(document).ready(function(){
+        $('#Add-Listing-Pill').addClass("active");
+    });
+
+</script>
