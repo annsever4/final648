@@ -106,7 +106,7 @@
 	<ul class="nav nav-pills" style="font-size:20px;">
 	    <li id="Home-Pill"><a data-toggle="pills" href="<?php echo URL; ?>proto">Home</a></li>
         <li id="Add-Listing-Pill"><a data-toggle="pills" href="<?php echo URL; ?>addlisting">Add a Listing</a></li>
-        <li id="Profile-Pill"><a data-toggle="pills" href="<?php echo URL; ?>profile">My Page</a></li>
+        <li id="My-Page-Pill"><a data-toggle="pills" href="<?php echo URL; ?>profile">My Page</a></li>
 	</ul>
 </div>
 

@@ -152,7 +152,7 @@
 
 <script>
     $(document).ready(function(){
-        $('#Add-Listing-Pill').addClass("active");
+        $('#My-Page-Pill').addClass("active");
     });
 
 </script>
