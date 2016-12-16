@@ -44,37 +44,13 @@
             <h2 class="page-header">Location</h2>
         </div>
         <div class="col-md-6">
-            <p>TODO ADD STRING TO TABLE FOR FOLLOWING VALUES: Nearby Points of Interest</p>
-            <ul>
-                <li>List of points of interest
-                </li>
-                <li>or something cool about sfsu nearby</li>
-                <li>or some stuff</li>
-                <li>perhaps parks?</li>
-                <li>grocery stores?</li>
-                <li>how close to school?</li>
-            </ul>
-            <p>TODO FIGURE OUT WHAT TO PUT HERE: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        </div>
         <div class="col-md-6" id = 'map' style= 'width:400px; height:280px;'>
 
 <!--            <img class="img-responsive" src="http://placehold.it/700x450" alt="">-->
+        </div> 
         </div>
-    </div>
-    <!-- /.row -->
-
-    <!-- Page Content -->
-    <!--  <div class="container"> -->
-
-    <!-- Marketing Icons Section -->
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">
-                Additional Features and Contact Information
-            </h1>
-        </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
+        <div class="col-md-6">
+	<div class="panel panel-default">
                 <div class="panel-heading" id="contact-info">
                     <h4><i class="fa fa-fw fa-check"></i> Amenities</h4>
                 </div>
@@ -103,7 +79,20 @@
                     </ul>
                     </p>
                 </div>
-            </div>
+		</div>
+	</div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Page Content -->
+    <!--  <div class="container"> -->
+
+    <!-- Marketing Icons Section -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Additional Features and Contact Information
+            </h1>
         </div>
         <!-- Begin Lease Information -->
         <div class="col-md-4">
