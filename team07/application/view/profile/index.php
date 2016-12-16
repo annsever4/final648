@@ -82,10 +82,13 @@
               </div>
             
              </div><!--/tab-pane-->
+
+<!-- Messages -->
              <div class="tab-pane" id="messages">
                
                <h2></h2>
-               
+              
+	<!-- where list of messages go --> 
                <ul class="list-group">
                   <li class="list-group-item text-muted">Inbox</li>
 
@@ -103,29 +106,29 @@
 
                       <div class="form-group">
                           <div class="col-xs-6">
-                              <label for="first_name"><h4>First name</h4></label>
-                              <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name" title="enter your first name if any.">
+                              <label for="first_name"><h4>First Name</h4></label>
+                              <input type="text" class="form-control" name="first_name" id="first_name" placeholder="First Name" title="enter your first name if any.">
                           </div>
                       </div>
 
                       <div class="form-group">
                           <div class="col-xs-6">
-                            <label for="last_name"><h4>Last name</h4></label>
-                              <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name" title="enter your last name if any.">
+                            <label for="last_name"><h4>Last Name</h4></label>
+                              <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Last Name" title="enter your last name if any.">
+                          </div>
+                      </div>
+ 
+                      <div class="form-group">
+                          <div class="col-xs-6">
+                              <label for="phone"><h4>Primary Phone</h4></label>
+                              <input type="text" class="form-control" name="phone" id="phone" placeholder="(###) ###-####" title="enter your phone number if any.">
                           </div>
                       </div>
           
                       <div class="form-group">
                           <div class="col-xs-6">
-                              <label for="phone"><h4>Phone</h4></label>
-                              <input type="text" class="form-control" name="phone" id="phone" placeholder="enter phone" title="enter your phone number if any.">
-                          </div>
-                      </div>
-          
-                      <div class="form-group">
-                          <div class="col-xs-6">
-                             <label for="mobile"><h4>Mobile</h4></label>
-                              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
+                             <label for="mobile"><h4>Mobile Phone</h4></label>
+                              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="(###) ###-####" title="enter your mobile number if any.">
                           </div>
                       </div>
 
@@ -136,25 +139,25 @@
                           </div>
                       </div>
 
-                      <div class="form-group">
+			<div class="form-group">
                           <div class="col-xs-6">
                               <label for="password"><h4>Password</h4></label>
-                              <input type="password" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
+                              <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password" title="enter your password.">
                           </div>
                       </div>
 
                       <div class="form-group">
                           <div class="col-xs-6">
-                            <label for="password2"><h4>Verify</h4></label>
-                              <input type="password" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
+                            <label for="password2"><h4>Verify Password</h4></label>
+                              <input type="password" class="form-control" name="password2" id="password2" placeholder="Re-Enter Password" title="enter your password2.">
                           </div>
                       </div>
 
                       <div class="form-group">
                            <div class="col-xs-12">
                                 <br>
+				<button class="btn btn-lg" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
                               	<button class="btn btn-lg btn-success" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
-                               	<button class="btn btn-lg" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
                             </div>
                       </div>
               	</form>
