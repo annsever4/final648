@@ -92,10 +92,13 @@ img{
     color: #fff;
 }
 
-.green_pill.active,
-.green_pill.active a:hover{
-    background-color: black;
-    background-image: linear-gradient(to bottom, #5cb85c 0, #419641 100%);
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
+{
+    background-image: -webkit-linear-gradient(top,#5cb85c 0,#419641 100%);
+    background-image: -o-linear-gradient(top,#5cb85c 0,#419641 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#5cb85c),to(#419641));
+    background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
+
 }
 
 .fill_height{
