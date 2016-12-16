@@ -6,12 +6,16 @@
 $(document).ready(function() {
 
     //clears old active class
-    $(".nav li").removeClass("active");
+    try {
+        $(".nav li").removeClass("active");
+    } catch (err) {
+        console.log("no class to remove");
+    }
 
     // tries to make the current page active if a pill exists for it
     try {
         $(document).ready(function(){
-
+            console.log( "path: " +this.location.pathname);
             $('a[href ="' + this.location.pathname + '"]').parent().addClass('active');
 
         })
