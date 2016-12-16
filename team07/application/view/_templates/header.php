@@ -99,7 +99,7 @@
                 <div class = "col-md-4 col-md-offset-1" id = "tabs">
 <div class="fill-height text-left" style="background-color:#ffffff;">
 	<ul class="nav nav-pills" style="font-size:20px;">
-	    <li class="active" id="pills"><a data-toggle="pill" c href="<?php echo URL; ?>proto">Home</a></li>
+	    <li class="active" id="pills"><a data-toggle="pill" href="<?php echo URL; ?>proto">Home</a></li>
         <li id="pills"><a data-toggle="pill" href="<?php echo URL; ?>addlisting">Add a Listing</a></li>
         <li id="pills"><a data-toggle="pill" href="<?php echo URL; ?>profile">My Page</a></li>
 	</ul>
