@@ -3,6 +3,7 @@
  */
 
 //highlights active tab
+/*
 $(document).ready(function() {
 
     //clears old active class
@@ -24,4 +25,13 @@ $(document).ready(function() {
         console.log("if this is only happening when on pages that do not have pills it is working as intended");
     }
 
+});
+
+    */
+
+var selector = '.nav li';
+
+$(selector).on('click', function(){
+    $(selector).removeClass('active');
+    $(this).addClass('active');
 });
