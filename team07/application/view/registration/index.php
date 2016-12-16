@@ -54,16 +54,17 @@
     </div>
     </div>
 
+    <div class="row">
+    <div class="col-md-4 col-md-offset-4 form-group" style="color:#FFFFFF; max-width:30%;">
+
+         <input type="checkbox" name="sfsu_check" class="form-control" id="sfsu_check"><label for="cbox1">Check if you are SFSU student</label>
+    </div>
+    </div>
+
     <div class="center" style="padding-top:10px">
     <button type="cancel" class="btn btn-default">Cancel</button>
     <button type="submit" class="btn btn-default">Register</button>
     </div>
 
-    <div class="row">
-    <div class="col-md-4 col-md-offset-4 form-group" style="color:#FFFFFF; max-width:30%;">
-
-            <input type="checkbox" name="sfsu_check" class="form-control" id="sfsu_check">
-    </div>
-    </div>
 
 </form>
