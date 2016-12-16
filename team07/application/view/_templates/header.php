@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="<?php echo URL;?>js/nav-bar-active.js"></script>
 
 
     <!-- JS -->
@@ -98,7 +99,7 @@
                 <div class = "col-md-4 col-md-offset-1" id = "tabs">
 <div class="fill-height text-left" style="background-color:#ffffff;">
 	<ul class="nav nav-pills" style="font-size:20px;">
-	<li class="active" id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
+	    <li id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
         <li id="pills"><a href="<?php echo URL; ?>addlisting">Add a Listing</a></li>
         <li id="pills"><a href="<?php echo URL; ?>profile">My Page</a></li>
 	</ul>
@@ -115,4 +116,6 @@
             </div>
                 </div>
                 </div>
+
+    <script src="<?php echo URL;?>js/nav-bar-active.js"></script>
 <hr>	
