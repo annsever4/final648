@@ -18,7 +18,13 @@
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ'></script>
     <!-- Latest compiled and minified CSS, from CDN -->
 
+    <link <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
 
     <!-- CSS -->
     <link href="<?php echo URL; ?>css/style.css" rel="stylesheet">
@@ -99,9 +105,9 @@
                 <div class = "col-md-4 col-md-offset-1" id = "tabs">
 <div class="fill-height text-left" style="background-color:#ffffff;">
 	<ul class="nav nav-pills" style="font-size:20px;">
-	    <li class="active" id="pills"><a data-toggle="tab" href="<?php echo URL; ?>proto">Home</a></li>
-        <li id="pills"><a data-toggle="tab" href="<?php echo URL; ?>addlisting">Add a Listing</a></li>
-        <li id="pills"><a data-toggle="tab" href="<?php echo URL; ?>profile">My Page</a></li>
+	    <li class="active" id="pills"><a data-toggle="pill" href="<?php echo URL; ?>proto">Home</a></li>
+        <li id="pills"><a data-toggle="pill" href="<?php echo URL; ?>addlisting">Add a Listing</a></li>
+        <li id="pills"><a data-toggle="pill" href="<?php echo URL; ?>profile">My Page</a></li>
 	</ul>
 </div>
 
