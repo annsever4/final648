@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efccb5da-e5ce-40d7-bbf3-8be30054d77e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/registration/index.php" afterPath="$PROJECT_DIR$/team07/application/view/registration/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/controller/registration.php" afterPath="$PROJECT_DIR$/team07/application/controller/registration.php" />
     </list>
     <ignored path="f16g07.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/view/details/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="2595">
               <caret line="173" column="42" selection-start-line="173" selection-start-column="42" selection-end-line="173" selection-end-column="42" />
               <folding>
                 <marker date="1481924677000" expanded="true" signature="7983:8989" ph="..." />
@@ -38,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/view/registration/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
+            <state relative-caret-position="296">
+              <caret line="59" column="48" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/team07/application/controller/registration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -58,6 +68,7 @@
       <list>
         <option value="$PROJECT_DIR$/team07/application/view/details/index.php" />
         <option value="$PROJECT_DIR$/team07/application/view/registration/index.php" />
+        <option value="$PROJECT_DIR$/team07/application/controller/registration.php" />
       </list>
     </option>
   </component>
@@ -69,7 +80,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
+    <option name="x" value="94" />
     <option name="y" value="23" />
     <option name="width" value="1237" />
     <option name="height" value="677" />
@@ -223,6 +234,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f16g07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f16g07" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team07" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -245,15 +278,15 @@
       <option name="presentableId" value="Default" />
       <updated>1480984340447</updated>
       <workItem from="1480984343708" duration="2173000" />
-      <workItem from="1481924689485" duration="607000" />
+      <workItem from="1481924689485" duration="2234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2780000" />
+    <option name="totallyTimeSpent" value="4407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="23" width="1237" height="677" extended-state="0" />
+    <frame x="94" y="23" width="1237" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2926435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -306,7 +339,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/details/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="2595">
           <caret line="173" column="42" selection-start-line="173" selection-start-column="42" selection-end-line="173" selection-end-column="42" />
           <folding>
             <marker date="1481924677000" expanded="true" signature="7983:8989" ph="..." />
@@ -319,8 +352,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/registration/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
+        <state relative-caret-position="296">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/application/controller/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding />
         </state>
       </provider>
