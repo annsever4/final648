@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15703378-a198-4c84-82cc-551c9eeb5d11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/application/view/_templates/header.php" afterPath="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team07/public/css/style.css" afterPath="$PROJECT_DIR$/team07/public/css/style.css" />
     </list>
     <ignored path="f16g07.iws" />
@@ -24,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="387">
@@ -98,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -179,8 +178,8 @@
         <option value="$PROJECT_DIR$/team07/application/view/addlisting/index.php" />
         <option value="$PROJECT_DIR$/team07/public/js/profile.js" />
         <option value="$PROJECT_DIR$/team07/application/view/profile/index.php" />
-        <option value="$PROJECT_DIR$/team07/public/css/style.css" />
         <option value="$PROJECT_DIR$/team07/application/view/_templates/header.php" />
+        <option value="$PROJECT_DIR$/team07/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -540,12 +539,12 @@
       <workItem from="1480906828990" duration="5868000" />
       <workItem from="1481653430941" duration="39313000" />
       <workItem from="1481777326108" duration="1793000" />
-      <workItem from="1481834575484" duration="9686000" />
+      <workItem from="1481834575484" duration="9832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137025000" />
+    <option name="totallyTimeSpent" value="137171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
@@ -957,18 +956,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team07/application/view/_templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team07/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
           <folding />
         </state>
       </provider>
