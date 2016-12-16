@@ -92,11 +92,7 @@
 
 <script>
     $(document).ready(function(){
-        $(document).ready(function(){
-            console.log( "path: " +this.location.pathname);
-            $('a[href ="' + this.location.pathname + '"]').parent().addClass('active');
-
-
+        $('#home-pill').addClass("active");
     });
 
 </script>
