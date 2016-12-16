@@ -128,7 +128,7 @@ class Model
         if ($this->emailAlreadyExists($user_email)) {
             return null;
         } else {
-            $sql = "INSERT INTO member_user (email, password_hash, first_name, last_name, phone_number) VALUES (?, ?, ?, ?, ?)";
+            $sql = "INSERT INTO member_user (email, password_hash, first_name, last_name, phone_number, sfsu_check) VALUES (?, ?, ?, ?, ?, ?)";
             $query = $this->db->prepare($sql);
             //binds values to ? place holders
             $query->bindValue(1, $user_email);
@@ -136,6 +136,8 @@ class Model
             $query->bindValue(3, $first_name);
             $query->bindValue(4, $last_name);
             $query->bindValue(5, $phone_number);
+            $query->bindValue(6, $sfsu_check);
+
             //executes query
             $query->execute();
         }

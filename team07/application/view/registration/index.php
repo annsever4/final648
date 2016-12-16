@@ -55,10 +55,7 @@
     </div>
 
     <div class="row">
-
-
          <input type="checkbox" name="sfsu_check" class="form-control"  id="sfsu_check"><label for="sfsu_check">Check if you are SFSU student</label>
-
     </div>
 
     <div class="center" style="padding-top:10px">
