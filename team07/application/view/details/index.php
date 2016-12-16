@@ -4,12 +4,12 @@
 
 
 <!-- Page Content -->
-<div class="container" id="details-page">
+<div class="container border-col" id="details-page">
 
     <!-- Portfolio Item Heading -->
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header"><?php if(isset($listing->title)) echo htmlspecialchars($listing->title, ENT_QUOTES, 'UTF-8'); ?>
+            <h1 class="page-header row-border" style="border-bottom: 1px solid;"><?php if(isset($listing->title)) echo htmlspecialchars($listing->title, ENT_QUOTES, 'UTF-8'); ?>
                 <small><?php if(isset($listing->address)) echo htmlspecialchars($listing->address, ENT_QUOTES, 'UTF-8'); ?></small>
 		<a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope btn btn-primary btn-lg" style="font-size:20px"> Contact</i></a> 
             </h1>
@@ -41,7 +41,7 @@
     <!-- Features Section -->
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Location</h2>
+            <h2 class="page-header" style="border-bottom: 1px solid;">Location</h2>
         </div>
         <div class="col-md-6">
         <div class="col-md-6" id = 'map' style= 'width:400px; height:280px;'>
@@ -90,7 +90,7 @@
     <!-- Marketing Icons Section -->
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">
+            <h1 class="page-header" style="border-bottom: 1px solid;">
                 Additional Features and Contact Information
             </h1>
         </div>
@@ -130,7 +130,7 @@
         </div>
 
 
-        <hr>
+        
 
 
 
