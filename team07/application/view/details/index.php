@@ -11,7 +11,7 @@
         <div class="col-lg-12">
             <h1 class="page-header"><?php if(isset($listing->title)) echo htmlspecialchars($listing->title, ENT_QUOTES, 'UTF-8'); ?>
                 <small><?php if(isset($listing->address)) echo htmlspecialchars($listing->address, ENT_QUOTES, 'UTF-8'); ?></small>
-		<a href="#" class="btn btn-default" style="background:red">Contact</a>
+		<a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope btn btn-primary btn-lg" style="font-size:20px"> Contact</i></a> 
             </h1>
         </div>
     </div>
@@ -135,7 +135,7 @@
                     <p>EMAIL: <?php if(isset($listing->email)) echo htmlspecialchars($listing->email, ENT_QUOTES, 'UTF-8'); ?></p>
                     <p> PHONE: <?php if(isset($listing->phone_number)) echo htmlspecialchars($listing->phone_number, ENT_QUOTES, 'UTF-8') ?> </p>
                     <!-- !!!!!!! Connect Messages !!!!!!!!! -->
-                    <a href="#" class="btn btn-default" style="background:red">Contact</a>
+                    <a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope btn btn-primary btn-lg" style="font-size:20px"> Contact</i></a>
                 </div>
             </div>
         </div>
