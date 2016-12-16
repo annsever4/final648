@@ -76,7 +76,7 @@
 </hgroup>
 
 <?php foreach ($apartments as $apartment) { ?>
-	<section class="col-xs-12 col-sm-6 col-md-12">
+	<section class="col-xs-12 col-sm-6 col-md-12 border-col">
 		<article class="search-result result_button row" id="<?php echo $apartment->id;?>">
 			<div class="col-xs-12 col-sm-12 col-md-4">
 			<a href="#" onclick="return false;" title="Lorem ipsum" class="thumbnail">
