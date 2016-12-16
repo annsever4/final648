@@ -24,6 +24,7 @@
     <script src="<?php echo URL; ?>js/application.js"></script>
     <script src="<?php echo URL; ?>js/details.js"></script>
     <script src="<?php echo URL;?>js/profile.js"></script>
+    <script src="<?php echo URL;?>js/nav-bar-active.js"
     <script>
         $("#registrationForm").validate();
     </script>

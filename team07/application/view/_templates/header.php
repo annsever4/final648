@@ -105,7 +105,7 @@
 </div>
 
         </div>
-                    
+
 
 	<div class = "col-md-4 col-md-offset-3 center">
 	<form class="navbar-form" id="black_text" style="margin-right: 5.5%;" action="<?php echo URL; ?>proto/searchlisting" method="POST">
