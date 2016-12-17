@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="<?php echo URL;?>js/nav-bar-active.js"></script>
 
 
     <!-- JS -->
@@ -17,7 +18,12 @@
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0FlO1B2ZZC5srVzlzpnnPjgZy2GysrQ'></script>
     <!-- Latest compiled and minified CSS, from CDN -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
 
     <!-- CSS -->
     <link href="<?php echo URL; ?>css/style.css" rel="stylesheet">
@@ -97,29 +103,14 @@
                 <div class = "col-md-12">
                 <div class = "col-md-4 col-md-offset-1" id = "tabs">
 <div class="fill-height text-left" style="background-color:#ffffff;">
-	<ul class="nav nav-pills" style="font-size:20px;">
-	<li class="active" id="pills"><a href="<?php echo URL; ?>proto">Home</a></li>
-        <li id="pills"><a href="<?php echo URL; ?>addlisting">Add a Listing</a></li>
-        <li id="pills"><a href="<?php echo URL; ?>profile">My Page</a></li>
+	<ul class="nav nav-pills green_pill" style="font-size:20px;">
+	    <li id="Home-Pill"><a data-toggle="pills" href="<?php echo URL; ?>proto">Home</a></li>
+        <li id="Add-Listing-Pill"><a data-toggle="pills" href="<?php echo URL; ?>addlisting">Add a Listing</a></li>
+        <li id="My-Page-Pill"><a data-toggle="pills" href="<?php echo URL; ?>profile">My Page</a></li>
 	</ul>
 </div>
 
         </div>
-
-
-
-                   <script> $(document).ready(function() {
-
-                       var url_parts = location.href;
-
-                           console.log("AFTER POP: "+url_parts);
-                           var new_url = [].url_parts.join('/');
-                           console.log(new_url);
-
-                    $('.nav-pills a[href="'+url_parts+'"]').parents('li').addClass('active');
-
-                    }); </script>
-
 
 
 	<div class = "col-md-4 col-md-offset-3 center">
@@ -130,4 +121,6 @@
             </div>
                 </div>
                 </div>
+
+    <script src="<?php echo URL;?>js/nav-bar-active.js"></script>
 <hr>	

@@ -89,3 +89,10 @@
   ga('send', 'pageview');
 
 </script>
+
+<script>
+    $(document).ready(function(){
+        $('#Home-Pill').addClass("active");
+    });
+
+</script>

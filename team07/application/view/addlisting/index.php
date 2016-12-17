@@ -2,16 +2,16 @@
 	$allow_add = isset($_SESSION['logged_in']) ? "" : "onclick=\"alert('Please login first... for now :)');return false;\"";
 ?>
 
-<br clear="all" />
-<div style="border: double 3px red; padding: 30px;">
 <?php 
+/*
 
+
+	echo "<br clear='all' /><div style='border: double 3px red; padding: 30px;'>";
 
 		if (isset($_POST["submit"])) {
 			echo "<pre>";
 			echo $posting_id;
 			echo "</pre>";
-			/*
 			if (isset($posting->file_body))
 			echo '<img src="data:'.$posting->file_mime.';base64, '.base64_encode($posting->file_body).'" width="200" /><br />';
 		$posting->file_body = "fooooooo :)";
@@ -20,10 +20,8 @@
 			echo "</pre><br /><pre>";
 			echo var_dump($posting);
 			echo "</pre>";
-			*/
 		}
 
-/*
 if(isset($_POST["submit"])) {
 
 	$source_file = $_FILES["fileUpload"]["tmp_name"];
@@ -44,9 +42,10 @@ if(isset($_POST["submit"])) {
 	echo var_dump($_FILES);
 
 } // end big if
+echo '</div>';
 */
 ?>
-</div>
+
 
 
 <div class="row container-fluid" id="profile-color">
@@ -225,7 +224,6 @@ if(isset($_POST["submit"])) {
 
 </div>
 
-
 <style type="text/css">
 .add-listing-body {
 	float:none;
@@ -242,3 +240,10 @@ if(isset($_POST["submit"])) {
 	margin-left:0;
 }
 </style>
+
+
+<script>
+    $(document).ready(function(){
+        $('#Add-Listing-Pill').addClass("active");
+    });
+</script>
