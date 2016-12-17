@@ -11,7 +11,10 @@ class Details extends Controller
     public function index()
     {
         //target
-        $target_listing_id = Request::post('listing_detail_id');
+        $target_listing_id = null;
+
+        if      (Request::get('rental_id')) $target_listing_id = Request::get('rental_id');
+        else if (Request::post('listing_detail_id')) $target_listing_id = Request::post('listing_detail_id');
 
         if($target_listing_id) {
 

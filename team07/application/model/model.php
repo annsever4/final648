@@ -217,4 +217,84 @@ class Model
         return  $query->fetchAll();
     }
 
+
+    public function addNewImage($strMimeType, $blobFileContent)
+    {
+        $sql = "INSERT INTO images (type, image) VALUES (?, ?)";
+        $query = $this->db->prepare($sql);
+        $query->bindValue(1, $strMimeType);
+        $query->bindValue(2, $blobFileContent);
+        try {
+            $this->db->beginTransaction();
+            $query->execute();
+            $image_id = $this->db->lastInsertId();
+            $this->db->commit();
+            return $image_id;
+        } catch(PDOExecption $e) {
+            $this->db->rollback();
+            return null;
+        }
+    }
+
+    public function addNewRental($posting)
+    {
+        $sql = "INSERT INTO listings (
+                                        address,
+                                        price,
+                                        owner_id,
+                                        image_id,
+                                        title,
+                                        zip,
+                                        description,
+                                        laundry_on_site,
+                                        utilities_included,
+                                        private_room,
+                                        dogs_ok,
+                                        cats_ok,
+                                        is_house,
+                                        is_apartment,
+                                        is_room,
+                                        square_feet,
+                                        bed_rooms,
+                                        move_in_date,
+                                        lease_end_date,
+                                        bathrooms
+                            ) VALUES (  ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 
+                                        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+                            )";
+        $query = $this->db->prepare($sql);
+        $query->bindValue( 1, $posting->address);
+        $query->bindValue( 2, $posting->price);
+        $query->bindValue( 3, $posting->owner_id);
+        $query->bindValue( 4, $posting->image_id);
+        $query->bindValue( 5, $posting->title);
+        $query->bindValue( 6, $posting->zip);
+        $query->bindValue( 7, $posting->description);
+        $query->bindValue( 8, $posting->laundry_on_site);
+        $query->bindValue( 9, $posting->utilities_included);
+        $query->bindValue(10, $posting->private_room);
+        $query->bindValue(11, $posting->dogs_ok);
+        $query->bindValue(12, $posting->cats_ok);
+        $query->bindValue(13, $posting->is_house);
+        $query->bindValue(14, $posting->is_apartment);
+        $query->bindValue(15, $posting->is_room);
+        $query->bindValue(16, $posting->square_feet);
+        $query->bindValue(17, $posting->bed_rooms);
+        $query->bindValue(18, $posting->move_in_date);
+        $query->bindValue(19, $posting->lease_end_date);
+        $query->bindValue(20, $posting->bathrooms);
+        try {
+            $this->db->beginTransaction();
+            $query->execute();
+            $listing_id = $this->db->lastInsertId();
+            $this->db->commit();
+            return $listing_id;
+        } catch(PDOExecption $e) {
+            $this->db->rollback();
+            return null;
+        }
+    }
+
+
 }
+
