@@ -302,7 +302,7 @@ class Model
         $sql.= "FROM member_user as users ";
         $sql.= "RIGHT JOIN messages as msgs ";
         $sql.= "ON msgs.sender_id=users.id ";
-        $sql.= "WHERE msgs.recipient_id=? OR msgs.sender_id=? ;";
+        $sql.= "WHERE msgs.recipient_id=? OR msgs.sender_id=? GROUP BY users.id;";
 //      $sql = "SELECT sender_id, time_stamp FROM messages WHERE messages.recipient_id=?";
         $query = $this->db->prepare($sql);
         $query->bindValue(1, $_SESSION['member_user_id']);
