@@ -12,7 +12,7 @@ class AddListing extends Controller
 
         $posting = (object)array(); // encapsulates all props of a posting
         $posting->image_id = null;
-        $posting->owner_id = $_SESSION['member_user_id'];
+        $posting->owner_id = $_SESSION && isset($_SESSION['member_user_id']) ? $_SESSION['member_user_id'] : false;
 
         if(isset($_POST["submit"])) {
 
