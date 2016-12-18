@@ -21,7 +21,7 @@
           
           <ul class="nav nav-tabs" id="myTab">
             <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-            <li><a href="#messages" data-toggle="tab">Messages</a></li>
+            <li><a href="#messages" data-toggle="tab" onclick="viewAllConversations();">Messages</a></li>
             <li><a href="#settings" data-toggle="tab">Settings</a></li>
           </ul>
               
@@ -63,20 +63,45 @@
              </div><!--/tab-pane-->
 
 <!-- Messages -->
-             <div class="tab-pane" id="messages">
-               
-               <h2></h2>
-              
-	<!-- where list of messages go --> 
-               <ul class="list-group">
-                  <li class="list-group-item text-muted">Inbox</li>
+<div class="tab-pane" id="messages">
 
-                 <?php foreach ($all_user_messages as $message) {?>
-                   <li class="list-group-item text-right"><a href="#" onclick="return false;"><?php echo htmlspecialchars($message->message,ENT_QUOTES, 'UTF-8')?></a></li>
-                    <?php } ?>
-                </ul> 
-               
-             </div><!--/tab-pane-->
+    <div id="all_conversations">
+        <h4>All Conversations</h4>
+        <ul class="list-group">
+            <!--li class="list-group-item text-muted">All Conversations</li-->
+            <?php 
+                foreach ($user_conversations_all as $convo)
+                { 
+                    $person_name = htmlspecialchars($convo->first_name, ENT_QUOTES, 'UTF-8');
+                    $person_name.= " ";
+                    $person_name.= htmlspecialchars($convo->last_name, ENT_QUOTES, 'UTF-8');
+            ?>
+                <li class="list-group-item">
+                    <a href='#' onclick='return viewConversation(<?php echo $convo->id ?>,"<?php echo $person_name; ?>");'>
+                      from 
+                      ... 
+                      <b><?php echo $person_name; ?></b> 
+                      ... 
+                      sent on 
+                      <i><?php echo $convo->timestamp; ?></i>
+                    </a>
+                </li>
+            <?php
+              }
+            ?>
+        </ul>
+    </div>
+
+    <div id="single_conversation" class="hide">
+      <!-- this container is required here and is populated via ajax -->
+    </div>
+
+</div>
+<!--/tab-pane-->
+
+
+
+
              <div class="tab-pane" id="settings">
             		
                	
@@ -154,7 +179,6 @@
     $(document).ready(function(){
         $('#My-Page-Pill').addClass("active");
     });
-
 </script>
 
 <script src = "<?php echo URL;?>js/profile"></script>

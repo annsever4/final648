@@ -295,6 +295,63 @@ class Model
         }
     }
 
+    public function getConversationsAll()
+    {
+
+        $sql = "SELECT users.id, users.first_name, users.last_name, max(msgs.time_stamp) as timestamp ";
+        $sql.= "FROM member_user as users ";
+        $sql.= "RIGHT JOIN messages as msgs ";
+        $sql.= "ON msgs.sender_id=users.id ";
+        $sql.= "WHERE msgs.recipient_id=? OR msgs.sender_id=? ;";
+//      $sql = "SELECT sender_id, time_stamp FROM messages WHERE messages.recipient_id=?";
+        $query = $this->db->prepare($sql);
+        $query->bindValue(1, $_SESSION['member_user_id']);
+        $query->bindValue(2, $_SESSION['member_user_id']);
+        $query->execute();
+        return $query->fetchAll();
+    }
+
+    public function getConversation($sender_id)
+    {
+        $sql = "SELECT * FROM messages WHERE ";
+        $sql.= "recipient_id=? AND sender_id=? OR recipient_id=? AND sender_id=?; ";
+        $query = $this->db->prepare($sql);
+        $query->bindValue(1, $_SESSION['member_user_id']);
+        $query->bindValue(2, $sender_id);
+        $query->bindValue(3, $sender_id);
+        $query->bindValue(4, $_SESSION['member_user_id']);
+        $query->execute();
+        return $query->fetchAll();
+    }
+
+    public function addNewMessage($recipient_id, $message)
+    {
+        $sql = "INSERT INTO messages (sender_id, recipient_id, message) VALUES (?, ?, ?);";
+        $query = $this->db->prepare($sql);
+        $query->bindValue(1, $_SESSION['member_user_id']);
+        $query->bindValue(2, $recipient_id);
+        $query->bindValue(3, $message);
+        $query->execute();
+    }
 
 }
 
+
+/* 
+
+SELECT users.id, users.first_name, users.last_name
+FROM student_imarchen.member_user as users 
+INNER JOIN (
+    SELECT distinct sender_id FROM student_imarchen.messages WHERE recipient_id=3
+) msgs 
+ON msgs.sender_id=users.id;
+
+
+
+SELECT users.id, users.first_name, users.last_name, max(msgs.time_stamp) 
+FROM student_imarchen.member_user as users 
+RIGHT JOIN student_imarchen.messages as msgs 
+ON msgs.sender_id=users.id 
+WHERE msgs.recipient_id=3;
+
+*/

@@ -1,0 +1,48 @@
+.conversations-module {
+	max-width:500px;
+	border:solid 1px #777;
+	border-top:none;
+	border-radius: 0 0 5px 5px;
+	padding:10px 20px;
+}
+.conversations-module h4 {
+	border-bottom: solid 2px #048335;
+}
+.conversations-module .backToMessages {
+	float: left;
+	padding:0 20px 0 0;
+}
+.conversations-module .backToMessages i {
+    color: #048335;
+    font-size: 150%;
+    top: 8px;
+}
+.conversations-module .messages-box {
+	padding-bottom: 15px;
+}
+.bubbleSender {
+	width:60%;
+	float:left;
+	padding:10px 0;
+}
+.bubbleRecipient {
+	width:60%;
+	float:right;
+	padding:10px 0;
+}
+.bubbleWrap {
+	border:solid 1px #777;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.6);
+	padding: 15px 25px;
+}
+
+.bubbleSender .bubbleWrap{
+	float:left;
+	border-radius:0 10px 10px 10px;
+	background: #99e6fd;
+}
+.bubbleRecipient .bubbleWrap{
+	float:right;
+	border-radius:10px 10px 0 10px;
+	background: #9cffc2;
+}

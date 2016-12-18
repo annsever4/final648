@@ -15,7 +15,8 @@ class Profile extends Controller
             //gets all listings user has posted
             $member_user_listings = $this ->model->getUserListings($_SESSION['member_user_id']);
 
-            $all_user_messages = $this->model->getMessagesALL();
+        //  $all_user_messages = $this->model->getMessagesALL();
+            $user_conversations_all = $this->model->getConversationsAll();
 
             require APP . 'view/_templates/header.php';
             require APP . 'view/profile/index.php';

@@ -1,3 +1,26 @@
+<div id="messageModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Send Message</h4>
+            </div>
+            <form method="POST" onsubmit="newConversationMessage(this);return false;">
+                <div class="modal-body form-group">
+                    <textarea class="form-control" name="message" id="message" placeholder="Type your message here..." rows="4"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-lg btn-success pull-right" type="submit" name="submit">
+                        <i class="glyphicon glyphicon-send"></i> Send
+                    </button>
+                    <button type="button" class="btn btn-default hide" data-dismiss="modal" name="close" id="close">Close</button>
+                </div>
+                <input type="hidden" name="recipient_id" id="recipient_id" value="<?php echo $listing->owner_id; ?>" />
+            </form>
+        </div>
+    </div>
+</div>
+
 
 
 
@@ -11,7 +34,7 @@
         <div class="col-lg-12">
             <h1 class="page-header row-border" style="border-bottom: 1px solid;"><?php if(isset($listing->title)) echo htmlspecialchars($listing->title, ENT_QUOTES, 'UTF-8'); ?>
                 <small><?php if(isset($listing->address)) echo htmlspecialchars($listing->address, ENT_QUOTES, 'UTF-8'); ?></small>
-		<a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope btn btn-primary btn-lg" style="font-size:20px"> Contact</i></a> 
+		        <a href="#" title="message" style="width:25%" data-toggle="modal" data-target="#messageModal"><i class="glyphicon glyphicon-envelope btn btn-primary btn-lg" style="font-size:20px"> Contact</i></a> 
             </h1>
         </div>
     </div>
@@ -124,7 +147,7 @@
                     <p>EMAIL: <?php if(isset($listing->email)) echo htmlspecialchars($listing->email, ENT_QUOTES, 'UTF-8'); ?></p>
                     <p> PHONE: <?php if(isset($listing->phone_number)) echo htmlspecialchars($listing->phone_number, ENT_QUOTES, 'UTF-8') ?> </p>
                     <!-- !!!!!!! Connect Messages !!!!!!!!! -->
-                    <a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope btn btn-primary btn-lg" style="font-size:20px"> Contact</i></a>
+                    <a href="#" title="message" style="width:25%" data-toggle="modal" data-target="#messageModal"><i class="glyphicon glyphicon-envelope btn btn-primary btn-lg" style="font-size:20px"> Contact</i></a>
                 </div>
             </div>
         </div>

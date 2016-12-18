@@ -22,7 +22,8 @@
     <script src="<?php echo URL; ?>js/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="<?php echo URL; ?>js/application.js"></script>
     <script src="<?php echo URL; ?>js/details.js"></script>
-    <script src="<?php echo URL;?>js/profile.js"></script>
+    <script src="<?php echo URL; ?>js/profile.js"></script>
+    <script src="<?php echo URL; ?>js/common_helpers.js"></script>
     <!--<script src="<?php # echo URL;?>js/nav-bar-active.js" -->
     <script>
         $("#registrationForm").validate();
