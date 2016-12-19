@@ -1,4 +1,4 @@
-/*
+    \/*
 jQuery Redirect v1.0.3
 
 Copyright (c) 2013-2016 Miguel Galante

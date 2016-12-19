@@ -1,16 +1,16 @@
 <?php
-	
-#vert prototype 
-class Proto extends Controller
+
+
+class Home extends Controller
 {
 
-	 public function index()
+    public function index()
     {
 
         $listings = $this->model->populateIndex();
 
         require APP . 'view/_templates/header.php';
-        require APP . 'view/proto/index.php';
+        require APP . 'view/home/index.php';
         require APP . 'view/_templates/footer.php';
 
 
@@ -22,7 +22,7 @@ class Proto extends Controller
         // null
         if (isset($_POST["key"])) {
             $key = Request::post('key');
-           $apartments = $this->model->getListing(
+            $apartments = $this->model->getListing(
                 Request::post("key"), Request::post('slt_sort_by'),Request::postCheckbox("is_house"),
                 Request::postCheckbox("is_apartment"),Request::postCheckbox('is_room'), Request::postCheckbox('laundry_on_site'),
                 Request::postCheckbox('dogs_ok'),Request::postCheckbox('cats_ok'), Request::postCheckbox('utilities_included') ,
@@ -33,10 +33,8 @@ class Proto extends Controller
 
         // loads results view to display data
         require APP . 'view/_templates/header.php';
-        require APP . 'view/proto/results.php';
+        require APP . 'view/home/results.php';
         require APP . 'view/_templates/footer.php';
     }
 
 }
-
-
