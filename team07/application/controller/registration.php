@@ -22,6 +22,7 @@ class Registration extends Controller
         $user_first_name = strip_tags(Request::post('user_first_name'));
         $user_last_name = strip_tags(Request::post('user_last_name'));
         $user_phone_number = strip_tags(Request::post('user_phone_number'));
+        $sfsu_check = strip_tags(Request::post('sfsu_check'));
 
         $validation_result = Register::registrationInputValidation(
                                                                     $user_email, $user_password,
