@@ -37,7 +37,7 @@ class LoginPage extends Controller
             $_SESSION['member_user_id'] = $credentials->id;
             $_SESSION['logged_in'] = true;
 
-            header('location: ' . URL . 'proto/index');
+            header('location: ' . URL);
         } else {
             //reloads page so user can try to log in again <invalid email>
             header('location: ' . URL . 'loginpage/index');
