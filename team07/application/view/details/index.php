@@ -33,7 +33,8 @@
         <div class="col-lg-12">
             <h1 class="page-header row-border" style="border-bottom: 1px solid;"><?php if(isset($listing->title)) echo htmlspecialchars($listing->title, ENT_QUOTES, 'UTF-8'); ?>
                 <small><?php if(isset($listing->address)) echo htmlspecialchars($listing->address, ENT_QUOTES, 'UTF-8'); ?></small>
-		        <a href="#" title="message" style="width:25%" data-toggle="modal" data-target="#messageModal"><i class="glyphicon glyphicon-envelope btn btn-primary btn-lg" style="font-size:20px"> Contact</i></a> 
+                <a href="#" title="message" style="margin-left:50px;" data-toggle="modal" data-target="#messageModal"><b><i class="glyphicon glyphicon-envelope btn btn-primary btn-lg im-bold" style="font-size:20px"> Contact</i></b></a> 
+                <a href="#" title="favorite"  ><b><i class="glyphicon glyphicon-heart btn btn-danger btn-lg im-bold" style="font-size:20px"> Favorite</i></b></a> 
             </h1>
         </div>
     </div>

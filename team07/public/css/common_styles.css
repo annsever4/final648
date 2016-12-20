@@ -93,3 +93,7 @@
 	text-align:right;
 	padding-top:20px;
 }
+
+.im-bold {
+	font-weight: bold !important;
+}
