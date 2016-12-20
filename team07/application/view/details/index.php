@@ -25,7 +25,6 @@
 
 
 
-
 <!-- Page Content -->
 <div class="container border-col" id="details-page">
 

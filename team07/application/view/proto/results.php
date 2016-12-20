@@ -76,6 +76,29 @@
 </hgroup>
 
 <?php foreach ($apartments as $apartment) { ?>
+<div id="messageModal_<?php echo $apartment->id; ?>" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Send Message</h4>
+            </div>
+            <form method="POST" onsubmit="newConversationMessage(this);return false;">
+                <div class="modal-body form-group">
+                    <textarea class="form-control" name="message" id="message" placeholder="Type your message here..." rows="4"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-lg btn-success pull-right" type="submit" name="submit">
+                        <i class="glyphicon glyphicon-send"></i> Send
+                    </button>
+                    <button type="button" class="btn btn-default hide" data-dismiss="modal" name="close" id="close">Close</button>
+                </div>
+                <input type="hidden" name="recipient_id" id="recipient_id" value="<?php echo $apartment->id; ?>" />
+            </form>
+        </div>
+    </div>
+</div>
+
 	<section class="col-xs-12 col-sm-6 col-md-12 border-col">
 		<article class="search-result result_button row" id="<?php echo $apartment->id;?>">
 			<div class="col-xs-12 col-sm-12 col-md-4">
@@ -96,7 +119,7 @@
 			<span class="plus"><a href="#" onclick="return false;" title="bed" style="width:23%">$<?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </i></a></span>
 			<span class="plus"><a href="#" onclick="return false;" title="bath" style="width:23%"><?php if (isset($apartment->bed_rooms)) echo htmlspecialchars($apartment->bed_rooms, ENT_QUOTES, 'UTF-8'); ?> Bedrooms</a></span>
 			<span class="plus"><a href="#" onclick="return false;" title="size" style="width:23%"><?php if (isset($apartment->square_feet)) echo htmlspecialchars($apartment->square_feet, ENT_QUOTES, 'UTF-8'); ?> Sq. Ft.</a></span>
-			<span class="plus"><a href="#" title="message" style="width:25%"><i class="glyphicon glyphicon-envelope"> Contact</i></a></span>
+			<span class="plus"><a href="#" onclick="return false;" title="message" style="width:25%" data-toggle="modal" data-target="#messageModal_<?php echo $apartment->id; ?>"><i class="glyphicon glyphicon-envelope"> Contact</i></a></span>
 				
 			</div>
 		<span class="clearfix borda"></span>
@@ -113,3 +136,4 @@
 		<script>
 			document.getElementById('header_search_bar').value = "<?php echo $key;?>";
 		</script>
+

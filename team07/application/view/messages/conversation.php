@@ -12,7 +12,19 @@
 	{
 		$bubbleClass = $person_id == $message->sender_id ? 'bubbleSender' : 'bubbleRecipient';
 		$mssgText = htmlspecialchars($message->message,ENT_QUOTES, 'UTF-8');
-		$mssgTime = $message->time_stamp;
+
+            $secs_ago = (new DateTime())->getTimestamp() - strtotime($message->time_stamp) - 32400;
+            if ($secs_ago/60 <= 60) {
+                $agoTime = intval($secs_ago/60) . " mins ago";
+            }
+            else if ($secs_ago/3600 <= 3600) {
+                $agoTime = "about ". intval($secs_ago/3600) . " hours ago";
+            }
+            else if ($secs_ago/86400 <= 86400) {
+                $agoTime = "about ". intval($secs_ago/86400) . " days ago";
+            }
+
+
 ?>
 
 	<div class="clearfix">
@@ -20,7 +32,7 @@
 		<div class="bubbleWrap">
 			<?php echo $mssgText; ?>
 			<br />
-			<i><?php echo $mssgTime; ?></i>
+			<i><?php echo $agoTime; ?></i>
 		</div>
 		</div>
 	</div>
@@ -32,7 +44,7 @@
 	</div>
 	<div>
 		<form method="POST" onsubmit="postMessageToConversation(this);return false;">
-			<div class="form-group" style="text-align:right;">
+			<div class="form-group sender-box-unit" >
 				<div style="width:70%;display:inline-block;">
 					<textarea class="form-control" name="message" id="message" placeholder="Type your message here..." rows="2"></textarea>
 				</div>

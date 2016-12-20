@@ -14,6 +14,7 @@ var viewConversation = function (id, name) {
 		$("#all_conversations").addClass("hide");
 		$("#single_conversation").removeClass("hide");
 		$("#single_conversation").html(htmlContent);
+		messageScroller();
 	});
 
 	return false;
@@ -76,5 +77,11 @@ var postMessageToConversation = function (form) {
 			</div>\
 	");
 
+	messageScroller();
+
 	return false;
+}
+
+var messageScroller = function () {
+	$("div.messages-box").animate({ scrollTop: $('div.messages-box').prop("scrollHeight")}, 1000);
 }

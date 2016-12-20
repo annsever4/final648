@@ -75,15 +75,44 @@
                     $person_name = htmlspecialchars($convo->first_name, ENT_QUOTES, 'UTF-8');
                     $person_name.= " ";
                     $person_name.= htmlspecialchars($convo->last_name, ENT_QUOTES, 'UTF-8');
+
+
+            $secs_ago = (new DateTime())->getTimestamp() - strtotime($convo->timestamp) - 32400;
+            if ($secs_ago/60 <= 60) {
+                $agoTime = intval($secs_ago/60) . " mins ago";
+            }
+            else if ($secs_ago/3600 <= 3600) {
+                $agoTime = "about ". intval($secs_ago/3600) . " hours ago";
+            }
+            else if ($secs_ago/86400 <= 86400) {
+                $agoTime = "about ". intval($secs_ago/86400) . " days ago";
+            }
+/*
+                    $secs_ago = (new DateTime())->getTimestamp() - strtotime($convo->timestamp) - 32400;
+                    if ($secs_ago/60 <= 60) {
+                        $agoTime = intval($secs_ago/60) . " mins ago";
+                    }
+                    else if ($secs_ago/3600 <= 3600) {
+                        $agoTime = "about ". intval($secs_ago/3600) . " hours ago";
+                    }
+                    else if ($secs_ago/86400 <= 86400) {
+                        $agoTime = "about ". intval($secs_ago/86400) . " days ago";
+                    }
+*/
             ?>
                 <li class="list-group-item">
-                    <a href='#' onclick='return viewConversation(<?php echo $convo->id ?>,"<?php echo $person_name; ?>");'>
-                      from 
-                      ... 
-                      <b><?php echo $person_name; ?></b> 
-                      ... 
-                      sent on 
-                      <i><?php echo $convo->timestamp; ?></i>
+                    <a href='#' class="conversation-item clearfix" onclick='return viewConversation(<?php echo $convo->id ?>,"<?php echo $person_name; ?>");'>
+                        <div class="iconMailYo">
+                          <i class="glyphicon glyphicon-envelope"></i>
+                        </div>
+                        <div class="iconMailYo">
+                          <i>from</i>
+                          ...
+                          <b><?php echo $person_name; ?></b>
+                        </div>
+                        <div class="timeWhen">
+                          <i><?php echo $agoTime; ?></i>
+                        </div>
                     </a>
                 </li>
             <?php
