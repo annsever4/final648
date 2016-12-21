@@ -77,7 +77,7 @@
                     $person_name.= htmlspecialchars($convo->last_name, ENT_QUOTES, 'UTF-8');
 
 
-            $secs_ago = (new DateTime())->getTimestamp() - strtotime($convo->timestamp) - 32400;
+            $secs_ago = (new DateTime())->getTimestamp() - strtotime($convo->timestamp);// - 32400;
             if ($secs_ago/60 <= 60) {
                 $agoTime = intval($secs_ago/60) . " mins ago";
             }

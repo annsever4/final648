@@ -51,7 +51,7 @@ class Model
         }
 
         if($utilities_included){
-            $sql .= " AND listings.utilities = 1";
+            $sql .= " AND listings.utilities_included = 1";
         }
 
         if($min_price) {

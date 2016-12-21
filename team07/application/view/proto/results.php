@@ -11,7 +11,7 @@
     <!-- <h3 class="text_color_white"style="padding-top:30px"> Find your new home ... </h3> -->
 
    <div id="fancy-border">
-    <form class="form-inline" id="black_text" action="<?php echo URL; ?>proto/searchlisting" method="POST">
+    <form class="form-inline big_search_bar" id="black_text" action="<?php echo URL; ?>proto/searchlisting" method="POST">
         <input class="form-control " style="width:30%" type="text" name="key"  placeholder="Enter city or zipcode..." required >
         <input class="btn btn-success" type="submit" name="submit_search" value="Search"/>
         <select name="slt_sort_by">
@@ -30,7 +30,7 @@
     <div class="row" style="display:flex">
 
 	<!-- ========== NAV BAR BLOCK =========== -->
-	    <div class="col-md-3" id="fancy-border" style="padding-top:0; margin-left:15px;">
+	    <div class="col-md-3 im-lol-lol" id="fancy-border" style="padding-top:0; margin-left:15px;">
 	    	<div class="left-navigation" style="color:#330033;background-color:#FFFFFF">
 			    <ul style="list-style-type: none;">
 
@@ -135,5 +135,22 @@
 
 		<script>
 			document.getElementById('header_search_bar').value = "<?php echo $key;?>";
+			$('.big_search_bar .form-control').val("<?php echo $key;?>");
+			$('#black_text.navbar-form').submit(function () {
+				event.preventDefault();
+				$('.big_search_bar .btn-success').click();
+				return false;
+			});
+$('.im-lol-lol input:checkbox').change(
+	function () {
+				event.preventDefault();
+				$('.big_search_bar .btn-success').click();
+				return false;
+	}
+);
+
 		</script>
 
+<style>
+.im-lol-lol li#nav-font input {margin-right:15px;font-size: 200%;}
+</style>

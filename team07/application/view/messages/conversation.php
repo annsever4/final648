@@ -13,7 +13,7 @@
 		$bubbleClass = $person_id == $message->sender_id ? 'bubbleSender' : 'bubbleRecipient';
 		$mssgText = htmlspecialchars($message->message,ENT_QUOTES, 'UTF-8');
 
-            $secs_ago = (new DateTime())->getTimestamp() - strtotime($message->time_stamp) - 32400;
+            $secs_ago = (new DateTime())->getTimestamp() - strtotime($message->time_stamp);// - 32400;
             if ($secs_ago/60 <= 60) {
                 $agoTime = intval($secs_ago/60) . " mins ago";
             }
