@@ -1,4 +1,4 @@
-$(function() {
+(function() {
 
     // just a super-simple JS demo
 

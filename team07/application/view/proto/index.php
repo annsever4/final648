@@ -1,70 +1,98 @@
-<div class=box>
-        <h3> Search For a listing </h3>
-        <form action="<?php echo URL; ?>proto/searchlisting" method="POST">
-          <input type="text" name="key" required >
-          <input type="submit" name="submit_search" value="Submit"/>
-            <select name="slt_sort_by">
-                <option value="price">Price</option>
-                <option value="id">Listing ID</option>
-            </select>
-        </form>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" cro    ssorigin="anonymous">
 
-
-
-
-
-	<p>
-        <br>
-        <br>
-        <br>
-		<br /><b><u>NOTE</u>!</b> We only have 3 apartments in DB,
-		<br />search by any character from its addresses search:<br />
-		<br />566 46th Ave	
-		<br />362 43rd Ave	
-	</p>
+<div class = "container-fluid">
+    <div class = "row top-row" style="padding-bottom: 30px;">
+        <div class = "col-md-6 col-md-offset-3">
+            <h2 class = "center" style="color:#f4d942">Recent Listings</h2>
+        </div>
+    </div>
 
 </div>
+
 
 <!-- Output  Test -->
+<?php if(isset($listings)) { ?>
+<div class="container-fluid">
 
 
-<?php if(isset($apartments)) { ?>
+    <?php for($i = 0; $i < 3; $i++) { ?>
+        <div class = "row">
 
-<div class="box">
-<h3>Result</h3>
+            <?php for($j = 0; $j < 3; $j++) { ?>
+            <div class = "col-md-4 result_button border-col" id="<?php echo current($listings)->id;?>" >
 
-        <table>
-        <thead style="background-color: #ddd; font-weight: bold;">
-                <tr>
-                <td>Id</td>
-                <td>Address</td>
-                <td>Price</td>
-                <td>Pictures</td>
-
-                </tr>
-         </thead>
-         <tbody>
+                <div class = "col-md-6">
+                    <div class = "recent-listing" style = "background-image: url(<?php echo 'data:image/jpeg;base64,'. base64_encode(current($listings)->image).');';?>">
+                        </div>
 
 
 
+                    <?php # echo '<a href = "#" class = "thumbnail"> <img src="data:image/jpeg;base64, '.base64_encode(current($listings)->image).
+                        #'"max-height="300px" max-width="300px"></a>' ?>
+                    </div>
+
+                <div class = "col-md-6">
+                    <div class = "panel panel-default panel-purple-heading">
+
+                        <div class = "panel-heading panel-purple-heading">
+                            <h3 class = "panel-title"><?php echo current($listings)->title;?></h3>
+                            </div>
+
+                        <div class = "panel-body fixed-panel">
+                            <ul>
+                                <li>$<?php echo current($listings)->price; ?></li>
+                                <li><?php echo current($listings)->bed_rooms; ?> bedrooms</li>
+                                <li><?php echo current($listings)->square_feet;?> square feet</li>
+
+                            </ul>
+                            </div>
 
 
-<?php foreach ($apartments as $apartment) { ?>
+                    </div>
 
-        <tr>
-            <td><?php if (isset($apartment->id)) echo htmlspecialchars($apartment->id, ENT_QUOTES, 'UTF-8'); ?></td>
-            <td><?php if (isset($apartment->address)) echo htmlspecialchars($apartment->address, ENT_QUOTES, 'UTF-8'); ?> </td>
-            <td><?php if (isset($apartment->price)) echo htmlspecialchars($apartment->price, ENT_QUOTES, 'UTF-8'); ?> </td>
-            <td height="200" width="200">
-                <?php if (isset($apartment->image)) { ?>
-                   <?php echo '<img src="data:image/jpeg;base64, '.base64_encode($apartment->image).
-                        '" height="150" width="150"/>' ?>
-                <?php } ?>
-            </td>
-<?php } ?>
-                </tbody>
-                </table>
+                </div>
+                </div>
+                <?php try{
+                    next($listings);
+                } catch (Exception $e) {
+                    echo "<script>console.log('bounds exception ins listings array')</script>";
+                }
+            } ?>
+
+
+
         </div>
+
+
+
+   <?php } ?>
+
+
 </div>
-           
-<?php } ?>
+
+
+    <?php } ?>
+
+
+
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-88370313-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('#Home-Pill').addClass("active");
+    });
+
+</script>
